@@ -6,7 +6,7 @@
     "sub_type": ["murder_reveal"],
     "tags": ["clan_wide"],
     "weight": 5,
-    "event_text": "m_c can't keep this secret anymore. {PRONOUN/m_c/subject/CAP} {VERB/m_c/request/requests} a Clan meeting, where {PRONOUN/m_c/subject} {VERB/m_c/reveal/reveals} the terrible secret {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} kept; {PRONOUN/m_c/subject} killed mur_c.",
+    "event_text": "m_c can't keep this secret anymore. {PRONOUN/m_c/subject/CAP} {VERB/m_c/request/requests} a Pack meeting, where {PRONOUN/m_c/subject} {VERB/m_c/reveal/reveals} the terrible secret {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} kept; {PRONOUN/m_c/subject} killed mur_c.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -70,7 +70,7 @@
     "sub_type": ["murder_reveal"],
     "tags": ["clan_discovery"],
     "weight": 5,
-    "event_text": "m_c boldly confesses to the entire Clan that {PRONOUN/m_c/subject} killed mur_c. m_c claims that mur_c deserved to pay for what {PRONOUN/mur_c/subject} did.",
+    "event_text": "m_c boldly confesses to the entire Pack that {PRONOUN/m_c/subject} killed mur_c. m_c claims that mur_c deserved to pay for what {PRONOUN/mur_c/subject} did.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -100,7 +100,7 @@
     "sub_type": ["murder_reveal"],
     "tags": ["clan_discovery"],
     "weight": 10,
-    "event_text": "m_c's cold eyes don't blink when {PRONOUN/m_c/subject} {VERB/m_c/are/is} accused of murdering mur_c, and only simply states that the Clan is better off without mur_c anyways.",
+    "event_text": "m_c's cold eyes don't blink when {PRONOUN/m_c/subject} {VERB/m_c/are/is} accused of murdering mur_c, and only simply states that the Pack is better off without mur_c anyways.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -301,7 +301,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 30,
-    "event_text": "m_c spends the evening regaling the Clan with stories of story_list.",
+    "event_text": "m_c spends the evening regaling the Pack with stories of story_list.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -417,7 +417,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 20,
-    "event_text": "m_c is caught outside of the Clan's territory.",
+    "event_text": "m_c is caught outside of the Pack's territory.",
     "m_c": {
         "age": ["adolescent", "young adult","adult","senior","senior adult"],
         "status": ["any"]
@@ -428,7 +428,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 20,
-    "event_text": "m_c considers, as {PRONOUN/m_c/subject} {VERB/m_c/look/looks} out over the Clan, if perhaps this isn't where {PRONOUN/m_c/subject} {VERB/m_c/belong/belongs}.",
+    "event_text": "m_c considers, as {PRONOUN/m_c/subject} {VERB/m_c/look/looks} out over the Pack, if perhaps this isn't where {PRONOUN/m_c/subject} {VERB/m_c/belong/belongs}.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -492,7 +492,7 @@
     "location": ["any"],
     "season": ["leaf-bare"],
     "weight": 20,
-    "event_text": "m_c and r_c begin a small camp snowball fight while on guard duty, eventually getting the whole Clan to join in.",
+    "event_text": "m_c and r_c begin a small camp snowball fight while on guard duty, eventually getting the whole Pack to join in.",
     "m_c": {
         "status": ["warrior"],
       "trait": ["playful"]
@@ -823,7 +823,7 @@
     "season": ["any"],
     "tags": ["clan:kitten"],
     "weight": 15,
-    "event_text": "m_c and r_c watch the Clan's kits play and daydream about having their own one day.",
+    "event_text": "m_c and r_c watch the Pack's kits play and daydream about having their own one day.",
     "m_c": {
       "age": ["any"],
       "status": ["any"],
@@ -2515,7 +2515,7 @@
     "season": ["any"],
     "sub_type": ["war"],
     "weight": 20,
-    "event_text": "m_c watches every little thing around {PRONOUN/m_c/object} for any omen that indicates what the Clan should do in the war. The losses weigh heavy on the hearts of every cat.",
+    "event_text": "m_c watches every little thing around {PRONOUN/m_c/object} for any omen that indicates what the Pack should do in the war. The losses weigh heavy on the hearts of every cat.",
     "m_c": {
       "status": ["medicine cat apprentice", "medicine cat"],
       "skill": ["OMEN,1"]
@@ -2668,7 +2668,7 @@
     "season": ["any"],
     "tags": ["clan:apps"],
     "weight": 20,
-    "event_text": "m_c calls the younger cats to {PRONOUN/m_c/poss} den to tell stories of the Clan's past.",
+    "event_text": "m_c calls the younger cats to {PRONOUN/m_c/poss} den to tell stories of the Pack's past.",
     "m_c": {
       "age":["any"],
       "status":["elder"],
@@ -2861,7 +2861,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 30,
-    "event_text": "m_c calls a Clan meeting to give an important announcement.",
+    "event_text": "m_c calls a Pack meeting to give an important announcement.",
     "m_c":{
       "status":["leader"]
     }
@@ -2894,7 +2894,7 @@
     "season": ["any"],
      "sub_type": ["war"],
     "weight": 20,
-    "event_text": "m_c is forced to be a symbol of strength and unity for {PRONOUN/m_c/poss} Clan, even in the face of {PRONOUN/m_c/poss} own doubts and fears.",
+    "event_text": "m_c is forced to be a symbol of strength and unity for {PRONOUN/m_c/poss} Pack, even in the face of {PRONOUN/m_c/poss} own doubts and fears.",
     "m_c":{
       "status": ["leader"]
     }
@@ -2919,7 +2919,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 10,
-    "event_text": "The Clan worked hard to gather plenty of fresh-kill, but woke up to find pawprints leading away from the fresh-kill pile, and missing prey.",
+    "event_text": "The Pack worked hard to gather plenty of fresh-kill, but woke up to find pawprints leading away from the fresh-kill pile, and missing prey.",
     "supplies": [
       {
           "type": "freshkill",
@@ -2934,7 +2934,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 10,
-    "event_text": "The Clan gathered a stockpile of food to save, the more the better, but one night the fresh-kill pile was drastically reduced and paw prints were found on the ground.",
+    "event_text": "The Pack gathered a stockpile of food to save, the more the better, but one night the fresh-kill pile was drastically reduced and paw prints were found on the ground.",
     "supplies": [
       {
           "type": "freshkill",
@@ -2987,7 +2987,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 5,
-    "event_text": "The o_c_n medicine cat comes asking if c_n has any given_herb to spare. Graciously, your Clan decides to aid their allies and share the herbs.",
+    "event_text": "The o_c_n medicine cat comes asking if c_n has any given_herb to spare. Graciously, your Pack decides to aid their allies and share the herbs.",
     "supplies": [
       {
           "type": "any_herb",
@@ -3006,7 +3006,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 2,
-    "event_text": "The medicine cat apprentice from o_c_n comes asking for given_herb. They refuse to say why their Clan needs them but c_n still provides them with what they need.",
+    "event_text": "The medicine cat apprentice from o_c_n comes asking for given_herb. They refuse to say why their Pack needs them but c_n still provides them with what they need.",
     "supplies": [
       {
           "type": "any_herb",
@@ -3044,7 +3044,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 2,
-    "event_text": "The medicine cat apprentice from o_c_n comes asking for herbs. They refuse to say why their Clan needs them and c_n decides not to share their precious few given_herb.",
+    "event_text": "The medicine cat apprentice from o_c_n comes asking for herbs. They refuse to say why their Pack needs them and c_n decides not to share their precious few given_herb.",
     "supplies": [
       {
           "type": "any_herb",
@@ -3120,7 +3120,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 2,
-    "event_text": "A medicine cat from o_c_n comes to c_n, asking for lungwort to heal a case of yellowcough. However, c_n hardly has enough for their own Clan and so refuses.",
+    "event_text": "A medicine cat from o_c_n comes to c_n, asking for lungwort to heal a case of yellowcough. However, c_n hardly has enough for their own Pack and so refuses.",
     "supplies": [
       {
           "type": "lungwort",
@@ -3264,7 +3264,7 @@
     "season": ["any"],
     "tags": ["clan_wide"],
     "weight": 15,
-    "event_text": "The Clan has gathered plenty of moss recently, time to refresh the dens!",
+    "event_text": "The Pack has gathered plenty of moss recently, time to refresh the dens!",
     "supplies": [
       {
           "type": "moss",

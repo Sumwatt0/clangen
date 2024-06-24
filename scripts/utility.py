@@ -74,7 +74,7 @@ def get_alive_clan_queens(living_cats):
 
 def get_alive_status_cats(Cat, get_status: list, working: bool = False, sort: bool = False) -> list:
     """
-    returns a list of cat objects for all living cats of get_status in Clan
+    returns a list of cat objects for all living cats of get_status in Pack
     :param Cat Cat: Cat class
     :param list get_status: list of statuses searching for
     :param bool working: default False, set to True if you would like the list to only include working cats
@@ -94,7 +94,7 @@ def get_alive_status_cats(Cat, get_status: list, working: bool = False, sort: bo
 
 def get_living_cat_count(Cat):
     """
-    Returns the int of all living cats, both in and out of the Clan
+    Returns the int of all living cats, both in and out of the Pack
     :param Cat: Cat class
     """
     count = 0
@@ -107,7 +107,7 @@ def get_living_cat_count(Cat):
 
 def get_living_clan_cat_count(Cat):
     """
-    Returns the int of all living cats within the Clan
+    Returns the int of all living cats within the Pack
     :param Cat: Cat class
     """
     count = 0
@@ -120,7 +120,7 @@ def get_living_clan_cat_count(Cat):
 
 def get_cats_same_age(Cat, cat, age_range=10):
     """
-    Look for all cats in the Clan and returns a list of cats which are in the same age range as the given cat.
+    Look for all cats in the Pack and returns a list of cats which are in the same age range as the given cat.
     :param Cat: Cat class
     :param cat: the given cat
     :param int age_range: The allowed age difference between the two cats, default 10
@@ -233,8 +233,8 @@ def get_warring_clan():
 
 def get_current_season():
     """
-    function to handle the math for finding the Clan's current season
-    :return: the Clan's current season
+    function to handle the math for finding the Pack's current season
+    :return: the Pack's current season
     """
 
     if game.config["lock_season"]:
@@ -254,14 +254,14 @@ def get_current_season():
 
 def change_clan_reputation(difference):
     """
-    will change the Clan's reputation with outsider cats according to the difference parameter.
+    will change the Pack's reputation with outsider cats according to the difference parameter.
     """
     game.clan.reputation += difference
 
 
 def change_clan_relations(other_clan, difference):
     """
-    will change the Clan's relation with other clans according to the difference parameter.
+    will change the Pack's relation with other clans according to the difference parameter.
     """
     # grab the clan that has been indicated
     other_clan = other_clan
@@ -275,7 +275,7 @@ def change_clan_relations(other_clan, difference):
         clan_relations = 30
     elif clan_relations < 0:
         clan_relations = 0
-    # setting it in the Clan save
+    # setting it in the Pack save
     game.clan.all_clans[y].relations = clan_relations
 
 
@@ -637,7 +637,7 @@ def create_new_cat(
     This function creates new cats and then returns a list of those cats
     :param Cat Cat: pass the Cat class
     :params Relationship Relationship: pass the Relationship class
-    :param bool new_name: set True if cat(s) is a loner/rogue receiving a new Clan name - default: False
+    :param bool new_name: set True if cat(s) is a loner/rogue receiving a new Pack name - default: False
     :param bool loner: set True if cat(s) is a loner or rogue - default: False
     :param bool kittypet: set True if cat(s) is a kittypet - default: False
     :param bool kit: set True if the cat is a lone kitten - default: False
@@ -649,7 +649,7 @@ def create_new_cat(
     :param str gender: set the gender (BIRTH SEX) of the cat - default: None (will be random)
     :param str thought: if you need to give a custom "welcome" thought, set it here
     :param bool alive: set this as False to generate the cat as already dead - default: True (alive)
-    :param bool outside: set this as True to generate the cat as an outsider instead of as part of the Clan - default: False (Clan cat)
+    :param bool outside: set this as True to generate the cat as an outsider instead of as part of the Pack - default: False (Pack cat)
     :param str parent1: Cat ID to set as the biological parent1
     :param str parent2: Cat ID object to set as the biological parert2
     """
@@ -708,7 +708,7 @@ def create_new_cat(
         else:
             _gender = gender
 
-        # other Clan cats, apps, and kittens (kittens and apps get indoctrinated lmao no old names for them)
+        # other Pack cats, apps, and kittens (kittens and apps get indoctrinated lmao no old names for them)
         if other_clan or kit or litter or age < 12 and not (loner or kittypet):
             new_cat = Cat(
                 moons=age,
@@ -1816,7 +1816,7 @@ def ongoing_event_text_adjust(Cat, text, clan=None, other_clan_name=None):
     :param Cat: the cat class
     :param text: the text to be adjusted
     :param clan: the name of the clan
-    :param other_clan_name: the other Clan's name if another Clan is involved
+    :param other_clan_name: the other Pack's name if another Pack is involved
     """
     cat_dict = {}
     if "lead_name" in text:
@@ -1833,7 +1833,7 @@ def ongoing_event_text_adjust(Cat, text, clan=None, other_clan_name=None):
         text = process_text(text, cat_dict)
 
     if other_clan_name:
-        text = text.replace("o_c_n", other_clan_name).replace("Clan", "Pack")
+        text = text.replace("o_c_n", other_clan_name).replace("Pack", "Pack")
     if clan:
         clan_name = str(clan.name)
     else:
@@ -1875,7 +1875,7 @@ def event_text_adjust(
     :param list[Cat] patrol_apprentices: List of Cat objects for patrol_apprentices (app#), if present
     :param list[Cat] new_cats: List of Cat objects for new_cats (n_c:index), if present
     :param list[Cat] multi_cats: List of Cat objects for multi_cat (multi_cat), if present
-    :param Clan clan: pass game.clan
+    :param Pack clan: pass game.clan
     :param OtherClan other_clan: OtherClan object for other_clan (o_c_n), if present
     :param str chosen_herb: string of chosen_herb (chosen_herb), if present
     """

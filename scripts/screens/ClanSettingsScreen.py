@@ -28,7 +28,7 @@ with open("resources/clansettings.json", "r", encoding="utf-8") as f:
 
 class ClanSettingsScreen(Screens):
     """
-    Screen handles all Clan-specific settings
+    Screen handles all Pack-specific settings
     """
 
     text_size = {

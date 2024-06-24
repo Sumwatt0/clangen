@@ -72,11 +72,11 @@ class HandleShortEvents():
         if game.clan.war.get("at_war", False):
             enemy_clan = get_warring_clan()
             self.other_clan = enemy_clan
-            self.other_clan_name = f"{self.other_clan.name}Clan"
+            self.other_clan_name = f"{self.other_clan.name}Pack"
             self.sub_types.append("war")
         else:
             self.other_clan = random.choice(game.clan.all_clans if game.clan.all_clans else None)
-            self.other_clan_name = f'{self.other_clan.name}Clan'
+            self.other_clan_name = f'{self.other_clan.name}Pack'
 
         # checking if a murder reveal should happen
         if event_type == "misc":
@@ -276,7 +276,7 @@ class HandleShortEvents():
                 if cat.dead:
                     extra_text = f"{cat.name}'s ghost now wanders."
                 elif cat.outside:
-                    extra_text = f"The Clan has encountered {cat.name}."
+                    extra_text = f"The Pack has encountered {cat.name}."
                 else:
                     Relation_Events.welcome_new_cats([cat])
                 self.involved_cats.append(cat.ID)

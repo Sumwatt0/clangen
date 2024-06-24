@@ -58,7 +58,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged, it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged, it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -136,7 +136,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged, it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged, it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -225,7 +225,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged, it's very tense.",
+                "text": "s_c is marking along the territory line when they encounter a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Pack's patrol challengingly, following their every move until the shared border ends, and though no words are exchanged, it's very tense.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -777,7 +777,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Pack's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -808,7 +808,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Pack's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -840,7 +840,7 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan."
+                    "reg_death": "m_c was killed by a hostile Pack."
                 },
                 "other_clan_rep": -1
             }
@@ -876,7 +876,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Pack's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -907,7 +907,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Pack's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -929,7 +929,7 @@
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan."
+                    "reg_death": "m_c was killed by a hostile Pack."
                 },
                 "other_clan_rep": -1
             },
@@ -950,7 +950,7 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan."
+                    "reg_death": "m_c was killed by a hostile Pack."
                 },
                 "other_clan_rep": -1
             }
@@ -986,7 +986,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Pack's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1017,7 +1017,7 @@
                 "other_clan_rep": -1
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
+                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Pack's patrol challengingly, following their every move until the shared border ends, and the patrol is marred by muttered insults and hissed threats from both sides.",
                 "exp": 0,
                 "weight": 20,
                 "stat_trait": [
@@ -1039,7 +1039,7 @@
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan."
+                    "reg_death": "m_c lost a life against a hostile Pack."
                 },
                 "other_clan_rep": -1
             },
@@ -1060,7 +1060,7 @@
                 "dead_cats": ["s_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c lost a life against a hostile Clan."
+                    "reg_death": "m_c lost a life against a hostile Pack."
                 },
                 "other_clan_rep": -1
             }
@@ -1133,7 +1133,7 @@
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan."
+                    "reg_death": "m_c was killed by a hostile Pack."
                 },
                 "other_clan_rep": -1
             }
@@ -1169,7 +1169,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their Clan leader. One of the patrol members yowls an insult, and s_c squares up, coldly sneering at the warrior that thinks they can take {PRONOUN/s_c/object}. The other leader calls their warrior back, begrudgingly impressed.",
+                "text": "s_c comes across a patrol from o_c_n, out on a similar mission to them, led by their Pack leader. One of the patrol members yowls an insult, and s_c squares up, coldly sneering at the warrior that thinks they can take {PRONOUN/s_c/object}. The other leader calls their warrior back, begrudgingly impressed.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -1206,7 +1206,7 @@
                 "dead_cats": ["r_c"],
                 "history_text": {
                     "scar": "m_c got injured patrolling on the border.",
-                    "reg_death": "m_c was killed by a hostile Clan."
+                    "reg_death": "m_c was killed by a hostile Pack."
                 },
                 "other_clan_rep": -1
             }

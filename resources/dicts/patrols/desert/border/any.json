@@ -10,7 +10,7 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "r_c tracks the scent of a large dog along the edge of the Clan's territory.",
+        "intro_text": "r_c tracks the scent of a large dog along the edge of the Pack's territory.",
         "decline_text": "r_c decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
         "chance_of_success": 30,
         "success_outcomes": [
@@ -72,12 +72,12 @@
         ],
         "fail_outcomes": [
             {
-                "text": "r_c would give {PRONOUN/r_c/poss} life to protect c_n, and as {PRONOUN/r_c/subject} {VERB/r_c/lead/leads} the huge dog away from the Clan, in {PRONOUN/r_c/poss} heart, {PRONOUN/r_c/subject} {VERB/r_c/accept/accepts} that's what {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} doing. As darkness closes in around {PRONOUN/r_c/object}, and the dog's jaws descend again, r_c tries to sink {PRONOUN/r_c/poss} claws into its face and hopes desperately that {PRONOUN/r_c/subject} led it far enough.",
+                "text": "r_c would give {PRONOUN/r_c/poss} life to protect c_n, and as {PRONOUN/r_c/subject} {VERB/r_c/lead/leads} the huge dog away from the Pack, in {PRONOUN/r_c/poss} heart, {PRONOUN/r_c/subject} {VERB/r_c/accept/accepts} that's what {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} doing. As darkness closes in around {PRONOUN/r_c/object}, and the dog's jaws descend again, r_c tries to sink {PRONOUN/r_c/poss} claws into its face and hopes desperately that {PRONOUN/r_c/subject} led it far enough.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a dog.",
+                    "scar": "This cat is scarred from bravely defending the Pack against a dog.",
                     "reg_death": "This cat died to keep c_n safe from a large dog.",
                     "lead_death": "died to keep c_n safe from a large dog"
                 },
@@ -103,7 +103,7 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a dog.",
+                    "scar": "This cat is scarred from bravely defending the Pack against a dog.",
                     "reg_death": "This cat died to keep c_n safe from a large dog.",
                     "lead_death": "died to keep c_n safe from a large dog"
                 },
@@ -130,7 +130,7 @@
         "max_cats": 3,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol tracks the scent of a large dog along the edge of the Clan's territory.",
+        "intro_text": "The patrol tracks the scent of a large dog along the edge of the Pack's territory.",
         "decline_text": "The patrol decides not to pursue such a dangerous creature, especially seeing as it hasn't crossed the border.",
         "chance_of_success": 40,
         "success_outcomes": [
@@ -234,13 +234,13 @@
                 ]
             },
             {
-                "text": "The patrol tries to lead the dog away from the Clan's borders, but with so few cats it's impossible to cover each other's backs. r_c falls to the dog as the rest of the patrol runs for their lives back to camp, terrified out of their pelts and mourning their Clanmate.",
+                "text": "The patrol tries to lead the dog away from the Pack's borders, but with so few cats it's impossible to cover each other's backs. r_c falls to the dog as the rest of the patrol runs for their lives back to camp, terrified out of their pelts and mourning their Clanmate.",
                 "exp": 0,
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a dog.",
-                    "reg_death": "This cat died to keep the Clan safe from a large dog.",
+                    "scar": "This cat is scarred from bravely defending the Pack against a dog.",
+                    "reg_death": "This cat died to keep the Pack safe from a large dog.",
                     "lead_death": "died to keep c_n safe from a large dog"
                 },
                 "relationships": [
@@ -265,8 +265,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a dog.",
-                    "reg_death": "This cat died to keep the Clan safe from a large dog.",
+                    "scar": "This cat is scarred from bravely defending the Pack against a dog.",
+                    "reg_death": "This cat died to keep the Pack safe from a large dog.",
                     "lead_death": "died to keep c_n safe from a large dog"
                 },
                 "relationships": [
@@ -292,7 +292,7 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "The patrol stumbles across a large dog wandering through the middle of the Clan's territory.",
+        "intro_text": "The patrol stumbles across a large dog wandering through the middle of the Pack's territory.",
         "decline_text": "The patrol decides not to pursue such a dangerous creature. c_n will just have to hope it doesn't come any nearer to camp.",
         "chance_of_success": 10,
         "success_outcomes": [
@@ -401,8 +401,8 @@
                 "weight": 10,
                 "dead_cats": ["r_c"],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a dog.",
-                    "reg_death": "This cat died to keep the Clan safe from a large dog.",
+                    "scar": "This cat is scarred from bravely defending the Pack against a dog.",
+                    "reg_death": "This cat died to keep the Pack safe from a large dog.",
                     "lead_death": "died to keep c_n safe from a large dog"
                 },
                 "relationships": [
@@ -427,8 +427,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "This cat is scarred from bravely defending the Clan against a dog.",
-                    "reg_death": "This cat died to keep the Clan safe from a large dog.",
+                    "scar": "This cat is scarred from bravely defending the Pack against a dog.",
+                    "reg_death": "This cat died to keep the Pack safe from a large dog.",
                     "lead_death": "died to keep c_n safe from a large dog"
                 },
                 "relationships": [

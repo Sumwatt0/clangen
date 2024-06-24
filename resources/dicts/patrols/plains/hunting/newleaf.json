@@ -3629,7 +3629,7 @@
                 ]
             },
             {
-                "text": "r_c always feels like {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} padding in p_l's footsteps, especially today, watching {PRONOUN/p_l/object} {VERB/p_l/haul/hauls} back such a good catch of prey for the Clan, a contribution that more than makes up for r_c's meagre offerings.",
+                "text": "r_c always feels like {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} padding in p_l's footsteps, especially today, watching {PRONOUN/p_l/object} {VERB/p_l/haul/hauls} back such a good catch of prey for the Pack, a contribution that more than makes up for r_c's meagre offerings.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"],
@@ -4045,7 +4045,7 @@
                 ]
             },
             {
-                "text": "r_c always feels like {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} padding in p_l's footsteps, especially today, watching {PRONOUN/p_l/object} {VERB/p_l/haul/hauls} back such a good catch of prey for the Clan, a contribution that more than makes up for r_c's meagre offerings.",
+                "text": "r_c always feels like {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} padding in p_l's footsteps, especially today, watching {PRONOUN/p_l/object} {VERB/p_l/haul/hauls} back such a good catch of prey for the Pack, a contribution that more than makes up for r_c's meagre offerings.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"],
@@ -4187,7 +4187,7 @@
         "chance_of_success": 50,
         "success_outcomes": [
             {
-                "text": "It's not their normal task, but they're all smart enough to value supporting the Clan's medicine den. The patrol brings the herbs back to camp and they are put to good use.",
+                "text": "It's not their normal task, but they're all smart enough to value supporting the Pack's medicine den. The patrol brings the herbs back to camp and they are put to good use.",
                 "exp": 10,
                 "weight": 20,
                 "herbs": ["random_herbs"],

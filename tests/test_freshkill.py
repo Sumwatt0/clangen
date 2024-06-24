@@ -4,7 +4,7 @@ import ujson
 
 from scripts.cat.cats import Cat
 from scripts.cat.skills import Skill, SkillPath
-from scripts.clan import Clan
+from scripts.clan import Pack
 from scripts.clan_resources.freshkill import FreshkillPile
 from scripts.utility import get_alive_clan_queens
 

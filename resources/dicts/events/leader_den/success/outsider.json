@@ -22,12 +22,12 @@
   },
   {
     "interaction_type": "invite",
-    "event_text": "m_c was found and invited into the Clan.",
+    "event_text": "m_c was found and invited into the Pack.",
     "reputation": ["any"],
     "rep_change": -1,
     "m_c": {
       "status": ["loner", "rogue", "kittypet"],
-      "new_thought": "Is curious about the Clan that sought {PRONOUN/m_c/object} out",
+      "new_thought": "Is curious about the Pack that sought {PRONOUN/m_c/object} out",
       "kit_thought": "Is curious about the new place {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in",
       "relationships": [
         {
@@ -49,12 +49,12 @@
   },
   {
     "interaction_type": "invite",
-    "event_text": "m_c was found and invited back into the Clan.",
+    "event_text": "m_c was found and invited back into the Pack.",
     "reputation": ["any"],
     "rep_change": -1,
     "m_c": {
       "status": ["exiled"],
-      "new_thought": "Is curious why the Clan has allowed {PRONOUN/m_c/object} back",
+      "new_thought": "Is curious why the Pack has allowed {PRONOUN/m_c/object} back",
       "kit_thought": "Is curious why {PRONOUN/m_c/subject}{VERB/m_c/'ve/'s} been brought here",
       "relationships": [
         {
@@ -76,7 +76,7 @@
   },
   {
     "interaction_type": "search",
-    "event_text": "m_c was found and brought back to the safety of the Clan",
+    "event_text": "m_c was found and brought back to the safety of the Pack",
     "reputation": ["any"],
     "rep_change": -1,
     "m_c": {

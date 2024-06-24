@@ -24,7 +24,7 @@ class OutsiderEvents:
         # killing outside cats
         if cat.outside:
             if random.getrandbits(6) == 1 and not cat.dead:
-                death_history = "m_c died outside of the Clan."
+                death_history = "m_c died outside of the Pack."
                 if cat.exiled:
                     text = f'Rumors reach your Pack that the exiled {cat.name} has died recently.'
                 elif cat.status in ['pet', 'loner', 'rogue', 'former Packwolf']:
@@ -36,7 +36,7 @@ class OutsiderEvents:
                     text = f"Will they reach StarPack, even so far away? {cat.name} isn't sure, " \
                            f"but as they drift away, they hope to see " \
                            f"familiar starry fur on the other side."
-                    death_history = "m_c died while being lost and trying to get back to the Clan."
+                    death_history = "m_c died while being lost and trying to get back to the Pack."
 
                 History.add_death(cat, death_text=death_history)
                 cat.die()

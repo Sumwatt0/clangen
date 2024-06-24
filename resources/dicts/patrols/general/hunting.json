@@ -1750,7 +1750,7 @@
             "prey": ["medium"]
         },
         {
-            "text": "Sure, {PRONOUN/app1/subject} might not be the greatest fighter or the Clan's cleverest cat, but hunting? Hunting is a <i>breeze</i> for app1, and {PRONOUN/app1/subject} {VERB/app1/come/comes} back to camp with the proof of that.",
+            "text": "Sure, {PRONOUN/app1/subject} might not be the greatest fighter or the Pack's cleverest cat, but hunting? Hunting is a <i>breeze</i> for app1, and {PRONOUN/app1/subject} {VERB/app1/come/comes} back to camp with the proof of that.",
             "exp": 20,
             "weight": 20,
             "stat_skill": ["HUNTER,0"],
@@ -1884,7 +1884,7 @@
             "prey": ["huge"]
         },
         {
-            "text": "It's cold, alone by {PRONOUN/app1/self}. But app1 shakes it off, and {PRONOUN/app1/subject} {VERB/app1/find/finds} enough food that the Clan will have questions, waking up with a fresh-kill pile weirdly fuller than when they went to sleep.",
+            "text": "It's cold, alone by {PRONOUN/app1/self}. But app1 shakes it off, and {PRONOUN/app1/subject} {VERB/app1/find/finds} enough food that the Pack will have questions, waking up with a fresh-kill pile weirdly fuller than when they went to sleep.",
             "exp": 20,
             "weight": 10,
             "prey": ["huge"]
@@ -2305,7 +2305,7 @@
             "prey": ["large"]
         },
         {
-            "text": "This is what Clanmates do - this is what a Clan is <i>for</i>. Nodding to each other, the patrol heads out determined to back each other up. That's what ends up making all the difference, and their hunt goes flawlessly.",
+            "text": "This is what Clanmates do - this is what a Pack is <i>for</i>. Nodding to each other, the patrol heads out determined to back each other up. That's what ends up making all the difference, and their hunt goes flawlessly.",
             "exp": 30,
             "weight": 10,
             "relationships": [
@@ -2444,7 +2444,7 @@
             "prey": ["huge"]
         },
         {
-            "text": "With their diurnal prey tired and headed to their homes, their crepuscular counterparts come out in full force! As their nocturnal prey still blinks away the sleep in their eyes, the patrol has a truly premium number of opportunities to catch food, enough so that the entire Clan comes to comment on the patrol's success when they return.",
+            "text": "With their diurnal prey tired and headed to their homes, their crepuscular counterparts come out in full force! As their nocturnal prey still blinks away the sleep in their eyes, the patrol has a truly premium number of opportunities to catch food, enough so that the entire Pack comes to comment on the patrol's success when they return.",
             "exp": 30,
             "weight": 10,
             "relationships": [
@@ -3048,7 +3048,7 @@
     ],
     "fail_outcomes": [
         {
-            "text": "The patrol heads out, finding an excellent hunting ground! A hunting ground on the wrong side of the border! They quickly all decide that no one caught anything, <i>definitely</i> not anything on any other Clan's territory, and swear each other to secrecy.",
+            "text": "The patrol heads out, finding an excellent hunting ground! A hunting ground on the wrong side of the border! They quickly all decide that no one caught anything, <i>definitely</i> not anything on any other Pack's territory, and swear each other to secrecy.",
             "exp": 0,
             "weight": 20,
             "relationships": [
@@ -3164,7 +3164,7 @@
     ],
     "fail_outcomes": [
         {
-            "text": "The patrol heads out, finding an excellent hunting ground! A hunting ground on the wrong side of the border! They quickly all decide that no one caught anything, <i>definitely</i> not anything on any other Clan's territory, and swear each other to secrecy.",
+            "text": "The patrol heads out, finding an excellent hunting ground! A hunting ground on the wrong side of the border! They quickly all decide that no one caught anything, <i>definitely</i> not anything on any other Pack's territory, and swear each other to secrecy.",
             "exp": 0,
             "weight": 20,
             "relationships": [

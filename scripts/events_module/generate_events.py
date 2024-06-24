@@ -541,7 +541,7 @@ class GenerateEvents:
                     elif 71 <= game.clan.reputation <= 100 and "welcoming" not in event.outsider["current_rep"]:
                         continue
 
-            # other Clan related checks
+            # other Pack related checks
             if event.other_clan:
                 if not other_clan:
                     continue

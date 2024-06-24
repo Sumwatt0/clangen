@@ -314,7 +314,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. They come back to camp with a good contribution to the Clan's stores, having had a relaxing day sitting with their thoughts while waiting for the prey to come to them.",
+                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. They come back to camp with a good contribution to the Pack's stores, having had a relaxing day sitting with their thoughts while waiting for the prey to come to them.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -384,7 +384,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. They come back to camp with a good contribution to the Clan's stores, having had a relaxing day sitting with their thoughts while waiting for the prey to come to them.",
+                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. They come back to camp with a good contribution to the Pack's stores, having had a relaxing day sitting with their thoughts while waiting for the prey to come to them.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -454,7 +454,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. They come back to camp with a good contribution to the Clan's stores, having had a relaxing day sitting with their thoughts while waiting for the prey to come to them.",
+                "text": "The prey is running terribly today. But s_c has patience, and wisely waits for the perfect opportunity instead of getting frustrated. They come back to camp with a good contribution to the Pack's stores, having had a relaxing day sitting with their thoughts while waiting for the prey to come to them.",
                 "exp": 20,
                 "weight": 20,
                 "stat_trait": [
@@ -1062,7 +1062,7 @@
                 ]
             },
             {
-                "text": "The kit fox gives way to the bigger cats, melting away into the scrubby dry bush as your cats bring as much of this feast as they can back to the Clan. It knows that the patrol will leave more than enough scraps behind to fill its belly full of pork.",
+                "text": "The kit fox gives way to the bigger cats, melting away into the scrubby dry bush as your cats bring as much of this feast as they can back to the Pack. It knows that the patrol will leave more than enough scraps behind to fill its belly full of pork.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["huge"],
@@ -1077,7 +1077,7 @@
                 ]
             },
             {
-                "text": "s_c is smart enough to stop anyone from pursuing the kit fox as it melts away before them. There's no point - the peccary carcass is the real prize here, and the patrol should focus on bringing its meat back for the Clan.",
+                "text": "s_c is smart enough to stop anyone from pursuing the kit fox as it melts away before them. There's no point - the peccary carcass is the real prize here, and the patrol should focus on bringing its meat back for the Pack.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -1188,7 +1188,7 @@
                 ]
             },
             {
-                "text": "The kit fox gives way to the bigger cats, melting away into the scrubby dry bush as your cats bring as much of this feast as they can back to the Clan. It knows that the patrol will leave more than enough scraps behind to fill its belly full of pork.",
+                "text": "The kit fox gives way to the bigger cats, melting away into the scrubby dry bush as your cats bring as much of this feast as they can back to the Pack. It knows that the patrol will leave more than enough scraps behind to fill its belly full of pork.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["huge"],
@@ -1203,7 +1203,7 @@
                 ]
             },
             {
-                "text": "s_c is smart enough to stop anyone from pursuing the kit fox as it melts away before them. There's no point - the peccary carcass is the real prize here, and the patrol should focus on bringing its meat back for the Clan.",
+                "text": "s_c is smart enough to stop anyone from pursuing the kit fox as it melts away before them. There's no point - the peccary carcass is the real prize here, and the patrol should focus on bringing its meat back for the Pack.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1"],
@@ -1314,7 +1314,7 @@
                 ]
             },
             {
-                "text": "The kit fox gives way to the bigger cat, melting away into the scrubby dry bush as r_c brings as much of the feast as they can back to the Clan. It knows that the cat will leave more than enough scraps behind to fill its belly full of pork.",
+                "text": "The kit fox gives way to the bigger cat, melting away into the scrubby dry bush as r_c brings as much of the feast as they can back to the Pack. It knows that the cat will leave more than enough scraps behind to fill its belly full of pork.",
                 "exp": 30,
                 "weight": 5,
                 "prey": ["huge"],
@@ -1329,7 +1329,7 @@
                 ]
             },
             {
-                "text": "s_c is smart enough to stop themselves from pursuing the kit fox as it melts away before them. There's no point - the peccary carcass is the real prize here, and s_c is focused on bringing its meat back for the Clan.",
+                "text": "s_c is smart enough to stop themselves from pursuing the kit fox as it melts away before them. There's no point - the peccary carcass is the real prize here, and s_c is focused on bringing its meat back for the Pack.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["CLEVER,1", "FIGHTER,1"],
@@ -2589,7 +2589,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/think/thinks} {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} gotten away with {PRONOUN/r_c/poss} clandestine snacking, but when r_c arrives back at camp, another patrol member pulls the deputy aside for a quiet word, glaring back at r_c. The deputy assigns {PRONOUN/r_c/object} to dig a new trench for the Clan's dirtplace, and r_c hears snide remarks when {PRONOUN/r_c/subject} slink in to {PRONOUN/r_c/poss} nest that night.",
+                "text": "{PRONOUN/r_c/subject/CAP} {VERB/r_c/think/thinks} {PRONOUN/r_c/subject}{VERB/r_c/'ve/'s} gotten away with {PRONOUN/r_c/poss} clandestine snacking, but when r_c arrives back at camp, another patrol member pulls the deputy aside for a quiet word, glaring back at r_c. The deputy assigns {PRONOUN/r_c/object} to dig a new trench for the Pack's dirtplace, and r_c hears snide remarks when {PRONOUN/r_c/subject} slink in to {PRONOUN/r_c/poss} nest that night.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -2676,7 +2676,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "They think they've gotten away with their clandestine snacking, but when r_c arrives back at camp, another patrol member pulls the deputy aside for a quiet word, glaring back at r_c. The deputy assigns them to dig a new trench for the Clan's dirtplace; r_c prickles with humiliation and terrible smells.",
+                "text": "They think they've gotten away with their clandestine snacking, but when r_c arrives back at camp, another patrol member pulls the deputy aside for a quiet word, glaring back at r_c. The deputy assigns them to dig a new trench for the Pack's dirtplace; r_c prickles with humiliation and terrible smells.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [

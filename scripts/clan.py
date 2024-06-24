@@ -517,7 +517,7 @@ class Pack:
         clan_data["patrolled_cats"] = [str(i) for i in game.patrolled]
 
         # OTHER CLANS
-        # Clan Names
+        # Pack Names
         clan_data["other_clans_names"] = ",".join([str(i.name) for i in self.all_clans])
         clan_data["other_clans_relations"] = ",".join(
             [str(i.relations) for i in self.all_clans]
@@ -664,7 +664,7 @@ class Pack:
                 general[4] = 0
             elif general[7] == "None":
                 general[7] = "classic"
-            game.clan = Clan(
+            game.clan = Pack(
                 name=general[0],
                 leader=Cat.all_cats[leader_info[0]],
                 deputy=Cat.all_cats.get(deputy_info[0], None),
@@ -1175,8 +1175,8 @@ class Pack:
     @property
     def temperament(self):
         """Temperament is determined whenever it's accessed. This makes sure it's always accurate to the
-        current cats in the Clan. However, determining Clan temperament is slow!
-        Clan temperament should be used as sparsely as possible, since
+        current cats in the Pack. However, determining Pack temperament is slow!
+        Pack temperament should be used as sparsely as possible, since
         it's pretty resource-intensive to determine it."""
 
         all_cats = [

@@ -6734,7 +6734,7 @@
             "any"
         ],
         "weight": 20,
-        "event_text": "m_c caught a cat from another Clan trespassing on their territory and {PRONOUN/m_c/poss} ear was torn in the ensuing scuffle.",
+        "event_text": "m_c caught a cat from another Pack trespassing on their territory and {PRONOUN/m_c/poss} ear was torn in the ensuing scuffle.",
         "m_c": {
             "age": [
                 "any"

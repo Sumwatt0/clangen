@@ -788,7 +788,7 @@ class Cat:
             return "general"
 
     def gone(self):
-        """Makes a Clan cat an "outside" cat. Handles removing them from special positions, and removing
+        """Makes a Pack cat an "outside" cat. Handles removing them from special positions, and removing
         mentors and apprentices."""
         self.outside = True
 
@@ -805,7 +805,7 @@ class Cat:
         game.clan.add_to_outside(self)
 
     def add_to_clan(self) -> list:
-        """Makes an "outside cat" a Clan cat. Returns a list of IDs for any additional cats that
+        """Makes an "outside cat" a Pack cat. Returns a list of IDs for any additional cats that
         are coming with them."""
         self.outside = False
         if not self.exiled:
@@ -1564,7 +1564,7 @@ class Cat:
         self.thought = str(chosen_thought)
 
     def relationship_interaction(self):
-        """Randomly choose a cat of the Clan and have an interaction with them."""
+        """Randomly choose a cat of the Pack and have an interaction with them."""
         cats_to_choose = [
             iter_cat
             for iter_cat in Cat.all_cats.values()
@@ -3101,11 +3101,11 @@ class Cat:
                 encoding="utf-8",
             ) as read_file:
                 cat_info = ujson.loads(read_file.read())
-                # If loading cats is attempted before the Clan is loaded, we would need to use this.
+                # If loading cats is attempted before the Pack is loaded, we would need to use this.
 
         except (
             AttributeError
-        ):  # NOPE, cats are always loaded before the Clan, so doesn't make sense to throw an error
+        ):  # NOPE, cats are always loaded before the Pack, so doesn't make sense to throw an error
             with open(
                 get_save_dir()
                 + "/"

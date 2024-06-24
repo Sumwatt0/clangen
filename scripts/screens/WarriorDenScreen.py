@@ -16,7 +16,7 @@ with open('resources/clansettings.json', 'r', encoding='utf-8') as f:
 
 class WarriorDenScreen(Screens):
     """
-    The screen to change the focus of the Clan, which gives bonuses.
+    The screen to change the focus of the Pack, which gives bonuses.
     """
 
     def __init__(self, name=None):

@@ -778,7 +778,7 @@
                 "other_clan_rep": 2
             },
             {
-                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Clan's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
+                "text": "s_c is marking along the territory line when {PRONOUN/s_c/subject} {VERB/s_c/encounter/encounters} a patrol from o_c_n, out on a similar mission. {PRONOUN/s_c/subject/CAP} {VERB/s_c/stare/stares} at the other Pack's patrol challengingly, following their every move until the shared border ends. But by the standards of o_c_n - c_n relations, it's a peaceful encounter.",
                 "exp": 20,
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
@@ -3724,7 +3724,7 @@
                 "weight": 10,
                 "dead_cats": ["patrol", "some_lives"],
                 "history_text": {
-                    "reg_death": "r_c was killed in a border ambush by a hostile Clan.",
+                    "reg_death": "r_c was killed in a border ambush by a hostile Pack.",
                     "lead_death": "were killed by o_c_n in a border ambush"
                 },
                 "other_clan_rep": -1
@@ -3747,7 +3747,7 @@
                 ],
                 "dead_cats": ["patrol", "some_lives"],
                 "history_text": {
-                    "reg_death": "r_c was killed in a border ambush by a hostile Clan.",
+                    "reg_death": "r_c was killed in a border ambush by a hostile Pack.",
                     "lead_death": "were killed by o_c_n in a border ambush"
                 },
                 "other_clan_rep": -1
@@ -3810,8 +3810,8 @@
                 "weight": 10,
                 "dead_cats": ["patrol", "some_lives"],
                 "history_text": {
-                    "scar": "r_c carries the scars o_c_n gave them, a permanent reminder of the Clan's hositilities.",
-                    "reg_death": "r_c was killed in a border ambush by a hostile Clan.",
+                    "scar": "r_c carries the scars o_c_n gave them, a permanent reminder of the Pack's hositilities.",
+                    "reg_death": "r_c was killed in a border ambush by a hostile Pack.",
                     "lead_death": "were killed by o_c_n in a border ambush"
                 },
                 "other_clan_rep": -1
@@ -3834,8 +3834,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "r_c carries the scars o_c_n gave them, a permanent reminder of the Clan's hositilities.",
-                    "reg_death": "r_c was killed in a border ambush by a hostile Clan.",
+                    "scar": "r_c carries the scars o_c_n gave them, a permanent reminder of the Pack's hositilities.",
+                    "reg_death": "r_c was killed in a border ambush by a hostile Pack.",
                     "lead_death": "were killed by o_c_n in a border ambush"
                 },
                 "other_clan_rep": -1
@@ -3858,8 +3858,8 @@
                 ],
                 "dead_cats": ["patrol", "some_lives"],
                 "history_text": {
-                    "scar": "r_c carries the scars o_c_n gave them, a permanent reminder of the Clan's hositilities.",
-                    "reg_death": "r_c was killed in a border ambush by a hostile Clan.",
+                    "scar": "r_c carries the scars o_c_n gave them, a permanent reminder of the Pack's hositilities.",
+                    "reg_death": "r_c was killed in a border ambush by a hostile Pack.",
                     "lead_death": "were killed by o_c_n in a border ambush"
                 },
                 "other_clan_rep": -1
@@ -3922,8 +3922,8 @@
                 "weight": 10,
                 "dead_cats": ["multi", "some_lives"],
                 "history_text": {
-                    "scar": "r_c carries the scars o_c_n gave them, a permanent reminder of the Clan's hositilities.",
-                    "reg_death": "r_c was killed in a border ambush by a hostile Clan.",
+                    "scar": "r_c carries the scars o_c_n gave them, a permanent reminder of the Pack's hositilities.",
+                    "reg_death": "r_c was killed in a border ambush by a hostile Pack.",
                     "lead_death": "were killed by o_c_n in a border ambush"
                 },
                 "other_clan_rep": -1
@@ -3946,8 +3946,8 @@
                     }
                 ],
                 "history_text": {
-                    "scar": "r_c carries the scars o_c_n gave them, a permanent reminder of the Clan's hositilities.",
-                    "reg_death": "r_c was killed in a border ambush by a hostile Clan.",
+                    "scar": "r_c carries the scars o_c_n gave them, a permanent reminder of the Pack's hositilities.",
+                    "reg_death": "r_c was killed in a border ambush by a hostile Pack.",
                     "lead_death": "were killed by o_c_n in a border ambush"
                 },
                 "other_clan_rep": -1
@@ -3970,8 +3970,8 @@
                 ],
                 "dead_cats": ["multi", "some_lives"],
                 "history_text": {
-                    "scar": "r_c carries the scars o_c_n gave them, a permanent reminder of the Clan's hositilities.",
-                    "reg_death": "r_c was killed in a border ambush by a hostile Clan.",
+                    "scar": "r_c carries the scars o_c_n gave them, a permanent reminder of the Pack's hositilities.",
+                    "reg_death": "r_c was killed in a border ambush by a hostile Pack.",
                     "lead_death": "were killed by o_c_n in a border ambush"
                 },
                 "other_clan_rep": -1

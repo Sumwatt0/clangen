@@ -1507,7 +1507,7 @@
         "decline_text": "A cold wind whistles through the rocks, uncomfortable and cutting, and p_l shakes {PRONOUN/p_l/poss} head. This is no time for storytelling, {PRONOUN/p_l/subject}'ll wait until everyone is tucked into a snug den instead.",
         "success_outcomes": [
                 {
-                    "text": "Once, long ago, a desert Clan refused to patrol their border, fearing not their distant neighbours in a land too spacious for war. The chupacabra took advantage, sneaking through their lands undetected, sipping blood from cats at night. Even if c_n doesn't have enemy cats on their borders, that doesn't make the borderlands safe.",
+                    "text": "Once, long ago, a desert Pack refused to patrol their border, fearing not their distant neighbours in a land too spacious for war. The chupacabra took advantage, sneaking through their lands undetected, sipping blood from cats at night. Even if c_n doesn't have enemy cats on their borders, that doesn't make the borderlands safe.",
                     "exp": 30,
                     "weight": 20,
                     "relationships": [

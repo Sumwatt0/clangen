@@ -5,7 +5,7 @@
         "season": ["any"],
         "sub_type": ["adoption"],
         "weight": 5,
-        "event_text": "A loner named n_c:0 leaves {PRONOUN/n_c:0/poss} litter to the Clan. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "event_text": "A loner named n_c:0 leaves {PRONOUN/n_c:0/poss} litter to the Pack. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
         "m_c": {
             "age": ["young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -30,7 +30,7 @@
         "season": ["any"],
          "sub_type": ["adoption"],
         "weight": 5,
-        "event_text": "A rogue named n_c:0 leaves {PRONOUN/n_c:0/poss} litter to the Clan. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "event_text": "A rogue named n_c:0 leaves {PRONOUN/n_c:0/poss} litter to the Pack. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
         "m_c": {
             "age": ["young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -78,7 +78,7 @@
         "season": ["any"],
          "sub_type": ["adoption"],
         "weight": 5,
-        "event_text": "A kittypet named n_c:0 leaves {PRONOUN/n_c:0/poss} litter to the Clan. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "event_text": "A kittypet named n_c:0 leaves {PRONOUN/n_c:0/poss} litter to the Pack. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
         "m_c": {
             "age": ["young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -139,7 +139,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 5,
-        "event_text": "m_c finds a loner near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
+        "event_text": "m_c finds a loner near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Pack, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
         "m_c": {
             "status": [
                 "leader",
@@ -171,7 +171,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 5,
-        "event_text": "m_c finds a kittypet near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
+        "event_text": "m_c finds a kittypet near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Pack, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
         "m_c": {
             "status": [
                 "leader",
@@ -203,7 +203,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 5,
-        "event_text": "m_c finds a rogue near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Clan, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
+        "event_text": "m_c finds a rogue near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Pack, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
         "m_c": {
             "status": [
                 "leader", "deputy", "warrior", "medicine cat", "apprentice", "medicine cat apprentice", "mediator", "mediator apprentice"
@@ -228,7 +228,7 @@
         "season": ["any"],
         "sub_type":["romance"],
         "weight": 5,
-        "event_text": "m_c and r_c, in the early hours of the day, informed whoever else was awake that they had to handle something and ventured out of camp. Hours later, m_c, r_c, and another cat confidently strode into camp, tails entwined with each other. m_c introduced n_c:0 to the Clan, stating that {PRONOUN/n_c/subject} {VERB/n_c/are/is} staying.",
+        "event_text": "m_c and r_c, in the early hours of the day, informed whoever else was awake that they had to handle something and ventured out of camp. Hours later, m_c, r_c, and another cat confidently strode into camp, tails entwined with each other. m_c introduced n_c:0 to the Pack, stating that {PRONOUN/n_c/subject} {VERB/n_c/are/is} staying.",
         "m_c": {
             "age": ["young adult", "adult", "senior adult", "senior"],
             "status": ["any"],
@@ -282,7 +282,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 15,
-        "event_text": "m_c finds a loner named n_c:0, who joins the Clan. The loner decides to keep {PRONOUN/n_c:0/poss} old name.",
+        "event_text": "m_c finds a loner named n_c:0, who joins the Pack. The loner decides to keep {PRONOUN/n_c:0/poss} old name.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -305,7 +305,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A loner waits on the border for a patrol and, finding one led by m_c, asks to join the Clan. The loner decides to take on a more Clan-like name and is now called n_c:0.",
+        "event_text": "A loner waits on the border for a patrol and, finding one led by m_c, asks to join the Pack. The loner decides to take on a more Pack-like name and is now called n_c:0.",
         "m_c": {
             "status": ["warrior", "deputy", "leader", "medicine cat"]
         },
@@ -327,7 +327,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A loner waits on the border for a patrol and, finding one lead by m_c, asks to join the Clan. The loner decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
+        "event_text": "A loner waits on the border for a patrol and, finding one lead by m_c, asks to join the Pack. The loner decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
         "m_c": {
             "status": [
                 "leader", "deputy", "warrior", "medicine cat"
@@ -350,7 +350,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a loner who asks to join the Clan. The loner decides to take on a more Clan-like name and is now called n_c:0.",
+        "event_text": "m_c finds a loner who asks to join the Pack. The loner decides to take on a more Pack-like name and is now called n_c:0.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -373,7 +373,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 15,
-        "event_text": "While the Clan has no love for outsiders, sometimes new blood is needed. A patrol led by m_c heads out and finds a wandering cat to bring into the Clan. The new cat takes on a more Clan-like name and is now known as n_c:0.",
+        "event_text": "While the Pack has no love for outsiders, sometimes new blood is needed. A patrol led by m_c heads out and finds a wandering cat to bring into the Pack. The new cat takes on a more Pack-like name and is now known as n_c:0.",
         "m_c": {
             "status": ["leader", "deputy", "warrior"]
         },
@@ -395,7 +395,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a kittypet named n_c:0 who joins the Clan. The kittypet decides to keep {PRONOUN/n_c:0/poss} old name.",
+        "event_text": "m_c finds a kittypet named n_c:0 who joins the Pack. The kittypet decides to keep {PRONOUN/n_c:0/poss} old name.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -418,7 +418,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a kittypet who joins the Clan. The kittypet decides to take on a more Clan-like name and is now called n_c:0.",
+        "event_text": "m_c finds a kittypet who joins the Pack. The kittypet decides to take on a more Pack-like name and is now called n_c:0.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -441,7 +441,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A kittypet waits on the border for a patrol and, finding one lead by m_c, asks to join the Clan. The kittypet decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
+        "event_text": "A kittypet waits on the border for a patrol and, finding one lead by m_c, asks to join the Pack. The kittypet decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
         "m_c": {
             "status": ["leader", "deputy", "warrior", "medicine cat"]
         },
@@ -463,7 +463,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A kittypet waits on the border for a patrol and, finding one lead by m_c, asks to join the Clan. The kittypet decides to take on a more Clan-like name and is now called n_c:0.",
+        "event_text": "A kittypet waits on the border for a patrol and, finding one lead by m_c, asks to join the Pack. The kittypet decides to take on a more Pack-like name and is now called n_c:0.",
         "m_c": {
             "status": [
                 "leader", "deputy", "warrior", "medicine cat"
@@ -487,7 +487,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a rogue named n_c:0, who joins the Clan. The rogue decides to keep {PRONOUN/n_c:0/poss} old name.",
+        "event_text": "m_c finds a rogue named n_c:0, who joins the Pack. The rogue decides to keep {PRONOUN/n_c:0/poss} old name.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -510,7 +510,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a rogue who asks to join the Clan. The rogue decides to take on a more Clan-like name and is now called n_c:0.",
+        "event_text": "m_c finds a rogue who asks to join the Pack. The rogue decides to take on a more Pack-like name and is now called n_c:0.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -533,7 +533,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A rogue waits on the border for a patrol and, finding one lead by m_c, asks to join the Clan. The rogue decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
+        "event_text": "A rogue waits on the border for a patrol and, finding one lead by m_c, asks to join the Pack. The rogue decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
         "m_c": {
             "status": ["leader", "deputy", "warrior", "medicine cat"]
         },
@@ -555,7 +555,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A rogue waits on the border for a patrol and, finding one lead by m_c, asks to join the Clan. The rogue decides to take a new name and is now called n_c:0.",
+        "event_text": "A rogue waits on the border for a patrol and, finding one lead by m_c, asks to join the Pack. The rogue decides to take a new name and is now called n_c:0.",
         "m_c": {
             "status": ["leader", "deputy", "warrior", "medicine cat"]
         },
@@ -578,7 +578,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a warrior from o_c_n named n_c:0, who asks to join the Clan.",
+        "event_text": "m_c finds a warrior from o_c_n named n_c:0, who asks to join the Pack.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -600,7 +600,7 @@
         "location": ["any"],
         "season": ["any"],
         "weight": 10,
-        "event_text": "m_c meets an injured warrior from o_c_n who asks to join the Clan, in exchange for healing.",
+        "event_text": "m_c meets an injured warrior from o_c_n who asks to join the Pack, in exchange for healing.",
         "m_c": {
             "status": ["medicine cat", "leader", "warrior", "deputy", "apprentice", "medicine cat apprentice", "mediator", "mediator apprentice"]
         },

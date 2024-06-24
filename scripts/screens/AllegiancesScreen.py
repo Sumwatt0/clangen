@@ -155,8 +155,8 @@ class AllegiancesScreen(Screens):
             elif queen in living_elders:
                 living_elders.remove(queen)
 
-        # Clan Leader Box:
-        # Pull the Clan leaders
+        # Pack Leader Box:
+        # Pull the Pack leaders
         outputs = []
         if game.clan.leader and not (game.clan.leader.dead or game.clan.leader.outside):
             outputs.append(

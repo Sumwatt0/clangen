@@ -3073,7 +3073,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "p_l thinks r_c is a bit of a feather-brain, so when {PRONOUN/r_c/subject} come up to p_l while p_l is gathering herbs and suggest replenishing the Clan's catmint supply with a gleam in {PRONOUN/r_c/poss} eye, p_l hesitates.",
+        "intro_text": "p_l thinks r_c is a bit of a feather-brain, so when {PRONOUN/r_c/subject} come up to p_l while p_l is gathering herbs and suggest replenishing the Pack's catmint supply with a gleam in {PRONOUN/r_c/poss} eye, p_l hesitates.",
         "decline_text": "{PRONOUN/p_l/subject/CAP} aren't going to go after an herb renowned for the silliness it can cause with a cat {PRONOUN/p_l/subject} dislike. It's simply a bad idea.",
         "chance_of_success": 40,
         "relationship_constraint": ["dislike_20"],

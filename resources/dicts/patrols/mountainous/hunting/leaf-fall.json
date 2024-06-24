@@ -2559,7 +2559,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "app1 suppresses a yawn, trying not to make a weird expression in front of p_l as {PRONOUN/app1/subject} do. p_l suggested this as sibling bonding time, but did they <i>really</i> have to get up at dawn? The mornings are really starting to bite with cold now, as the Clan pads its way through time past the first snowfall, headed inevitably towards the heavy snows that'll mark actual leaf-bare.",
+        "intro_text": "app1 suppresses a yawn, trying not to make a weird expression in front of p_l as {PRONOUN/app1/subject} do. p_l suggested this as sibling bonding time, but did they <i>really</i> have to get up at dawn? The mornings are really starting to bite with cold now, as the Pack pads its way through time past the first snowfall, headed inevitably towards the heavy snows that'll mark actual leaf-bare.",
         "decline_text": "Actually, {PRONOUN/app1/subject}'d really rather be back in their nest.",
         "chance_of_success": 40,
         "relationship_constraint": ["siblings"],
@@ -2763,7 +2763,7 @@
             "normal adult": [1, 6]
         },
         "weight": 20,
-        "intro_text": "app1 suppresses a yawn, trying not to make a weird expression in front of p_l as {PRONOUN/app1/subject} do. p_l suggested this as sibling bonding time, but did they <i>really</i> have to get up at dawn? The mornings are really starting to bite with cold now, as the Clan pads its way through time past the first snowfall, headed inevitably towards the heavy snows that'll mark actual leaf-bare.",
+        "intro_text": "app1 suppresses a yawn, trying not to make a weird expression in front of p_l as {PRONOUN/app1/subject} do. p_l suggested this as sibling bonding time, but did they <i>really</i> have to get up at dawn? The mornings are really starting to bite with cold now, as the Pack pads its way through time past the first snowfall, headed inevitably towards the heavy snows that'll mark actual leaf-bare.",
         "decline_text": "Actually, {PRONOUN/app1/subject}'d really rather be back in their nest.",
         "chance_of_success": 40,
         "relationship_constraint": ["siblings"],
@@ -3171,7 +3171,7 @@
                 ]
             },
             {
-                "text": "r_c always feels like {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} padding in p_l's footsteps, especially today, watching {PRONOUN/p_l/object} {VERB/p_l/haul/hauls} back such a good catch of prey for the Clan, a contribution that more than makes up for r_c's meagre offerings.",
+                "text": "r_c always feels like {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} padding in p_l's footsteps, especially today, watching {PRONOUN/p_l/object} {VERB/p_l/haul/hauls} back such a good catch of prey for the Pack, a contribution that more than makes up for r_c's meagre offerings.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"],
@@ -3587,7 +3587,7 @@
                 ]
             },
             {
-                "text": "r_c always feels like {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} padding in p_l's footsteps, especially today, watching {PRONOUN/p_l/object} {VERB/p_l/haul/hauls} back such a good catch of prey for the Clan, a contribution that more than makes up for r_c's meagre offerings.",
+                "text": "r_c always feels like {PRONOUN/r_c/subject}{VERB/r_c/'re/'s} padding in p_l's footsteps, especially today, watching {PRONOUN/p_l/object} {VERB/p_l/haul/hauls} back such a good catch of prey for the Pack, a contribution that more than makes up for r_c's meagre offerings.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"],

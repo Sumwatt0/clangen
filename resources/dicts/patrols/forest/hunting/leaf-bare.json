@@ -6632,7 +6632,7 @@
         "decline_text": "Well, in that case they should focus on the hunt then.",
         "success_outcomes": [
                 {
-                    "text": "c_n will be fine, p_l tells r_c firmly. Why, once, long ago, there was a Clan who went through so much suffering they were reduced down to two single dewdrops. They managed to hold on and rise again - and c_n will too, just as soon as newleaf arrives.",
+                    "text": "c_n will be fine, p_l tells r_c firmly. Why, once, long ago, there was a Pack who went through so much suffering they were reduced down to two single dewdrops. They managed to hold on and rise again - and c_n will too, just as soon as newleaf arrives.",
                     "exp": 30,
                     "weight": 20,
                     "prey": ["medium"],

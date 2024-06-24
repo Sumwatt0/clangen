@@ -118,7 +118,7 @@ class Patrol:
 
         return self.determine_outcome(antagonize=(path == "antag"))
 
-    def add_patrol_cats(self, patrol_cats: List[Cat], clan: Clan) -> None:
+    def add_patrol_cats(self, patrol_cats: List[Cat], clan: Pack) -> None:
         """Add the list of wolves to the patrol class and handles to set all needed values.
 
         Parameters

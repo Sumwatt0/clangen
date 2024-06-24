@@ -610,7 +610,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. They drive the struggling kittypet off c_n territory, protecting the Clan from a source of sickness - no matter the cost.",
+                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. They drive the struggling kittypet off c_n territory, protecting the Pack from a source of sickness - no matter the cost.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2,
@@ -766,7 +766,7 @@
                 "outsider_rep": 0
             },
             {
-                "text": "{PRONOUN/n_c:0/subject/CAP}{VERB/n_c:0/'re/'s} gone. p_l swallows, pulling scent over the roof of {PRONOUN/p_l/poss} mouth, depserately searching - but n_c:0 has moved on from the lands just outside c_n's borders. It's not like p_l wasn't warned, by the Clan, by their traditions, by n_c:0 {PRONOUN/n_c:0/self} who said {PRONOUN/n_c:0/subject} could only stay for so long, but...",
+                "text": "{PRONOUN/n_c:0/subject/CAP}{VERB/n_c:0/'re/'s} gone. p_l swallows, pulling scent over the roof of {PRONOUN/p_l/poss} mouth, depserately searching - but n_c:0 has moved on from the lands just outside c_n's borders. It's not like p_l wasn't warned, by the Pack, by their traditions, by n_c:0 {PRONOUN/n_c:0/self} who said {PRONOUN/n_c:0/subject} could only stay for so long, but...",
                 "exp": 0,
                 "weight": 20,
                 "new_cat": [

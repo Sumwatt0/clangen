@@ -20,7 +20,7 @@ class Welcoming_Events:
         Parameters
         ----------
         clan_cat : Cat
-            the Clan cat which welcome the new cat
+            the Pack cat which welcome the new cat
         new_cat : Cat
             new cat which will be welcomed
 

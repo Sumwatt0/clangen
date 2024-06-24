@@ -1,12 +1,12 @@
 [
   {
     "interaction_type": "hunt",
-    "event_text": "Despite a long search, m_c could not be found by the Clan.",
+    "event_text": "Despite a long search, m_c could not be found by the Pack.",
     "reputation": ["any"],
     "rep_change": -2,
     "m_c": {
       "status": ["loner", "rogue", "kittypet"],
-      "new_thought": "Heard rumors that a Clan was hunting for them",
+      "new_thought": "Heard rumors that a Pack was hunting for them",
       "relationships": [
         {
           "values": ["dislike"],
@@ -17,12 +17,12 @@
   },
   {
     "interaction_type": "hunt",
-    "event_text": "Despite a long search, m_c could not be found by the Clan.",
+    "event_text": "Despite a long search, m_c could not be found by the Pack.",
     "reputation": ["any"],
     "rep_change": -2,
     "m_c": {
       "status": ["exiled", "lost"],
-      "new_thought": "Heard rumors that their old Clan was hunting for them",
+      "new_thought": "Heard rumors that their old Pack was hunting for them",
       "relationships": [
         {
           "cats_from": ["m_c"],
@@ -88,12 +88,12 @@
   },
   {
     "interaction_type": "drive",
-    "event_text": "Despite a long search, m_c could not be found by the Clan.",
+    "event_text": "Despite a long search, m_c could not be found by the Pack.",
     "reputation": ["any"],
     "rep_change": -1,
     "m_c": {
       "status": ["loner", "rogue", "kittypet"],
-      "new_thought": "Heard rumors that a Clan was looking for them",
+      "new_thought": "Heard rumors that a Pack was looking for them",
       "relationships": [
         {
           "cats_from": ["m_c"],
@@ -107,12 +107,12 @@
   },
   {
     "interaction_type": "drive",
-    "event_text": "Despite a long search, m_c could not be found by the Clan.",
+    "event_text": "Despite a long search, m_c could not be found by the Pack.",
     "reputation": ["any"],
     "rep_change": -1,
     "m_c": {
       "status": ["exiled", "lost"],
-      "new_thought": "Heard rumors that their old Clan wants them gone",
+      "new_thought": "Heard rumors that their old Pack wants them gone",
       "relationships": [
         {
           "cats_from": ["m_c"],
@@ -126,22 +126,22 @@
   },
   {
     "interaction_type": "invite",
-    "event_text": "Despite a long search, m_c could not be found by the Clan.",
+    "event_text": "Despite a long search, m_c could not be found by the Pack.",
     "reputation": ["any"],
     "rep_change": 1,
     "m_c": {
       "status": ["loner", "rogue", "kittypet"],
-      "new_thought": "Heard rumors that a Clan was looking for them"
+      "new_thought": "Heard rumors that a Pack was looking for them"
     }
   },
   {
     "interaction_type": "invite",
-    "event_text": "Despite a long search, m_c could not be found by the Clan.",
+    "event_text": "Despite a long search, m_c could not be found by the Pack.",
     "reputation": ["any"],
     "rep_change": 1,
     "m_c": {
       "status": ["exiled"],
-      "new_thought": "Heard rumors that their old Clan was searching for them",
+      "new_thought": "Heard rumors that their old Pack was searching for them",
       "relationships": [
         {
           "cats_from": ["m_c"],
@@ -162,12 +162,12 @@
   },
   {
     "interaction_type": "search",
-    "event_text": "Despite a long search, m_c could not be found by the Clan.",
+    "event_text": "Despite a long search, m_c could not be found by the Pack.",
     "reputation": ["any"],
     "rep_change": 1,
     "m_c": {
       "status": ["lost"],
-      "new_thought": "Heard rumors that their old Clan has been searching for them",
+      "new_thought": "Heard rumors that their old Pack has been searching for them",
       "relationships": [
         {
           "cats_from": ["m_c"],

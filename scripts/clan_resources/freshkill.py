@@ -228,7 +228,7 @@ class FreshkillPile:
     def amount_food_needed(self):
         """Get the amount of freshkill the clan needs.
 
-        :return int|float needed_prey: The amount of prey the Clan needs
+        :return int|float needed_prey: The amount of prey the Pack needs
         """
         living_cats = [
             cat

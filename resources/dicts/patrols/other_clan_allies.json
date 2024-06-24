@@ -2166,7 +2166,7 @@
         "chance_of_success": 30,
         "success_outcomes": [
             {
-                "text": "Once, there was a cat called Scrap. And she was a little bit of nothing, no talents, no courage, no beauty, she thought herself worthless and stupid. Yet when her Clan was threatened by invading rogues, she rose up. Nervous, flighty, scared and small - the savior of her clan, marked with moth wings tucked behind her ear.",
+                "text": "Once, there was a cat called Scrap. And she was a little bit of nothing, no talents, no courage, no beauty, she thought herself worthless and stupid. Yet when her Pack was threatened by invading rogues, she rose up. Nervous, flighty, scared and small - the savior of her clan, marked with moth wings tucked behind her ear.",
                 "exp": 20,
                 "weight": 20,
                 "other_clan_rep": 2,
@@ -2205,7 +2205,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "Once, there was a cat called Scrap. Possessed of few talents and no courage in her own eyes, she nevertheless rose to the occasion when her Clan needed her - as would <i>any</i> c_n warrior, p_l warns the o_c_n patrol.",
+                "text": "Once, there was a cat called Scrap. Possessed of few talents and no courage in her own eyes, she nevertheless rose to the occasion when her Pack needed her - as would <i>any</i> c_n warrior, p_l warns the o_c_n patrol.",
                 "exp": 10,
                 "weight": 20,
                 "other_clan_rep": -2

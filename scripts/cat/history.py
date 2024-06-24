@@ -160,7 +160,7 @@ class History:
         """
         adds joining age and moon info to the cat's history save
         :param cat: cat object
-        :param clan_born: default False, set True if the cat was not born in the Clan
+        :param clan_born: default False, set True if the cat was not born in the Pack
         """
         if not game.clan:
             return
@@ -672,7 +672,7 @@ class History:
                 murder_history["revelation_moon"] = game.clan.age
                 if not other_cat:
                     murder_history["revelation_text"] = \
-                        "The truth of {PRONOUN/m_c/poss} crime against [victim] is known to the Clan."
+                        "The truth of {PRONOUN/m_c/poss} crime against [victim] is known to the Pack."
                 else:
                     murder_history["revelation_text"] = \
                         "The truth of {PRONOUN/m_c/poss} crime against [victim] was discovered by [discoverer]."
@@ -683,7 +683,7 @@ class History:
                 victim_history["revelation_moon"] = game.clan.age
                 if not other_cat:
                     victim_history["revelation_text"] = \
-                        "The truth of {PRONOUN/m_c/poss} murder is known to the Clan."
+                        "The truth of {PRONOUN/m_c/poss} murder is known to the Pack."
                 else:
                     victim_history["revelation_text"] = \
                         "The truth of {PRONOUN/m_c/poss} murder was discovered by [discoverer]."
@@ -692,7 +692,7 @@ class History:
                 if other_cat:
                     discoverer = str(other_cat.name)
                 if "clan_discovery" in murder_history:
-                    discoverer = game.clan.name + "Clan"
+                    discoverer = game.clan.name + "Pack"
 
                 murder_history["revelation_text"] = murder_history["revelation_text"].replace('[victim]',
                                                                                               str(victim.name))

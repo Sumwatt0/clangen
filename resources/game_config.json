@@ -412,7 +412,7 @@
                 "injury chance of each warrior(leader/deputy) or medicine cat to get injured",
                 "chance_increase_per_clan - the more clan which are raided the more likely it is to get injured",
                 "injuries - list of injuries which can occur and to which distribution",
-                "relation - amount of decrease; Clan relation is between 0 and 30, therefore a smaller number is chosen",
+                "relation - amount of decrease;  relation is between 0 and 30, therefore a smaller number is chosen",
                 "INFO: current sum of injuries is 100 - for easier understanding it should stay the same"
             ]
         },

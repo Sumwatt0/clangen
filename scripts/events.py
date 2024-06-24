@@ -67,7 +67,7 @@ class Events:
 
     def one_moon(self):
         """
-        Handles the moon skipping of the whole Clan.
+        Handles the moon skipping of the whole Pack.
         """
         game.cur_events_list = []
         game.herb_events_list = []
@@ -199,7 +199,7 @@ class Events:
                             Cat.all_cats.values(),
                         )
                     )
-                    # finds a percentage of the living Clan to become shaken
+                    # finds a percentage of the living Pack to become shaken
 
                     if len(alive_cats) == 0:
                         return
@@ -249,9 +249,9 @@ class Events:
             Cat.dead_cats.clear()
 
         if game.clan.game_mode in ['expanded', 'cruel season'] and game.clan.freshkill_pile:
-            # make a notification if the Clan does not have enough prey
+            # make a notification if the Pack does not have enough prey
             if FRESHKILL_EVENT_ACTIVE and not game.clan.freshkill_pile.clan_has_enough_food():
-                event_string = f"{game.clan.name}Clan doesn't have enough prey for next moon!"
+                event_string = f"{game.clan.name}Pack doesn't have enough prey for next moon!"
                 game.cur_events_list.insert(0, Single_Event(event_string))
                 game.freshkill_event_list.append(event_string)
 
@@ -806,11 +806,11 @@ class Events:
             game.clan.freshkill_pile.add_freshkill(warrior_amount)
             if warrior_amount > 1:
                 game.freshkill_event_list.append(
-                    f"With the additional focus of the Clan, {warrior_amount} prey pieces were caught."
+                    f"With the additional focus of the Pack, {warrior_amount} prey pieces were caught."
                 )
             else:
                 game.freshkill_event_list.append(
-                    f"With the additional focus of the Clan, {warrior_amount} prey piece was caught."
+                    f"With the additional focus of the Pack, {warrior_amount} prey piece was caught."
                 )
 
             # handle herbs
@@ -2321,7 +2321,7 @@ class Events:
     def handle_outbreaks(self, cat):
         """Try to infect some cats."""
         # check if the cat is ill, if game mode is classic,
-        # or if Clan has sufficient med cats in expanded mode
+        # or if Pack has sufficient med cats in expanded mode
         if not cat.is_ill() or game.clan.game_mode == "classic":
             return
 

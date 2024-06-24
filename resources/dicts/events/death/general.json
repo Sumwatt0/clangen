@@ -727,7 +727,7 @@
         "history": [{
             "cats": ["m_c", "r_c"],
             "reg_death": "This cat died when o_c_n tried to break into camp.",
-            "lead_death": "tried to defend the Clan from o_c_n"
+            "lead_death": "tried to defend the Pack from o_c_n"
         }],
         "other_clan": {
             "current_rep": [
@@ -1092,7 +1092,7 @@
             "classic"
         ],
         "weight": 20,
-        "event_text": "A bad case of greencough strikes the Clan, taking r_c and m_c's lives.",
+        "event_text": "A bad case of greencough strikes the Pack, taking r_c and m_c's lives.",
         "m_c": {
             "age": [ "any" ],
             "status": [ "any" ],
@@ -1365,7 +1365,7 @@
         "sub_type": [ "war" ],
         "tags": [],
         "weight": 20,
-        "event_text": "m_c sacrificed {PRONOUN/m_c/self} by taking on the role of a messenger, delivering important information that could save {PRONOUN/m_c/poss} Clan. {PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} killed while investigating enemy territory.",
+        "event_text": "m_c sacrificed {PRONOUN/m_c/self} by taking on the role of a messenger, delivering important information that could save {PRONOUN/m_c/poss} Pack. {PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} killed while investigating enemy territory.",
         "m_c": {
             "status": ["apprentice", "warrior"],
             "dies": true
@@ -1422,8 +1422,8 @@
         },
         "history": [{
             "cats": ["m_c"],
-            "reg_death": "m_c fell into a pit trap set by an enemy Clan.",
-            "lead_death": "fell into a pit trap set by an enemy Clan."
+            "reg_death": "m_c fell into a pit trap set by an enemy Pack.",
+            "lead_death": "fell into a pit trap set by an enemy Pack."
         }],
         "other_clan": {
             "current_rep": ["hostile"],
@@ -5158,7 +5158,7 @@
             "kit_manipulated"
         ],
         "weight": 20,
-        "event_text": "m_c saves one of the Clan's kits from drowning, but loses a life in the process. The kit is well scolded for straying into the water but is even more subdued than expected afterwards; sending nervous glances at r_c that no one else seems to catch.",
+        "event_text": "m_c saves one of the Pack's kits from drowning, but loses a life in the process. The kit is well scolded for straying into the water but is even more subdued than expected afterwards; sending nervous glances at r_c that no one else seems to catch.",
         "m_c": {
             "age": [
                 "young adult",
@@ -5627,7 +5627,7 @@
             "no_body"
         ],
         "weight": 20,
-        "event_text": "m_c can be heard boasting that {PRONOUN/m_c/subject}'{VERB/m_c/re/s} ready to be made an apprentice <i>right now</i>, and that {PRONOUN/m_c/subject}'{VERB/m_c/re/s} already one of the best hunters in the Clan. That evening, to prove {PRONOUN/m_c/poss} point, {PRONOUN/m_c/subject} sneak out of camp, intending to catch something for the fresh-kill pile. A frantic search party follows {PRONOUN/m_c/poss} trail, only to find blood and the foul stench of a shrew at the end.",
+        "event_text": "m_c can be heard boasting that {PRONOUN/m_c/subject}'{VERB/m_c/re/s} ready to be made an apprentice <i>right now</i>, and that {PRONOUN/m_c/subject}'{VERB/m_c/re/s} already one of the best hunters in the Pack. That evening, to prove {PRONOUN/m_c/poss} point, {PRONOUN/m_c/subject} sneak out of camp, intending to catch something for the fresh-kill pile. A frantic search party follows {PRONOUN/m_c/poss} trail, only to find blood and the foul stench of a shrew at the end.",
         "m_c": {
             "status": [
                 "kitten"
@@ -5810,7 +5810,7 @@
     "location": ["any"],
     "season": ["any"],
     "weight": 20,
-    "event_text": "m_c woke up in the middle of the night to a strange noise. No one else was awake, or so {PRONOUN/m_c/subject} thought, until seeing someone at the fresh-kill pile. Before m_c could realize {PRONOUN/m_c/poss} mistake, sharp canine teeth were at {PRONOUN/m_c/poss} throat, ensuring the Clan wakes up to find {PRONOUN/m_c/poss} nest empty, and the prey gone.",
+    "event_text": "m_c woke up in the middle of the night to a strange noise. No one else was awake, or so {PRONOUN/m_c/subject} thought, until seeing someone at the fresh-kill pile. Before m_c could realize {PRONOUN/m_c/poss} mistake, sharp canine teeth were at {PRONOUN/m_c/poss} throat, ensuring the Pack wakes up to find {PRONOUN/m_c/poss} nest empty, and the prey gone.",
     "m_c": {
         "status": ["any"],
         "dies": true
@@ -5872,7 +5872,7 @@
     "sub_type": ["war", "murder"],
     "tags": [],
     "weight": 20,
-    "event_text": "Within the haze of battle and blood-lust it can be far too easy to mistake friend for foe.  Or, at least, that's what r_c tells the Clan after {PRONOUN/m_c/subject} {VERB/m_c/kill/kills} m_c during a fight with o_c_n.",
+    "event_text": "Within the haze of battle and blood-lust it can be far too easy to mistake friend for foe.  Or, at least, that's what r_c tells the Pack after {PRONOUN/m_c/subject} {VERB/m_c/kill/kills} m_c during a fight with o_c_n.",
     "m_c": {
         "status": ["warrior", "deputy", "leader"],
         "not_skill": ["FIGHTER,2"],

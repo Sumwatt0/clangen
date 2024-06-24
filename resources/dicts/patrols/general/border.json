@@ -1800,7 +1800,7 @@
                 "weight": 20
             },
             {
-                "text": "In the midst of another argument, p_l swiftly swipes at r_c to shut {PRONOUN/r_c/object} up. r_c hisses, and slashes back. Fur flies as both cats trade blows. The chaotic brawl ends with both of them wounded and a tense silence in the air. When they return to camp, many eyes stare in judgement. The Clan is disappointed in their actions.",
+                "text": "In the midst of another argument, p_l swiftly swipes at r_c to shut {PRONOUN/r_c/object} up. r_c hisses, and slashes back. Fur flies as both cats trade blows. The chaotic brawl ends with both of them wounded and a tense silence in the air. When they return to camp, many eyes stare in judgement. The Pack is disappointed in their actions.",
                 "exp": 0,
                 "weight": 10,
                 "injury": {
@@ -1900,7 +1900,7 @@
                 "stat_skill": ["DARK,1"]
             },
             {
-                "text": "The arguing escalates, attracting the attention of a o_c_n patrol. The rival Clan did not seem impressed by their arguing, and mocked c_n for not even being able to work together.",
+                "text": "The arguing escalates, attracting the attention of a o_c_n patrol. The rival Pack did not seem impressed by their arguing, and mocked c_n for not even being able to work together.",
                 "exp": 0,
                 "weight": 10,
                 "other_clan_rep": -1
@@ -1926,7 +1926,7 @@
         "decline_text": "p_l quickly marks the border and then steers {PRONOUN/p_l/poss} patrol away from the o_c_n patrol. Best not to risk a confrontation.",
         "success_outcomes": [
             {
-                "text": "app1 calls out a greeting to the other apprentice, {PRONOUN/app1/poss} eyes shining and tail raised. It's exciting to chat with another Clan's apprentice somewhere other than a Gathering, where {PRONOUN/app1/subject}{VERB/app1/'re/'s} supposed to be on {PRONOUN/app1/poss} best behavior. The ice is broken between the patrols, and they stop for a chat before each carrying on their way.",
+                "text": "app1 calls out a greeting to the other apprentice, {PRONOUN/app1/poss} eyes shining and tail raised. It's exciting to chat with another Pack's apprentice somewhere other than a Gathering, where {PRONOUN/app1/subject}{VERB/app1/'re/'s} supposed to be on {PRONOUN/app1/poss} best behavior. The ice is broken between the patrols, and they stop for a chat before each carrying on their way.",
                 "exp": 15,
                 "weight": 40,
                 "stat_skill": [ "SPEAKER,1", "CLEVER,1", "MEDIATOR,1" ],
@@ -1946,7 +1946,7 @@
 				]
             },
             {
-                "text": "app1 watches the other apprentice from across the border as the two patrols get on with marking their side of the border in silence. Every so often, app1 looks up and catches the other apprentice's eye; would they have been friends, if they were born in the same Clan? The patrol passes without incident, and app1 can't help casting a look back at the border as {PRONOUN/app1/subject} {VERB/app1/leave/leaves}.",
+                "text": "app1 watches the other apprentice from across the border as the two patrols get on with marking their side of the border in silence. Every so often, app1 looks up and catches the other apprentice's eye; would they have been friends, if they were born in the same Pack? The patrol passes without incident, and app1 can't help casting a look back at the border as {PRONOUN/app1/subject} {VERB/app1/leave/leaves}.",
                 "exp": 15,
                 "weight": 40,
                 "stat_trait": [ "careful", "nervous", "gloomy", "lonesome", "strange", "calm", "thoughtful" ],

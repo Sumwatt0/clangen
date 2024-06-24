@@ -1157,7 +1157,7 @@ class MakeClanScreen(Screens):
           scale(pygame.Rect((1120, 1240), (68, 68))), "",
           object_id="#unchecked_checkbox",
           manager=MANAGER,
-          tool_tip_text= "When checked, a completely random Clan starting in Newleaf will be generated."
+          tool_tip_text= "When checked, a completely random Pack starting in Newleaf will be generated."
         )
 
         self.elements['random_clan_checkbox_label'] = pygame_gui.elements.UILabel(
@@ -1222,7 +1222,7 @@ class MakeClanScreen(Screens):
         )
         self.elements["name_entry"].set_text_length_limit(11)
         self.elements["clan"] = pygame_gui.elements.UITextBox(
-            "-Clan",
+            "-Pack",
             scale(pygame.Rect((750, 1200), (200, 50))),
             object_id="#text_box_30_horizcenter_light",
             manager=MANAGER,
@@ -1709,7 +1709,7 @@ class MakeClanScreen(Screens):
         )
         self.text["clan_name"] = pygame_gui.elements.UILabel(
             scale(pygame.Rect((0, 0), (-1, -1))),
-            text=f"{self.clan_name}Clan",
+            text=f"{self.clan_name}Pack",
             container=self.elements["text_container"],
             object_id=get_text_box_theme("#text_box_40"),
             manager=MANAGER,
@@ -1877,7 +1877,7 @@ class MakeClanScreen(Screens):
         Cat.outside_cats.clear()
         Patrol.used_patrols.clear()
         convert_camp = {1: "camp1", 2: "camp2", 3: "camp3", 4: "camp4"}
-        game.clan = Clan(
+        game.clan = Pack(
             name=self.clan_name,
             leader=self.leader,
             deputy=self.deputy,

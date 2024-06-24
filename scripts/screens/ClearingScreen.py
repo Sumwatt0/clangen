@@ -567,25 +567,25 @@ class ClearingScreen(Screens):
         concern_text = "This should not appear."
         if current_prey_amount == 0:
             concern_text = (
-                "The fresh-kill pile is empty, the Clan desperately needs prey!"
+                "The fresh-kill pile is empty, the Pack desperately needs prey!"
             )
             self.pile_size = "#freshkill_pile_empty"
         elif 0 < current_prey_amount <= needed_amount / 2:
-            concern_text = "The fresh-kill pile can't even feed half of the Clan. Hunting patrols should be organized immediately."
+            concern_text = "The fresh-kill pile can't even feed half of the Pack. Hunting patrols should be organized immediately."
             self.pile_size = "#freshkill_pile_verylow"
         elif needed_amount / 2 < current_prey_amount <= needed_amount:
-            concern_text = "Only half of the Clan can be fed currently. Hunting patrols should be organized."
+            concern_text = "Only half of the Pack can be fed currently. Hunting patrols should be organized."
             self.pile_size = "#freshkill_pile_low"
         elif needed_amount < current_prey_amount <= needed_amount * 1.5:
             concern_text = (
-                "Every mouth of the Clan can be fed, but some more prey would not harm."
+                "Every mouth of the Pack can be fed, but some more prey would not harm."
             )
             self.pile_size = "#freshkill_pile_average"
         elif needed_amount * 1.5 < current_prey_amount <= needed_amount * 2.5:
-            concern_text = "The fresh-kill pile is overflowing and the Clan can feast!"
+            concern_text = "The fresh-kill pile is overflowing and the Pack can feast!"
             self.pile_size = "#freshkill_pile_good"
         elif needed_amount * 2.5 < current_prey_amount:
-            concern_text = "StarClan has blessed the Clan with plentiful prey and the leader sends their thanks to Silverpelt."
+            concern_text = "StarClan has blessed the Pack with plentiful prey and the leader sends their thanks to Silverpelt."
             self.pile_size = "#freshkill_pile_full"
 
         information_display.append(general_text)

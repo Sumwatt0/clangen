@@ -140,7 +140,7 @@ class ClanScreen(Screens):
                     print(f"ERROR: placing {Cat.all_cats[x].name}\'s sprite on Pack page")
 
         # Den Labels
-        # Redo the locations, so that it uses layout on the Clan page
+        # Redo the locations, so that it uses layout on the Pack page
         self.warrior_den_label = UIImageButton(scale(pygame.Rect(
             self.layout["warrior den"], (242, 56))),
             "",
