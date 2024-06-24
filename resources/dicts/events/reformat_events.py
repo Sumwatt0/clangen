@@ -300,9 +300,9 @@ def reformat(path):
                 else:
                     info.append("old_name")
 
-            if "kittypet" in event:
-                if event["kittypet"]:
-                    info.append("kittypet")
+            if "pet" in event:
+                if event["pet"]:
+                    info.append("pet")
 
             if "loner" in event:
                 if event["loner"]:

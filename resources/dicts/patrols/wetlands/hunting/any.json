@@ -537,7 +537,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "Slyly, r_c uses the chance to get food, practicing their best kittypet impression until just the right moment, when {PRONOUN/r_c/subject} {VERB/r_c/dart/darts} forward and {VERB/r_c/make/makes} off with a sandwich in their mouth.",
+                "text": "Slyly, r_c uses the chance to get food, practicing their best pet impression until just the right moment, when {PRONOUN/r_c/subject} {VERB/r_c/dart/darts} forward and {VERB/r_c/make/makes} off with a sandwich in their mouth.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"]
@@ -610,7 +610,7 @@
                 "prey": ["large"]
             },
             {
-                "text": "Slyly, r_c uses the chance to get food, practicing their best kittypet impression until just the right moment, when {PRONOUN/r_c/subject} {VERB/r_c/dart/darts} forward and {VERB/r_c/make/makes} off with a hunk of meat in their mouth.",
+                "text": "Slyly, r_c uses the chance to get food, practicing their best pet impression until just the right moment, when {PRONOUN/r_c/subject} {VERB/r_c/dart/darts} forward and {VERB/r_c/make/makes} off with a hunk of meat in their mouth.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"]
@@ -683,7 +683,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "Slyly, r_c uses the chance to get food, practicing their best kittypet impression until just the right moment, when {PRONOUN/r_c/subject} {VERB/r_c/dart/darts} forward and {VERB/r_c/make/makes} off with a sandwich in their mouth.",
+                "text": "Slyly, r_c uses the chance to get food, practicing their best pet impression until just the right moment, when {PRONOUN/r_c/subject} {VERB/r_c/dart/darts} forward and {VERB/r_c/make/makes} off with a sandwich in their mouth.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"]
@@ -756,7 +756,7 @@
                 "prey": ["large"]
             },
             {
-                "text": "Slyly, r_c uses the chance to get food, practicing their best kittypet impression until just the right moment, when {PRONOUN/r_c/subject} {VERB/r_c/dart/darts} forward and {VERB/r_c/make/makes} off with a hunk of meat in their mouth.",
+                "text": "Slyly, r_c uses the chance to get food, practicing their best pet impression until just the right moment, when {PRONOUN/r_c/subject} {VERB/r_c/dart/darts} forward and {VERB/r_c/make/makes} off with a hunk of meat in their mouth.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["large"]
@@ -829,7 +829,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "A friendly Twolegs makes a psspsspss noise, and pours kittypet food on the ground for r_c. They've always wondered what it might taste like... dry, is the answer. Very odd.",
+                "text": "A friendly Twolegs makes a psspsspss noise, and pours pet food on the ground for r_c. They've always wondered what it might taste like... dry, is the answer. Very odd.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["very_small"]
@@ -907,7 +907,7 @@
                 "prey": ["medium"]
             },
             {
-                "text": "A friendly Twolegs makes a psspsspss noise, and pours kittypet food on the ground for app1. They've always wondered what it might taste like... dry, is the answer. It's strangely appealing.",
+                "text": "A friendly Twolegs makes a psspsspss noise, and pours pet food on the ground for app1. They've always wondered what it might taste like... dry, is the answer. It's strangely appealing.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["very_small"]
@@ -984,7 +984,7 @@
                 ]
             },
             {
-                "text": "A friendly Twolegs makes a psspsspss noise, and pours kittypet food on the ground for r_c. They fetch p_l, and both cats investigate the food, loudly proclaiming how much better fresh-kill is, but both a little thrilled by the experience.",
+                "text": "A friendly Twolegs makes a psspsspss noise, and pours pet food on the ground for r_c. They fetch p_l, and both cats investigate the food, loudly proclaiming how much better fresh-kill is, but both a little thrilled by the experience.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["very_small"],
@@ -1131,7 +1131,7 @@
                 ]
             },
             {
-                "text": "A friendly Twolegs makes a psspsspss noise, and pours kittypet food on the ground for app2. They fetch app1, and both apprentices loudly proclaim how much better fresh-kill is, but both are also wide eyed and thrilled by the experience.",
+                "text": "A friendly Twolegs makes a psspsspss noise, and pours pet food on the ground for app2. They fetch app1, and both apprentices loudly proclaim how much better fresh-kill is, but both are also wide eyed and thrilled by the experience.",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["very_small"],

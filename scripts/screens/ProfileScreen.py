@@ -78,7 +78,7 @@ def bs_blurb_text(cat):
     backstory = cat.backstory
     backstory_text = BACKSTORIES["backstories"][backstory]
 
-    if cat.status in ["pet", "loner", "rogue", "former Clancat"]:
+    if cat.status in ["pet", "loner", "rogue", "former Packwolf"]:
         return f"This wolf is a {cat.status} and currently resides outside of the Packs."
 
     return backstory_text
@@ -1114,9 +1114,9 @@ class ProfileScreen(Screens):
             # Check to only show nutrition for clan cats
             if str(the_cat.status) not in [
                 "loner",
-                "kittypet",
+                "pet",
                 "rogue",
-                "former Clancat",
+                "former Packwolf",
                 "exiled",
             ]:
                 nutr = None

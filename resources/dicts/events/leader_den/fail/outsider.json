@@ -5,7 +5,7 @@
     "reputation": ["any"],
     "rep_change": -2,
     "m_c": {
-      "status": ["loner", "rogue", "kittypet"],
+      "status": ["loner", "rogue", "pet"],
       "new_thought": "Heard rumors that a Pack was hunting for them",
       "relationships": [
         {
@@ -47,7 +47,7 @@
     "reputation": ["any"],
     "rep_change": -2,
     "m_c": {
-      "status": ["loner", "rogue", "kittypet"],
+      "status": ["loner", "rogue", "pet"],
       "new_thought": "Is slinking through undergrowth, worried c_n may find {PRONOUN/m_c/object}",
       "relationships": [
         {
@@ -92,7 +92,7 @@
     "reputation": ["any"],
     "rep_change": -1,
     "m_c": {
-      "status": ["loner", "rogue", "kittypet"],
+      "status": ["loner", "rogue", "pet"],
       "new_thought": "Heard rumors that a Pack was looking for them",
       "relationships": [
         {
@@ -130,7 +130,7 @@
     "reputation": ["any"],
     "rep_change": 1,
     "m_c": {
-      "status": ["loner", "rogue", "kittypet"],
+      "status": ["loner", "rogue", "pet"],
       "new_thought": "Heard rumors that a Pack was looking for them"
     }
   },

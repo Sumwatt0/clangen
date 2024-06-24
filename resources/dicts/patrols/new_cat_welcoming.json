@@ -188,12 +188,12 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_newcatkittypet1",
+        "patrol_id": "gen_bord_newcatpet1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
         "tags": ["new_cat"],
-        "patrol_art": "gen_bord_newcatkittypet1",
+        "patrol_art": "gen_bord_newcatpet1",
         "min_cats": 2,
         "max_cats": 6,
         "min_max_status": {},
@@ -207,7 +207,7 @@
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["kittypet"]
+                    ["pet"]
                 ],
                 "relationships": [
                     {
@@ -224,7 +224,7 @@
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["kittypet", "age:has_kits"],
+                    ["pet", "age:has_kits"],
                     ["litter", "parent:0", "status:kitten", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
@@ -245,7 +245,7 @@
                 "weight": 20,
                 "outsider_rep": 0,
                 "new_cat": [
-                    ["meeting", "kittypet"]
+                    ["meeting", "pet"]
                 ]
             }
         ],
@@ -267,7 +267,7 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_newcatkittypet5",
+        "patrol_id": "gen_bord_newcatpet5",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
@@ -286,7 +286,7 @@
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["kittypet"]
+                    ["pet"]
                 ],
                 "relationships": [
                     {
@@ -303,7 +303,7 @@
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["kittypet", "age:has_kits"],
+                    ["pet", "age:has_kits"],
                     ["litter", "parent:0", "status:kitten", "backstory:outsider_roots2"]
                 ],
                 "relationships": [
@@ -324,7 +324,7 @@
                 "weight": 20,
                 "outsider_rep": 0,
                 "new_cat": [
-                    ["meeting", "kittypet"]
+                    ["meeting", "pet"]
                 ]
             }
         ],
@@ -513,7 +513,7 @@
         "chance_of_success": 40,
         "success_outcomes": [
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find a poor old kittypet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. p_l doesn't know where {PRONOUN/n_c:0/poss} Twoleg is, but offers to bring the stranger back to camp, where medicine can help {PRONOUN/n_c:0/object}.",
+                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find a poor old pet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. p_l doesn't know where {PRONOUN/n_c:0/poss} Twoleg is, but offers to bring the stranger back to camp, where medicine can help {PRONOUN/n_c:0/object}.",
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
@@ -537,7 +537,7 @@
                 ]
             },
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. s_c reminds the patrol of the story of Tigger - they have a responsibility to help this cat.",
+                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old pet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. s_c reminds the patrol of the story of Tigger - they have a responsibility to help this cat.",
                 "exp": 30,
                 "weight": 20,
                 "stat_skill": ["LORE,1", "STORY,1"],
@@ -605,7 +605,7 @@
                 ]
             },
             {
-                "text": "Try as they might, the patrol can't identify who left this scent trail or where it leads. It doesn't smell like a Clancat, but that's little reassurance as the cats head back to report this to the rest of c_n.",
+                "text": "Try as they might, the patrol can't identify who left this scent trail or where it leads. It doesn't smell like a Packwolf, but that's little reassurance as the cats head back to report this to the rest of c_n.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": 0
@@ -613,7 +613,7 @@
         ],
         "antag_fail_outcomes": [
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. They try to drag the kittypet back to camp - but the elderly cat is too weak.",
+                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old pet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. They try to drag the pet back to camp - but the elderly cat is too weak.",
                 "exp": 0,
                 "weight": 20,
                 "outsider_rep": -1,
@@ -624,7 +624,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old kittypet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. They drive the struggling kittypet off c_n territory, protecting the Pack from a source of sickness - but cursing the necessity of doing so.",
+                "text": "The patrol immediately stops their border marking and switches to tracking the scent of the intruder instead. At the end of the trail they find an old pet, wheezing {PRONOUN/n_c:0/poss} Twoleg's name. They drive the struggling pet off c_n territory, protecting the Pack from a source of sickness - but cursing the necessity of doing so.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2,
@@ -1994,7 +1994,7 @@
                 "exp": 30,
                 "weight": 20,
                 "new_cat": [
-                    ["kittypet", "can_birth", "dead", "age:has_kits"],
+                    ["pet", "can_birth", "dead", "age:has_kits"],
                     [
                         "litter",
                         "parent:0",
@@ -2017,7 +2017,7 @@
                 "exp": 30,
                 "weight": 5,
                 "new_cat": [
-                    ["kittypet", "can_birth", "dead", "age:has_kits"],
+                    ["pet", "can_birth", "dead", "age:has_kits"],
                     [
                         "litter",
                         "parent:0",
@@ -2041,7 +2041,7 @@
                 "weight": 20,
                 "stat_trait": ["careful", "thoughtful"],
                 "new_cat": [
-                    ["kittypet", "can_birth", "dead", "age:has_kits"],
+                    ["pet", "can_birth", "dead", "age:has_kits"],
                     [
                         "litter",
                         "parent:0",
@@ -2086,7 +2086,7 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_curiouskittypet1",
+        "patrol_id": "gen_bord_curiouspet1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
@@ -2105,7 +2105,7 @@
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["kittypet"]
+                    ["pet"]
                 ],
                 "relationships": [
                     {
@@ -2122,7 +2122,7 @@
                 "exp": 10,
                 "weight": 5,
                 "new_cat": [
-                    ["kittypet"]
+                    ["pet"]
                 ],
                 "relationships": [
                     {
@@ -2140,7 +2140,7 @@
                 "weight": 20,
                 "stat_skill": ["SPEAKER,1"],
                 "new_cat": [
-                    ["kittypet"]
+                    ["pet"]
                 ],
                 "relationships": [
                     {
@@ -2160,7 +2160,7 @@
                 "weight": 20,
                 "outsider_rep": -1,
                 "new_cat": [
-                    ["meeting", "kittypet"]
+                    ["meeting", "pet"]
                 ]
             },
             {
@@ -2170,7 +2170,7 @@
                 "stat_trait": ["vengeful", "bloodthirsty"],
                 "outsider_rep": -1,
                 "new_cat": [
-                    ["meeting", "kittypet"]
+                    ["meeting", "pet"]
                 ]
             },
             {
@@ -2187,7 +2187,7 @@
                 "history_text": { "scar": "This wolf gained a scar from a fight with an angry pet." },
                 "outsider_rep": -1,
                 "new_cat": [
-                    ["meeting", "kittypet"]
+                    ["meeting", "pet"]
                 ]
             }
         ],
@@ -2470,7 +2470,7 @@
                 "exp": 20,
                 "weight": 20,
                 "new_cat": [
-                    ["kittypet"]
+                    ["pet"]
                 ],
                 "relationships": [
                     {
@@ -2494,7 +2494,7 @@
                 "exp": 20,
                 "weight": 5,
                 "new_cat": [
-                    ["kittypet"]
+                    ["pet"]
                 ],
                 "relationships": [
                     {
@@ -2519,7 +2519,7 @@
                 "weight": 20,
                 "stat_trait": ["adventurous", "playful", "strange", "childish", "shameless"],
                 "new_cat": [
-                    ["kittypet"]
+                    ["pet"]
                 ],
                 "relationships": [
                     {
@@ -2591,7 +2591,7 @@
                 "exp": 10,
                 "weight": 20,
                 "new_cat": [
-                    ["status:elder", "age:senior", "kittypet"]
+                    ["status:elder", "age:senior", "pet"]
                 ],
                 "relationships": [
                     {
@@ -2617,7 +2617,7 @@
                 "stat_trait": ["wise", "thoughtful"],
                 "can_have_stat": ["adult"],
                 "new_cat": [
-                    ["status:elder", "age:senior", "kittypet"]
+                    ["status:elder", "age:senior", "pet"]
                 ],
                 "relationships": [
                     {
@@ -2677,7 +2677,7 @@
         ],
         "antag_success_outcomes": [
             {
-                "text": "As soon as the patrol realizes that a Twoleg is holding a Kittypet in a bag and that's where the screaming originates from, they quickly turn and resume their patrol. Kittypets are not their problem.",
+                "text": "As soon as the patrol realizes that a Twoleg is holding a Pet in a bag and that's where the screaming originates from, they quickly turn and resume their patrol. Pets are not their problem.",
                 "exp": 10,
                 "weight": 20,
                 "outsider_rep": -2

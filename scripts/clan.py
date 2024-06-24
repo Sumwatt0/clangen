@@ -154,7 +154,7 @@ class Pack:
                 self.clan_settings[setting_name] = inf[2]
                 self.setting_lists[setting_name] = [inf[2], not inf[2]]
 
-        # Reputation is for loners/kittypets/outsiders in general that wish to join the clan.
+        # Reputation is for loners/pets/outsiders in general that wish to join the clan.
         # it's a range from 1-100, with 30-70 being neutral, 71-100 being "welcoming",
         # and 1-29 being "hostile". if you're hostile to outsiders, they will VERY RARELY show up.
         self._reputation = 80

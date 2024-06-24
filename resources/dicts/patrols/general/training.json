@@ -9188,7 +9188,7 @@
                 ]
             },
             {
-                "text": "Once upon a time, there was a kittypet so stealthy - yes, a kittypet - that time itself didn't know they existed. When, after many long year,s the cat should have been taken in their sleep, time forgot. Instead, the cat just aged and aged and aged, their fur becoming thin and falling out until none was left, and the kittypet was left bald and wrinkly. It's said they're still out there, living with their Twolegs, and every so often you'll find a warrior who swears they've met them.",
+                "text": "Once upon a time, there was a pet so stealthy - yes, a pet - that time itself didn't know they existed. When, after many long year,s the cat should have been taken in their sleep, time forgot. Instead, the cat just aged and aged and aged, their fur becoming thin and falling out until none was left, and the pet was left bald and wrinkly. It's said they're still out there, living with their Twolegs, and every so often you'll find a warrior who swears they've met them.",
                 "exp": 30,
                 "weight": 10,
                 "relationships": [
@@ -9712,7 +9712,7 @@
         "pl_skill_constraint": ["LORE,1"],
         "success_outcomes": [
             {
-                "text": "Casanova was a kittypet, with a long, beautiful coat always combed just-so by his Twolegs, charming, sly, and full of love and attention for any she-cat who'd stand still long enough to accept it. Generations ago, he fathered litters across half a dozen dens, full of promises of help and support before he moved on to the next she-cat without a backward glance. It's not a nice tale, but it's one important to remember.",
+                "text": "Casanova was a pet, with a long, beautiful coat always combed just-so by his Twolegs, charming, sly, and full of love and attention for any she-cat who'd stand still long enough to accept it. Generations ago, he fathered litters across half a dozen dens, full of promises of help and support before he moved on to the next she-cat without a backward glance. It's not a nice tale, but it's one important to remember.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -10369,7 +10369,7 @@
         ]
     },
     {
-        "patrol_id": "gen_train_kittypetlocked1",
+        "patrol_id": "gen_train_petlocked1",
         "biome": ["any"],
         "season": ["any"],
         "types": ["training"],
@@ -10384,10 +10384,10 @@
         "intro_text": "While the cats are out training, the subject of Twolegs comes up. r_c tells everyone to just not get caught by them. o_c1 suggests clawing their faces off - or their ankles if any cat has trouble reaching up that high. p_l laughs, and the patrol turns to {PRONOUN/p_l/object}.",
         "decline_text": "Oh, nothing, don't worry about it.",
         "chance_of_success": 60,
-        "pl_skill_constraint": ["KITTYPET,0"],
+        "pl_skill_constraint": ["PET,0"],
         "success_outcomes": [
             {
-                "text": "Look, the Clanborn cats are welcome to claw as many Twolegs as they like, but if what they actually want is for a Twoleg to leave them alone, it's simple. Take it from a former kittypet - if you hiss at a Twoleg, they'll hiss right back; you take a swipe, they'll want to swipe at you. Just chill out and duck away.",
+                "text": "Look, the Clanborn cats are welcome to claw as many Twolegs as they like, but if what they actually want is for a Twoleg to leave them alone, it's simple. Take it from a former pet - if you hiss at a Twoleg, they'll hiss right back; you take a swipe, they'll want to swipe at you. Just chill out and duck away.",
                 "exp": 30,
                 "weight": 20,
                 "relationships": [
@@ -10401,7 +10401,7 @@
                 ]
             },
             {
-                "text": "The Pack cats really think they'd win a strength match against a Twoleg? Nah, try the kittypet way instead, p_l suggests from {PRONOUN/p_l/poss} own past. Just trot off down some little path that the big clumsy oafs can't follow.",
+                "text": "The Pack cats really think they'd win a strength match against a Twoleg? Nah, try the pet way instead, p_l suggests from {PRONOUN/p_l/poss} own past. Just trot off down some little path that the big clumsy oafs can't follow.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -10417,7 +10417,7 @@
         ],
         "fail_outcomes": [
             {
-                "text": "p_l starts to give advice based on {PRONOUN/p_l/poss} own experiences as a kittypet, but none of the rest of the patrol are interested in hearing it.",
+                "text": "p_l starts to give advice based on {PRONOUN/p_l/poss} own experiences as a pet, but none of the rest of the patrol are interested in hearing it.",
                 "exp": 0,
                 "weight": 20,
                 "relationships": [
@@ -10774,7 +10774,7 @@
                 "exp": 15,
                 "weight": 10,
                 "stat_skill": [
-                    "KITTYPET,0",
+                    "PET,0",
                     "LONER,0"
                 ]
             },

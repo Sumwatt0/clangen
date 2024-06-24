@@ -131,7 +131,7 @@ class SkillPath(Enum):
 class HiddenSkillEnum(Enum):
     ROGUE = "rogue's knowledge"
     LONER = "loner's knowledge"
-    KITTYPET = "pet's knowledge"
+    PET = "pet's knowledge"
     
 class SkillTypeFlag(Flag):
     SUPERNATURAL = auto()

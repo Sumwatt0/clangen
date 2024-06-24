@@ -129,7 +129,7 @@
         ]
     },
     {
-        "id": "gen_not_kittypet",
+        "id": "gen_not_pet",
         "thoughts": [
             "Is thinking about how awful pet food must taste",
             "Is wondering what living with Twolegs must be like",
@@ -727,7 +727,7 @@
         ]
     },
     {
-        "id": "gen_former_kittypet",
+        "id": "gen_former_pet",
         "thoughts": [
             "Is reflecting on how different {PRONOUN/m_c/poss} life is now",
             "Is trying to remember the taste of the food {PRONOUN/m_c/poss} twolegs used to give {PRONOUN/m_c/object}",
@@ -740,10 +740,10 @@
             "Isn't ashamed of {PRONOUN/m_c/poss} past",
             "Isn't living with a paw in each world"
         ],
-        "main_backstory_constraint": ["kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1"]
+        "main_backstory_constraint": ["pet1", "pet2", "pet3", "pet4", "refugee3", "tragedy_survivor3", "guided1"]
     },
     {
-        "id": "gen_former_kittypet_apprentice",
+        "id": "gen_former_pet_apprentice",
         "thoughts": [
             "Hopes to become a warrior soon so others will stop teasing {PRONOUN/m_c/object} about being a pet",
             "Trains all day long to prove {PRONOUN/m_c/self} to be as good as any other apprentice",
@@ -752,11 +752,11 @@
             "Wants to play with {PRONOUN/r_c/poss} old pet toys",
             "Avoids the twoleg place to prove {PRONOUN/m_c/poss} loyalty"
         ],
-        "main_backstory_constraint": ["kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1"],
+        "main_backstory_constraint": ["pet1", "pet2", "pet3", "pet4", "refugee3", "tragedy_survivor3", "guided1"],
         "main_status_constraint": ["apprentice"]
     },
     {
-        "id": "gen_former_kittypet_apprentice_to_apprentice",
+        "id": "gen_former_pet_apprentice_to_apprentice",
         "thoughts": [
             "Wishes r_c would stop teasing {PRONOUN/m_c/object} about being a pet",
             "Tells r_c about Twoleg behavior",
@@ -766,13 +766,13 @@
             "Is jealous of how well r_c fits in, just because of {PRONOUN/r_c/poss} pack roots",
             "Patiently answers r_c's slightly rude questions about pet life"
         ],
-        "main_backstory_constraint": ["kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1"],
+        "main_backstory_constraint": ["pet1", "pet2", "pet3", "pet4", "refugee3", "tragedy_survivor3", "guided1"],
         "main_status_constraint": ["apprentice"],
         "random_status_constraint": ["apprentice"],
         "random_backstory_constraint": ["clanborn"]
     },
     {
-        "id": "gen_former_kittypet_medcat",
+        "id": "gen_former_pet_medcat",
         "thoughts": [
             "Uses knowledge from {PRONOUN/r_c/poss} time with twolegs to improve a healing method",
             "Wonders what {PRONOUN/r_c/poss} old vet would do for greencough",
@@ -780,25 +780,25 @@
             "Knows a great garden in the twoleg place for gathering catmint",
             "Wishes {PRONOUN/m_c/subject} could get {PRONOUN/m_c/poss} paws on the wrappings the vet uses"
         ],
-        "main_backstory_constraint": ["kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1"],
+        "main_backstory_constraint": ["pet1", "pet2", "pet3", "pet4", "refugee3", "tragedy_survivor3", "guided1"],
         "main_status_constraint": [
             "medicine cat"]
     },
     {
-        "id": "gen_former_kittypet_deputy",
+        "id": "gen_former_pet_deputy",
         "thoughts": [
-            "Is proud of how far {PRONOUN/m_c/subject} {verb/m_c/have/has} come from {PRONOUN/m_c/poss} kittypet life",
+            "Is proud of how far {PRONOUN/m_c/subject} {verb/m_c/have/has} come from {PRONOUN/m_c/poss} pet life",
             "Is annoyed to still hear gossip about {PRONOUN/m_c/poss} past",
-            "Would never wish to return to {PRONOUN/m_c/poss} old kittypet life",
+            "Would never wish to return to {PRONOUN/m_c/poss} old pet life",
             "Wishes other wolves would trust in the leader's choice of making {PRONOUN/m_c/object} deputy",
             "Wouldn't mind bragging about {PRONOUN/m_c/poss} position in the Pack to some old pet friends"
         ],
-        "main_backstory_constraint": ["kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1"],
+        "main_backstory_constraint": ["pet1", "pet2", "pet3", "pet4", "refugee3", "tragedy_survivor3", "guided1"],
         "main_status_constraint": [
             "deputy"]
     },
     {
-        "id": "gen_former_kittypet_leader",
+        "id": "gen_former_pet_leader",
         "thoughts": [
             "Is proud of how far {PRONOUN/m_c/subject} {verb/m_c/have/has} come from {PRONOUN/m_c/poss} pet life",
             "Would never wish to return to {PRONOUN/m_c/poss} old pet life",
@@ -807,7 +807,7 @@
             "Looks back on {PRONOUN/m_c/poss} life as a pet, amazed at how different things are now",
             "Thinks about taking in some pets as apprentices"
         ],
-        "main_backstory_constraint": ["kittypet1", "kittypet2", "kittypet3", "kittypet4", "refugee3", "tragedy_survivor3", "guided1"],
+        "main_backstory_constraint": ["pet1", "pet2", "pet3", "pet4", "refugee3", "tragedy_survivor3", "guided1"],
         "main_status_constraint": [
             "leader"]
     },

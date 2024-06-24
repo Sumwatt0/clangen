@@ -412,7 +412,7 @@ class Events:
                     for cat_ID in invited_cats:
                         invited_cat = Cat.fetch_cat(cat_ID)
                         if invited_cat.status.lower() in [
-                            "kittypet",
+                            "pet",
                             "loner",
                             "rogue",
                             "former clancat",
@@ -1971,8 +1971,8 @@ class Events:
                 ran = game.config["outside_ex"]["base_adult_timeskip_ex"]
 
             role_modifier = 1
-            if cat.status == "kittypet":
-                # Kittypets will gain exp at 2/3 the rate of loners or exiled cats, as this assumes they are
+            if cat.status == "pet":
+                # Pets will gain exp at 2/3 the rate of loners or exiled cats, as this assumes they are
                 # kept indoors at least part of the time and can't hunt/fight as much
                 role_modifier = 0.6
 

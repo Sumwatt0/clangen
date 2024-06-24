@@ -73,18 +73,18 @@
         }
     },
     {
-        "event_id": "gen_new_cat_adoption_anymultirepkittypetlitter1",
+        "event_id": "gen_new_cat_adoption_anymultireppetlitter1",
         "location": ["any"],
         "season": ["any"],
          "sub_type": ["adoption"],
         "weight": 5,
-        "event_text": "A kittypet named n_c:0 leaves {PRONOUN/n_c:0/poss} litter to the Pack. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
+        "event_text": "A pet named n_c:0 leaves {PRONOUN/n_c:0/poss} litter to the Pack. m_c decides to adopt them as {PRONOUN/m_c/poss} own.",
         "m_c": {
             "age": ["young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
         },
         "new_cat": [
-            ["age:has_kits", "meeting", "kittypet", "can_birth"],
+            ["age:has_kits", "meeting", "pet", "can_birth"],
             [
                 "new_name",
                 "parent:0",
@@ -167,11 +167,11 @@
         }
     },
     {
-        "event_id": "gen_new_cat_anykittypetkit1",
+        "event_id": "gen_new_cat_anypetkit1",
         "location": ["any"],
         "season": ["any"],
         "weight": 5,
-        "event_text": "m_c finds a kittypet near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Pack, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
+        "event_text": "m_c finds a pet near the border. It seems {PRONOUN/n_c:0/subject} {VERB/n_c:0/were/was} bringing {PRONOUN/n_c:0/poss} kit named n_c:1 to the Pack, as {PRONOUN/n_c:0/subject} could no longer care for {PRONOUN/n_c:1/object}.",
         "m_c": {
             "status": [
                 "leader",
@@ -185,7 +185,7 @@
             ]
         },
         "new_cat": [
-            ["age:has_kits", "meeting", "kittypet", "can_birth"],
+            ["age:has_kits", "meeting", "pet", "can_birth"],
             [
                 "new_name",
                 "parent:0",
@@ -391,11 +391,11 @@
         }
     },
     {
-        "event_id": "gen_new_cat_anykittypet1",
+        "event_id": "gen_new_cat_anypet1",
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a kittypet named n_c:0 who joins the Pack. The kittypet decides to keep {PRONOUN/n_c:0/poss} old name.",
+        "event_text": "m_c finds a pet named n_c:0 who joins the Pack. The pet decides to keep {PRONOUN/n_c:0/poss} old name.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -403,7 +403,7 @@
         "new_cat": [
             [
                 "old_name",
-                "kittypet",
+                "pet",
                 "status:warrior",
                 "exists"
             ]
@@ -414,11 +414,11 @@
         }
     },
     {
-        "event_id": "gen_new_cat_anykittypet2",
+        "event_id": "gen_new_cat_anypet2",
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "m_c finds a kittypet who joins the Pack. The kittypet decides to take on a more Pack-like name and is now called n_c:0.",
+        "event_text": "m_c finds a pet who joins the Pack. The pet decides to take on a more Pack-like name and is now called n_c:0.",
         "m_c": {
             "age": ["adolescent", "young adult", "adult", "senior adult", "senior"],
             "status": ["any"]
@@ -426,7 +426,7 @@
         "new_cat": [
             [
                 "new_name",
-                "kittypet",
+                "pet",
                 "status:warrior",
                 "exists"
             ]
@@ -437,18 +437,18 @@
         }
     },
     {
-        "event_id": "gen_new_cat_anykittypet3",
+        "event_id": "gen_new_cat_anypet3",
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A kittypet waits on the border for a patrol and, finding one lead by m_c, asks to join the Pack. The kittypet decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
+        "event_text": "A pet waits on the border for a patrol and, finding one lead by m_c, asks to join the Pack. The pet decides to keep {PRONOUN/n_c:0/poss} old name, n_c:0.",
         "m_c": {
             "status": ["leader", "deputy", "warrior", "medicine cat"]
         },
         "new_cat": [
             [
                 "old_name",
-                "kittypet",
+                "pet",
                 "status:warrior",
                 "exists"
             ]
@@ -459,11 +459,11 @@
         }
     },
     {
-        "event_id": "gen_new_cat_anykittypet4",
+        "event_id": "gen_new_cat_anypet4",
         "location": ["any"],
         "season": ["any"],
         "weight": 20,
-        "event_text": "A kittypet waits on the border for a patrol and, finding one lead by m_c, asks to join the Pack. The kittypet decides to take on a more Pack-like name and is now called n_c:0.",
+        "event_text": "A pet waits on the border for a patrol and, finding one lead by m_c, asks to join the Pack. The pet decides to take on a more Pack-like name and is now called n_c:0.",
         "m_c": {
             "status": [
                 "leader", "deputy", "warrior", "medicine cat"
@@ -472,7 +472,7 @@
         "new_cat": [
             [
                 "new_name",
-                "kittypet",
+                "pet",
                 "status:warrior",
                 "exists"
             ]

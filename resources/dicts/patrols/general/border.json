@@ -682,7 +682,7 @@
         ]
     },
     {
-        "patrol_id": "gen_bord_abandonedkittypet1_kittypet4",
+        "patrol_id": "gen_bord_abandonedpet1_pet4",
         "biome": ["any"],
         "season": ["any"],
         "types": ["border"],
@@ -718,7 +718,7 @@
                     }
                 ],
                 "new_cat": [
-                    ["kittypet", "backstory:kittypet4"]
+                    ["pet", "backstory:pet4"]
                 ],
                 "outsider_rep": 1,
                 "injury": [
@@ -1389,7 +1389,7 @@
                 "exp": 15,
                 "weight": 10,
                 "stat_skill": [
-                    "KITTYPET,0", 
+                    "PET,0", 
                     "LONER,0"]
             },
             {

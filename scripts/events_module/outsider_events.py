@@ -46,14 +46,14 @@ class OutsiderEvents:
     @staticmethod
     def lost_cat_become_outsider(cat: Cat):
         """ 
-        this will be for lost cats becoming kittypets/loners/etc
+        this will be for lost cats becoming pets/loners/etc
         TODO: need to make a unique backstory for these cats so they still have thoughts related to their clan
         """
         if random.getrandbits(7) == 1 and not cat.dead:
-            OutsiderEvents.become_kittypet(cat)
+            OutsiderEvents.become_pet(cat)
 
     @staticmethod
-    def become_kittypet(cat: Cat):
+    def become_pet(cat: Cat):
         # TODO: Make backstory for all of these + for exiled cats
         cat.status = 'pet'
 

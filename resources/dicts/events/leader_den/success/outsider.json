@@ -5,7 +5,7 @@
     "reputation": ["any"],
     "rep_change": -10,
     "m_c": {
-      "status": ["loner", "rogue", "kittypet", "exiled", "lost"],
+      "status": ["loner", "rogue", "pet", "exiled", "lost"],
       "new_thought": "Is shocked that {PRONOUN/m_c/subject} were killed",
       "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
@@ -16,7 +16,7 @@
     "reputation": ["any"],
     "rep_change": -2,
     "m_c": {
-      "status": ["loner", "rogue", "kittypet", "exiled", "lost"],
+      "status": ["loner", "rogue", "pet", "exiled", "lost"],
       "kit_thought": "Is unsure why {PRONOUN/m_c/poss} parent hasn't come back."
     }
   },
@@ -26,7 +26,7 @@
     "reputation": ["any"],
     "rep_change": -1,
     "m_c": {
-      "status": ["loner", "rogue", "kittypet"],
+      "status": ["loner", "rogue", "pet"],
       "new_thought": "Is curious about the Pack that sought {PRONOUN/m_c/object} out",
       "kit_thought": "Is curious about the new place {PRONOUN/m_c/subject}{VERB/m_c/'re/'s} in",
       "relationships": [

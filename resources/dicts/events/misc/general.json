@@ -1746,16 +1746,16 @@
     }
   },
   {
-    "event_id": "gen_misc_any_scandalous_kittypet1",
+    "event_id": "gen_misc_any_scandalous_pet1",
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was caught sharing prey with a kittypet, who was chased off by a patrol.",
+    "event_text": "m_c was caught sharing prey with a pet, who was chased off by a patrol.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
     "new_cat": [
-      ["meeting", "kittypet", "exists"]
+      ["meeting", "pet", "exists"]
     ],
     "relationships": [
       {
@@ -1772,16 +1772,16 @@
     }
   },
   {
-    "event_id": "gen_misc_any_scandalous_kittypet2",
+    "event_id": "gen_misc_any_scandalous_pet2",
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen touching noses with a kittypet. Scandalous!",
+    "event_text": "m_c was seen touching noses with a pet. Scandalous!",
     "m_c": {
         "age": ["young adult", "adult", "senior adult", "senior"]
     },
     "new_cat": [
-      ["meeting", "kittypet", "exists"]
+      ["meeting", "pet", "exists"]
     ],
     "relationships": [
       {
@@ -1798,16 +1798,16 @@
     }
   },
   {
-    "event_id": "gen_misc_any_scandalous_kittypet3",
+    "event_id": "gen_misc_any_scandalous_pet3",
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen playing with a kittypet over the border.",
+    "event_text": "m_c was seen playing with a pet over the border.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
     "new_cat": [
-      ["meeting", "kittypet", "exists"]
+      ["meeting", "pet", "exists"]
     ],
     "relationships": [
       {
@@ -1824,16 +1824,16 @@
     }
   },
   {
-    "event_id": "gen_misc_any_scandalous_kittypet4",
+    "event_id": "gen_misc_any_scandalous_pet4",
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen chasing a kittypet off of the territory.",
+    "event_text": "m_c was seen chasing a pet off of the territory.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
     "new_cat": [
-      ["meeting", "kittypet", "exists"]
+      ["meeting", "pet", "exists"]
     ],
     "relationships": [
       {
@@ -1850,16 +1850,16 @@
     }
   },
   {
-    "event_id": "gen_misc_any_scandalous_kittypet5",
+    "event_id": "gen_misc_any_scandalous_pet5",
     "location": ["any"],
     "season": ["any"],
     "weight": 15,
-    "event_text": "m_c was seen in a very serious conversation with a kittypet, who ran away when another patrol approached.",
+    "event_text": "m_c was seen in a very serious conversation with a pet, who ran away when another patrol approached.",
     "m_c": {
         "age": ["adolescent", "young adult", "adult", "senior adult", "senior"]
     },
     "new_cat": [
-      ["meeting", "kittypet", "exists"]
+      ["meeting", "pet", "exists"]
     ],
     "relationships": [
       {

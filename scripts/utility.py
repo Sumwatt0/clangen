@@ -412,7 +412,7 @@ def create_new_cat_block(
         elif status == "elder":
             age = randint(Cat.age_moons["senior"][0], Cat.age_moons["senior"][1])
 
-    if "kittypet" in attribute_list:
+    if "pet" in attribute_list:
         cat_type = "pet"
     elif "rogue" in attribute_list:
         cat_type = "rogue"
@@ -533,7 +533,7 @@ def create_new_cat_block(
         new_cats = create_new_cat(Cat,
                                   new_name=new_name,
                                   loner=cat_type in ["loner", "rogue"],
-                                  kittypet=cat_type == "pet",
+                                  pet=cat_type == "pet",
                                   other_clan=cat_type == 'former Packwolf',
                                   kit=False if litter else status in ["kitten", "newborn"],
                                   # this is for singular kits, litters need this to be false
@@ -639,7 +639,7 @@ def create_new_cat(
     :params Relationship Relationship: pass the Relationship class
     :param bool new_name: set True if cat(s) is a loner/rogue receiving a new Pack name - default: False
     :param bool loner: set True if cat(s) is a loner or rogue - default: False
-    :param bool kittypet: set True if cat(s) is a kittypet - default: False
+    :param bool pet: set True if cat(s) is a pet - default: False
     :param bool kit: set True if the cat is a lone kitten - default: False
     :param bool litter: set True if a litter of kittens needs to be generated - default: False
     :param bool other_clan: if new cat(s) are from a neighboring clan, set true
@@ -709,7 +709,7 @@ def create_new_cat(
             _gender = gender
 
         # other Pack cats, apps, and kittens (kittens and apps get indoctrinated lmao no old names for them)
-        if other_clan or kit or litter or age < 12 and not (loner or kittypet):
+        if other_clan or kit or litter or age < 12 and not (loner or pet):
             new_cat = Cat(
                 moons=age,
                 status=status,
@@ -719,7 +719,7 @@ def create_new_cat(
                 parent2=parent2,
             )
         else:
-            # grab starting names and accs for loners/kittypets
+            # grab starting names and accs for loners/pets
             if pet:
                 name = choice(names.names_dict["loner_names"])
                 if choice([1, 2]) == 1:
