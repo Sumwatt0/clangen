@@ -118,7 +118,7 @@
                 ]
             },
             {
-                "text": "p_l praises {PRONOUN/app1/object} and smiles, and app1 freezes as the rabbit crawls out of the burrow. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} nervous, of course, but {PRONOUN/app1/poss} technique is pretty-near flawless, and {PRONOUN/app1/subject} {VERB/app1/catch/catches} the rabbit easily!",
+                "text": "p_l praises {PRONOUN/app1/object} and smiles, and app1 freezes as the rabbit crawls out of the burrow. {PRONOUN/app1/subject/CAP}{VERB/app1/'re/'s} nervous, of course, but {PRONOUN/app1/poss} technique is nearly flawless, and {PRONOUN/app1/subject} {VERB/app1/catch/catches} the rabbit easily!",
                 "exp": 20,
                 "weight": 5,
                 "prey": ["medium"],
@@ -347,8 +347,8 @@
         "max_cats": 3,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol catches the scent of a feline - but what kind?",
-        "decline_text": "Your patrol decides not to pursue the feline.",
+        "intro_text": "The patrol catches the scent of a feline - but what kind?",
+        "decline_text": "The patrol decides not to pursue the feline.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
@@ -366,7 +366,7 @@
                 ]
             },
             {
-                "text": "Your patrol drives away the lynx and seeks out her den, but her leaf-fall cubs are near full-grown and scatter into the wilderness. Hopefully leaf-bare takes care of them.",
+                "text": "The patrol drives away the lynx and seeks out her den, but her leaf-fall cubs are near full-grown and scatter into the wilderness. Hopefully leaf-bare takes care of them.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -537,8 +537,8 @@
         "max_cats": 6,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol catches the scent of a feline - but what kind?",
-        "decline_text": "Your patrol decides not to pursue the feline.",
+        "intro_text": "The patrol catches the scent of a feline - but what kind?",
+        "decline_text": "The patrol decides not to pursue the feline.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
@@ -840,8 +840,8 @@
         "max_cats": 3,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol catches the scent of a feline - but what kind?",
-        "decline_text": "Your patrol decides not to pursue the feline.",
+        "intro_text": "The patrol catches the scent of a feline - but what kind?",
+        "decline_text": "The patrol decides not to pursue the feline.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
@@ -859,7 +859,7 @@
                 ]
             },
             {
-                "text": "Your patrol drives away the bobcat and seeks out her den, but her leaf-fall cubs are near full-grown and scatter into the wilderness. Hopefully leaf-bare takes care of them, but if c_n spots them, they won't hesitate.",
+                "text": "The patrol drives away the bobcat and seeks out her den, but her leaf-fall cubs are near full-grown and scatter into the wilderness. Hopefully leaf-bare takes care of them, but if c_n spots them, they won't hesitate.",
                 "exp": 30,
                 "weight": 5,
                 "relationships": [
@@ -1162,8 +1162,8 @@
         "max_cats": 1,
         "min_max_status": {},
         "weight": 20,
-        "intro_text": "Your patrol catches the scent of a feline - but what kind?",
-        "decline_text": "Your patrol decides not to pursue the feline.",
+        "intro_text": "The patrol catches the scent of a feline - but what kind?",
+        "decline_text": "The patrol decides not to pursue the feline.",
         "chance_of_success": 30,
         "success_outcomes": [
             {
@@ -1683,7 +1683,7 @@
                 ]
             },
             {
-                "text": "s_c catches a great b_mp_a_s and two b_tp_dl_p! But {PRONOUN/s_c/poss} siblings come up empty pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
+                "text": "s_c catches a great b_mp_a_s and two b_tp_dl_p! But {PRONOUN/s_c/poss} siblings come up empty-pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["medium"],
@@ -1894,7 +1894,7 @@
                 ]
             },
             {
-                "text": "s_c catches a great b_mp_a_s and two b_tp_dl_p! But {PRONOUN/s_c/poss} siblings come up empty pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
+                "text": "s_c catches a great b_mp_a_s and two b_tp_dl_p! But {PRONOUN/s_c/poss} siblings come up empty-pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["medium"],
@@ -2105,7 +2105,7 @@
                 ]
             },
             {
-                "text": "s_c catches a great b_mp_a_s and two b_tp_dl_p! But {PRONOUN/s_c/poss} siblings come up empty pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
+                "text": "s_c catches a great b_mp_a_s and two b_tp_dl_p! But {PRONOUN/s_c/poss} siblings come up empty-pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["medium"],
@@ -2315,7 +2315,7 @@
                 ]
             },
             {
-                "text": "s_c catches a great b_mp_a_s and two b_tp_dl_p! But {PRONOUN/s_c/poss} siblings come up empty pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
+                "text": "s_c catches a great b_mp_a_s and two b_tp_dl_p! But {PRONOUN/s_c/poss} siblings come up empty-pawed. s_c offers to let them claim the smaller prey as their own, but the insulting suggestion just causes a massive argument.",
                 "exp": 30,
                 "weight": 20,
                 "prey": ["medium"],
@@ -3068,7 +3068,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "r_c sees a fish {PRONOUN/r_c/subject}'d like for the fresh-kill pile, but while perched on a rock setting up a good pounce, a rogue wave washes them into the ocean. {PRONOUN/r_c/subject} {VERB/r_c/bob/bobs} to the surface and splutter {PRONOUN/r_c/poss} way to shore, but {PRONOUN/r_c/poss} breath comes short and wheezing after the dunking. Fleas and ticks!",
+                "text": "r_c sees a fish {PRONOUN/r_c/subject}'d like for the fresh-kill pile, but while perched on a rock setting up a good pounce, a rogue wave washes them into the ocean. {PRONOUN/r_c/subject/CAP} {VERB/r_c/bob/bobs} to the surface and splutter {PRONOUN/r_c/poss} way to shore, but {PRONOUN/r_c/poss} breath comes short and wheezing after the dunking. Fleas and ticks!",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
@@ -3484,7 +3484,7 @@
                 "prey": ["very_small"]
             },
             {
-                "text": "r_c sees a fish {PRONOUN/r_c/subject}'d like for the fresh-kill pile, but while perched on a rock setting up a good pounce, a rogue wave washes them into the ocean. {PRONOUN/r_c/subject} {VERB/r_c/bob/bobs} to the surface and splutter {PRONOUN/r_c/poss} way to shore, but {PRONOUN/r_c/poss} breath comes short and wheezing after the dunking. Fleas and ticks!",
+                "text": "r_c sees a fish {PRONOUN/r_c/subject}'d like for the fresh-kill pile, but while perched on a rock setting up a good pounce, a rogue wave washes them into the ocean. {PRONOUN/r_c/subject/CAP} {VERB/r_c/bob/bobs} to the surface and splutter {PRONOUN/r_c/poss} way to shore, but {PRONOUN/r_c/poss} breath comes short and wheezing after the dunking. Fleas and ticks!",
                 "exp": 0,
                 "weight": 10,
                 "injury": [
