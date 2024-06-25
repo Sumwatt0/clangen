@@ -19,7 +19,7 @@ from scripts.utility import (
     get_living_clan_cat_count,
 )
 
-
+resourcepath = Screens.resourcepath
 class LeaderDenScreen(Screens):
 
     def __init__(self, name=None):
@@ -137,12 +137,12 @@ class LeaderDenScreen(Screens):
             "",
             object_id="#help_button",
             manager=MANAGER,
-            tool_tip_text="This screen allows you to check on the other cats who live nearby, both Outsiders and "
-            "other Pack cats.  You can control how the leader of your Pack will treat other leaders at "
+            tool_tip_text="This screen allows you to check on the other wolves who live nearby, both Outsiders and "
+            "other Pack wolves.  You can control how the leader of your Pack will treat other leaders at "
             "Gatherings, but keep in mind that you can only determine one interaction each moon!  "
-            "Likewise, you can consider whether to drive out or invite in Outsider cats.  If you drive "
-            "out a cat, they will no longer appear in the Cats Outside the Clans list.  If you invite "
-            "in a cat, they might join your Pack!",
+            "Likewise, you can consider whether to drive out or invite in Outsider wolves.  If you drive "
+            "out a wolf, they will no longer appear in the Outsiders list.  If you invite "
+            "in a wolf, they might join your Pack!",
         )
 
         # LEADER DEN BG AND LEADER SPRITE
@@ -150,7 +150,7 @@ class LeaderDenScreen(Screens):
             self.screen_elements["bg_image"] = pygame_gui.elements.UIImage(
                 scale(pygame.Rect((0, 0), (1400, 900))),
                 pygame.image.load(
-                    f"resources/images/lead_den_bg/{game.clan.biome.lower()}/{game.clan.camp_bg.lower()}.png"
+                    resourcepath + f"images/lead_den_bg/{game.clan.biome.lower()}/{game.clan.camp_bg.lower()}.png"
                 ).convert_alpha(),
                 object_id="#lead_den_bg",
                 starting_height=1,
@@ -160,7 +160,7 @@ class LeaderDenScreen(Screens):
             self.screen_elements["bg_image"] = pygame_gui.elements.UIImage(
                 scale(pygame.Rect((0, 0), (1400, 900))),
                 pygame.image.load(
-                    f"resources/images/lead_den_bg/{game.clan.biome.lower()}/camp1.png"
+                    resourcepath + f"images/lead_den_bg/{game.clan.biome.lower()}/camp1.png"
                 ).convert_alpha(),
                 object_id="#lead_den_bg",
                 starting_height=1,
@@ -294,7 +294,7 @@ class LeaderDenScreen(Screens):
 
         self.screen_elements["temper_text"] = pygame_gui.elements.UITextBox(
             relative_rect=scale(pygame.Rect((135, 820), (890, -1))),
-            html_text=f"The other Clans think {game.clan.name}Pack is {self.clan_temper}.",
+            html_text=f"The other Packs think {game.clan.name}Pack is {self.clan_temper}.",
             object_id=get_text_box_theme("#text_box_30_horizcenter"),
             manager=MANAGER,
         )
@@ -337,7 +337,7 @@ class LeaderDenScreen(Screens):
         self.focus_frame_elements["frame"] = pygame_gui.elements.UIImage(
             scale(pygame.Rect((0, 63), (480, 728))),
             pygame.image.load(
-                "resources/images/lead_den_focus_frame.png"
+                resourcepath + "images/lead_den_focus_frame.png"
             ).convert_alpha(),
             object_id="#lead_den_focus_frame",
             container=self.focus_frame_container,
@@ -379,7 +379,7 @@ class LeaderDenScreen(Screens):
         self.other_clan_selection_elements["frame"] = pygame_gui.elements.UIImage(
             scale(pygame.Rect((0, 0), (1324, 388))),
             pygame.image.load(
-                "resources/images/lead_den_clan_frame.png"
+                resourcepath + "images/lead_den_clan_frame.png"
             ).convert_alpha(),
             object_id="#lead_den_clan_frame",
             container=self.other_clan_selection_container,
@@ -465,7 +465,7 @@ class LeaderDenScreen(Screens):
         self.outsider_selection_elements["frame"] = pygame_gui.elements.UIImage(
             scale(pygame.Rect((56, 0), (1248, 348))),
             pygame.image.load(
-                "resources/images/lead_den_outsider_frame.png"
+                resourcepath + "images/lead_den_outsider_frame.png"
             ).convert_alpha(),
             object_id="#lead_den_outsider_frame",
             container=self.outsider_selection_container,
@@ -795,7 +795,7 @@ class LeaderDenScreen(Screens):
             scale(pygame.Rect((0, y_pos), (242, 60))),
             "",
             object_id="#outsider_drive",
-            tool_tip_text="This cat will be driven out of the area if found (they will no longer be accessible in "
+            tool_tip_text="This wolf will be driven out of the area if found (they will no longer be accessible in "
             "game).",
             container=self.focus_outsider_button_container,
             starting_height=3,
@@ -806,7 +806,7 @@ class LeaderDenScreen(Screens):
             scale(pygame.Rect((0, y_pos), (242, 60))),
             "",
             object_id="#outsider_invite",
-            tool_tip_text="This cat will join the Pack if found.",
+            tool_tip_text="This wolf will join the Pack if found.",
             container=self.focus_outsider_button_container,
             starting_height=3,
             manager=MANAGER,
@@ -840,7 +840,7 @@ class LeaderDenScreen(Screens):
             self.screen_elements["clan_notice_text"].show()
 
             self.screen_elements["temper_text"].set_text(
-                f"The other Clans think {game.clan.name}Pack is {self.clan_temper}."
+                f"The other Packs think {game.clan.name}Pack is {self.clan_temper}."
             )
         else:
             self.screen_elements["outsider_notice_text"].show()
@@ -855,7 +855,7 @@ class LeaderDenScreen(Screens):
                 reputation = "welcoming"
 
             self.screen_elements["temper_text"].set_text(
-                f"Outsiders view your clan as {reputation}."
+                f"Outsiders view your Pack as {reputation}."
             )
 
     def update_outsider_cats(self):

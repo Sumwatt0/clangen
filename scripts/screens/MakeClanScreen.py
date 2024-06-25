@@ -1105,7 +1105,7 @@ class MakeClanScreen(Screens):
         self.sub_screen = "game mode"
 
         text_box = image_cache.load_image(
-            "resources/images/game_mode_text_box.png"
+            resourcepath + "images/game_mode_text_box.png"
         ).convert_alpha()
 
         self.elements["game_mode_background"] = pygame_gui.elements.UIImage(
@@ -1680,6 +1680,7 @@ class MakeClanScreen(Screens):
         # pygame.image.load(self.get_camp_art_path(1)).convert_alpha(), visible=False)
 
     def open_choose_symbol(self):
+        resourcepath = Screens.resourcepath
         # clear screen
         self.clear_all_page()
 
@@ -1755,7 +1756,7 @@ class MakeClanScreen(Screens):
         self.elements["symbol_frame"] = pygame_gui.elements.UIImage(
             scale(pygame.Rect((1081, 181), (338, 332))),
             pygame.image.load(
-                f"resources/images/symbol_choice_frame.png"
+                resourcepath + "images/symbol_choice_frame.png"
             ).convert_alpha(),
             object_id="#symbol_choice_frame",
             starting_height=1,
@@ -1786,7 +1787,7 @@ class MakeClanScreen(Screens):
         self.elements["symbol_list_frame"] = pygame_gui.elements.UIImage(
             scale(pygame.Rect((152, 500), (1300, 740))),
             pygame.image.load(
-                f"resources/images/symbol_list_frame.png"
+                resourcepath + "images/symbol_list_frame.png"
             ).convert_alpha(),
             object_id="#symbol_list_frame",
             starting_height=2,

@@ -17,7 +17,7 @@ from ..game_structure.windows import PronounCreation
 with open("resources/dicts/pronouns.json", "r", encoding="utf-8") as f:
     pronouns_dict = ujson.load(f)
 
-
+resourcepath = Screens.resourcepath
 class ChangeGenderScreen(Screens):
 
     def __init__(self, name=None):
@@ -176,7 +176,7 @@ class ChangeGenderScreen(Screens):
             scale(pygame.Rect((100, 200), (1398, 1040))),
             pygame.transform.scale(
                 pygame.image.load(
-                    "resources/images/gender_framing.png"
+                    resourcepath + "images/gender_framing.png"
                 ).convert_alpha(),
                 (699, 520),
             ),
@@ -279,7 +279,7 @@ class ChangeGenderScreen(Screens):
 
         n = 0
         ycoor = 8
-        pronoun_frame = "resources/images/pronoun_frame.png"
+        pronoun_frame = resourcepath + "images/pronoun_frame.png"
 
         for pronounset in self.the_cat.pronouns:
             displayname = (
@@ -372,7 +372,7 @@ class ChangeGenderScreen(Screens):
 
         n = 0
         ycoor = 8
-        pronoun_frame = "resources/images/pronoun_frame.png"
+        pronoun_frame = resourcepath + "images/pronoun_frame.png"
 
         for pronounset in pronouns_dict["default_pronouns"]:
             displayname = (

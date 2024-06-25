@@ -54,11 +54,11 @@ class ListScreen(Screens):
             if element == self.cat_list_bar_elements["fav_toggle"]:
                 if "#fav_cat_toggle_on" in event.ui_element.get_object_ids():
                     element.change_object_id("#fav_cat_toggle_off")
-                    element.tool_tip_text = "show favorite cat indicators"
+                    element.tool_tip_text = "show favorite wolf indicators"
                     game.clan.clan_settings["show fav"] = False
                 else:
                     element.change_object_id("#fav_cat_toggle_on")
-                    element.tool_tip_text = "hide favorite cat indicators"
+                    element.tool_tip_text = "hide favorite wolf indicators"
                     game.clan.clan_settings["show fav"] = True
                 self.update_cat_list(self.cat_list_bar_elements["search_bar_entry"].get_text())
 
@@ -73,7 +73,7 @@ class ListScreen(Screens):
 
                 if "#show_dead_button" in event.ui_element.get_object_ids():
                     element.change_object_id("#show_living_button")
-                    element.tool_tip_text = "view cats in the living world"
+                    element.tool_tip_text = "view wolves in the living world"
                     self.death_status = "dead"
                     self.get_sc_cats()
                 else:
@@ -172,6 +172,7 @@ class ListScreen(Screens):
             elif event.key == pygame.K_RIGHT:
                 self.change_screen("patrol screen")
     def screen_switches(self):
+        resourcepath = Screens.resourcepath
         self.set_disabled_menu_buttons(["catlist_screen"])
         self.show_menu_buttons()
 
@@ -203,14 +204,14 @@ class ListScreen(Screens):
             object_id="#fav_cat_toggle_on" if game.clan.clan_settings["show fav"] else "#fav_cat_toggle_off",
             container=self.cat_list_bar,
             tool_tip_text="hide favorite cat indicators" if game.clan.clan_settings["show fav"]
-            else "show favorite cat indicators",
+            else "show favorite wolf indicators",
             starting_height=1
         )
 
         # SEARCH BAR
         self.cat_list_bar_elements["search_bar_image"] = pygame_gui.elements.UIImage(
             scale(pygame.Rect((72, 0), (276, 68))),
-            pygame.image.load("resources/images/search_bar.png").convert_alpha(),
+            pygame.image.load(resourcepath + "images/search_bar.png").convert_alpha(),
             container=self.cat_list_bar,
             object_id="#search_bar",
             manager=MANAGER,
@@ -231,8 +232,8 @@ class ListScreen(Screens):
             "",
             object_id="#show_dead_button" if self.death_status != "dead" else "#show_living_button",
             container=self.cat_list_bar,
-            tool_tip_text="view cats in the afterlife" if self.death_status != "dead"
-            else "view cats in the living world",
+            tool_tip_text="view wolves in the afterlife" if self.death_status != "dead"
+            else "view wolves in the living world",
             manager=MANAGER,
             starting_height=1,
         )
@@ -565,7 +566,7 @@ class ListScreen(Screens):
             self.df_bg.hide()
             self.ur_bg.hide()
             self.sc_bg.hide()
-            self.update_heading_text(f"Wolves Outside the Pack")
+            self.update_heading_text(f"Outsiders")
         elif self.current_group == "sc":
             self.df_bg.hide()
             self.ur_bg.hide()

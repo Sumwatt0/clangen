@@ -245,7 +245,7 @@ class MediationScreen(Screens):
 
         self.search_bar_image = pygame_gui.elements.UIImage(
             scale(pygame.Rect((110, 1250), (236, 68))),
-            pygame.image.load("resources/images/search_bar.png").convert_alpha(),
+            pygame.image.load(resourcepath + "images/search_bar.png").convert_alpha(),
             manager=MANAGER,
         )
         self.search_bar = pygame_gui.elements.UITextEntryLine(

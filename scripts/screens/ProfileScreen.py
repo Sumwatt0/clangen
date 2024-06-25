@@ -1370,7 +1370,7 @@ class ProfileScreen(Screens):
         ):
             bs_blurb = f"This wolf was a {self.the_cat.status} in life."
         elif self.the_cat.status in ["pet", "loner", "rogue", "former Packwolf"]:
-            bs_blurb = f"This wolf is a {self.the_cat.status} and currently resides outside of the Clans."
+            bs_blurb = f"This wolf is a {self.the_cat.status} and currently resides outside of the Packs."
 
         if bs_blurb is not None:
             adjust_text = str(bs_blurb).replace("This wolf", str(self.the_cat.name))
@@ -1437,7 +1437,7 @@ class ProfileScreen(Screens):
                 # the first event keeps the cat's name, consecutive events get to switch it up a bit
                 if i != 0:
                     sentence_beginners = [
-                        "This cat",
+                        "This wolf",
                         "Then {PRONOUN/m_c/subject} {VERB/m_c/were/was}",
                         "{PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} also",
                         "Also, {PRONOUN/m_c/subject} {VERB/m_c/were/was}",
@@ -1445,7 +1445,7 @@ class ProfileScreen(Screens):
                         "{PRONOUN/m_c/subject/CAP} {VERB/m_c/were/was} then",
                     ]
                     chosen = choice(sentence_beginners)
-                    if chosen == "This cat":
+                    if chosen == "This wolf":
                         new_text = new_text.replace(str(self.the_cat.name), chosen, 1)
                     else:
                         new_text = new_text.replace(
@@ -1743,8 +1743,8 @@ class ProfileScreen(Screens):
                     if index == death_number - 1 and self.the_cat.dead:
                         life_text = "lost {PRONOUN/m_c/poss} last remaining life"
                         # added code
-                        if "This cat was" in text:
-                            text = text.replace("This cat was", "{VERB/m_c/were/was}")
+                        if "This wolf was" in text:
+                            text = text.replace("This wolf was", "{VERB/m_c/were/was}")
                         else:
                             text = text[0].lower() + text[1:]
                     else:

@@ -2515,7 +2515,10 @@ def generate_sprite(
             pelt = sprites.sprites['baseSOLID' + cat_sprite].copy().convert_alpha()
             if cat.pelt.tint != "none":
                 base_tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
-                base_tint.fill(tuple(sprites.cat_tints["tint_colours"][cat.pelt.tint]))
+                if cat.pelt.tint in sprites.cat_tints["tint_colours"]:
+                    base_tint.fill(tuple(sprites.cat_tints["tint_colours"][cat.pelt.tint]))
+                elif cat.pelt.tint in sprites.cat_tints["dilute_tint_colours"]:
+                    base_tint.fill(tuple(sprites.cat_tints["dilute_tint_colours"][cat.pelt.tint]))
             solid_merle = False
             if cat.pelt.merle:
                 # merle pieces for later
@@ -2777,8 +2780,11 @@ def generate_sprite(
                 pelt.blit(tortie_pelt, (0, 0))
 
             # apply tints now
-            if cat.pelt.tint != "none":
-                pelt.blit(base_tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
+            if base_tint != None:
+                if cat.pelt.tint in sprites.cat_tints["tint_colours"]:
+                    pelt.blit(base_tint, (0, 0), special_flags=pygame.BLEND_RGB_MULT)
+                elif cat.pelt.tint in sprites.cat_tints["dilute_tint_colours"]:
+                    pelt.blit(base_tint, (0, 0), special_flags=pygame.BLEND_RGB_ADD)
                 
             if cat.pelt.merle and cat.pelt.harlequin:
                 harlequin_base = sprites.sprites["baseSOLID" + cat_sprite].copy().convert_alpha()
@@ -2791,7 +2797,6 @@ def generate_sprite(
                 new_sprite.blit(pelt, (0, 0))
             else:
                 # all normal gen
-                # the fuck is going on pelt.blit(sprites.sprites["baseSOLID" + cat_sprite], (0, 0), special_flags=pygame.BLEND_RGBA_MULT)
                 new_sprite.blit(pelt, (0, 0))
 
         # points
