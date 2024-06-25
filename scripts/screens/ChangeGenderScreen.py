@@ -82,7 +82,7 @@ class ChangeGenderScreen(Screens):
                     )
 
             elif event.ui_element == self.buttons["add_pronouns"]:
-                PronounCreation(self.the_cat, resoucepath)
+                PronounCreation(self.the_cat, resourcepath)
                 self.previous_cat_button.disable()
                 self.next_cat_button.disable()
                 self.back_button.disable()
