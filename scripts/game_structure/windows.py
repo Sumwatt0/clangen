@@ -665,7 +665,7 @@ class ChangeCatName(UIWindow):
                 self.kill()
 
 
-class PronounCreation(UIWindow):
+class PronounCreation(UIWindow, resourcepath):
     # This window allows the user to create a pronoun set
 
     def __init__(self, cat):
