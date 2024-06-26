@@ -3641,5 +3641,149 @@
         "amount": 5
       }
     ]
+  },
+  {
+    "event_id": "gen_misc_mediator_border_win",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 20,
+    "event_text": "m_c travels to o_c_n to resolve some recent border disputes. The meeting goes better than expected and m_c returns with a plan to solve the issue for good.",
+    "m_c": {
+      "status": ["mediator apprentice", "mediator"]
+    },
+    "other_clan": {
+      "changed": 6
+    }
+  },
+  {
+    "event_id": "gen_misc_mediator_border_draw",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 20,
+    "event_text": "m_c travels to o_c_n to resolve some recent border disputes. However, no progress was made.",
+    "m_c": {
+      "status": ["mediator apprentice", "mediator"]
+    }
+  },
+  {
+    "event_id": "gen_misc_mediator_border_lose",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 20,
+    "event_text": "m_c travels to o_c_n to resolve some recent border disputes. However it seems m_c only made o_c_n more upset.",
+    "m_c": {
+      "status": ["mediator apprentice", "mediator"]
+    },
+    "other_clan": {
+      "changed": -2
+    }
+  },
+  {
+    "event_id": "gen_misc_mediator_hunting_win",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 20,
+    "event_text": "m_c travels to o_c_n to resolve some recent hunting disputes. The meeting goes better than expected and m_c returns with a plan to solve the issue for good.",
+    "m_c": {
+      "status": ["mediator apprentice", "mediator"]
+    },
+    "other_clan": {
+      "changed": 6
+    }
+  },
+  {
+    "event_id": "gen_misc_mediator_hunting_draw",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 20,
+    "event_text": "m_c travels to o_c_n to resolve some recent hunting disputes. However, no progress was made.",
+    "m_c": {
+      "status": ["mediator apprentice", "mediator"]
+    }
+  },
+  {
+    "event_id": "gen_misc_mediator_hunting_lose",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 20,
+    "event_text": "m_c travels to o_c_n to resolve some recent hunting disputes. However it seems m_c only made o_c_n more upset.",
+    "m_c": {
+      "status": ["mediator apprentice", "mediator"]
+    },
+    "other_clan": {
+      "changed": -2
+    }
+  },
+  {
+    "event_id": "gen_misc_mediator_personal_win",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 20,
+    "event_text": "m_c travels to o_c_n to resolve some recent personal disputes. The meeting goes better than expected and m_c returns with a plan to solve the issue for good.",
+    "m_c": {
+      "status": ["mediator apprentice", "mediator"]
+    },
+    "other_clan": {
+      "changed": 6
+    }
+  },
+  {
+    "event_id": "gen_misc_mediator_personal_draw",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 20,
+    "event_text": "m_c travels to o_c_n to resolve some recent personal disputes. However, no progress was made.",
+    "m_c": {
+      "status": ["mediator apprentice", "mediator"]
+    }
+  },
+  {
+    "event_id": "gen_misc_mediator_personal_lose",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 20,
+    "event_text": "m_c travels to o_c_n to resolve some recent personal disputes. However it seems m_c only made o_c_n more upset.",
+    "m_c": {
+      "status": ["mediator apprentice", "mediator"]
+    },
+    "other_clan": {
+      "changed": -2
+    }
+  },
+  {
+    "event_id": "gen_misc_mediator_herb-gathering_win",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 20,
+    "event_text": "m_c travels to o_c_n to resolve some recent herb-gathering disputes. The meeting goes better than expected and m_c returns with a plan to solve the issue for good.",
+    "m_c": {
+      "status": ["mediator apprentice", "mediator"]
+    },
+    "other_clan": {
+      "changed": 6
+    }
+  },
+  {
+    "event_id": "gen_misc_mediator_herb-gathering_draw",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 20,
+    "event_text": "m_c travels to o_c_n to resolve some recent herb-gathering disputes. However, no progress was made.",
+    "m_c": {
+      "status": ["mediator apprentice", "mediator"]
+    }
+  },
+  {
+    "event_id": "gen_misc_mediator_herb-gathering_lose",
+    "location": ["any"],
+    "season": ["any"],
+    "weight": 20,
+    "event_text": "m_c travels to o_c_n to resolve some recent herb-gathering disputes. However it seems m_c only made o_c_n more upset.",
+    "m_c": {
+      "status": ["mediator apprentice", "mediator"]
+    },
+    "other_clan": {
+      "changed": -2
+    }
   }
 ]
