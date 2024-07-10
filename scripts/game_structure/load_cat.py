@@ -140,9 +140,9 @@ def json_load():
                 new_cat.pelt.harlequin = False
                 new_cat.pelt.points = None
                 new_cat.pelt.points_genes = ["C", "C"]
-                new_cat.pelt.fun_traits[0] = random.choice(Pelt.fun_scents)
-                new_cat.pelt.fun_traits[1] = random.choice(Pelt.fun_physical)
-                new_cat.pelt.fun_traits[2] = random.choice(Pelt.fun_random)
+                new_cat.pelt.fun_traits[0] = choice(Pelt.fun_scents)
+                new_cat.pelt.fun_traits[1] = choice(Pelt.fun_physical)
+                new_cat.pelt.fun_traits[2] = choice(Pelt.fun_random)
             # Runs a bunch of apperence-related convertion of old stuff. 
             new_cat.pelt.check_and_convert(convert)
 

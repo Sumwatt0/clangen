@@ -507,6 +507,7 @@ class UIRelationStatusBar:
         percent_full=0,
         positive_trait=True,
         dark_mode=False,
+        resource_overlay="path",
         manager=None,
         style="bars",
     ):
@@ -530,7 +531,7 @@ class UIRelationStatusBar:
         self.status_bar.percent_full = percent_full / 100
 
         # Now to make the overlay
-        overlay_path = "resources/images/"
+        overlay_path = str(resource_overlay + "images/")
         if style == "bars":
             if dark_mode:
                 overlay_path += "relations_border_bars_dark.png"
