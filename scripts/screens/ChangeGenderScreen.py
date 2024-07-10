@@ -17,7 +17,6 @@ from ..game_structure.windows import PronounCreation
 with open("resources/dicts/pronouns.json", "r", encoding="utf-8") as f:
     pronouns_dict = ujson.load(f)
 
-resourcepath = Screens.resourcepath
 class ChangeGenderScreen(Screens):
 
     def __init__(self, name=None):
@@ -53,6 +52,7 @@ class ChangeGenderScreen(Screens):
         self.conju = 2
 
     def handle_event(self, event):
+        resourcepath = Screens.resourcepath
         if event.type == pygame_gui.UI_BUTTON_START_PRESS:
             if event.ui_element == self.back_button:
                 self.change_screen("profile screen")
