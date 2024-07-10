@@ -166,6 +166,7 @@ class ChangeGenderScreen(Screens):
         return text
 
     def update_selected_cat(self):
+        resourcepath = Screens.resourcepath
         self.reset_buttons_and_boxes()
 
         self.the_cat = Cat.fetch_cat(game.switches["cat"])
@@ -261,6 +262,7 @@ class ChangeGenderScreen(Screens):
             self.previous_cat_button.enable()
 
     def pronoun_update(self):
+        resourcepath = Screens.resourcepath
         # List the various pronouns
         self.removalboxes_text["container_general"] = (
             pygame_gui.elements.UIScrollingContainer(
@@ -354,6 +356,7 @@ class ChangeGenderScreen(Screens):
             )
 
     def preset_update(self):
+        resourcepath = Screens.resourcepath
         # List the various pronouns
         self.removalboxes_text["container_general2"] = (
             pygame_gui.elements.UIScrollingContainer(
