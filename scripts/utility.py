@@ -2265,14 +2265,25 @@ def clan_symbol_sprite(clan, return_string=False, force_light=False):
     :param force_light: Set true if you want this sprite to override the dark/light mode changes with the light sprite
     """
     clan_name = clan.name
+    clan_color = (255, 255, 255)
+    if game.settings["Moonlight"]:
+        clan_color = (79, 70, 100)
+        if game.settings["dark mode"]:
+            clan_color = (232, 223, 253)
+    elif game.settings["Seaside"]:
+        clan_color = (4, 110, 101)
+        if game.settings["dark mode"]:
+            clan_color = (78, 185, 178)
+    elif game.settings["ClassicClangen"]:
+        clan_color = (101, 89, 52)
+        if game.settings["dark mode"]:
+            clan_color = (239, 229, 206)
+            
     if clan.chosen_symbol:
         if return_string:
             return clan.chosen_symbol
         else:
-            if game.settings["dark mode"] and not force_light:
-                return sprites.dark_mode_symbol(sprites.sprites[f"{clan.chosen_symbol}"])
-            else:
-                return sprites.sprites[f"{clan.chosen_symbol}"]
+            return sprites.dark_mode_symbol(sprites.sprites[f"{clan.chosen_symbol}"], clan_color)
     else:
         possible_sprites = []
         for sprite in sprites.clan_symbols:
@@ -2291,16 +2302,13 @@ def clan_symbol_sprite(clan, return_string=False, force_light=False):
 
         # returns the actual sprite of the symbol
         if possible_sprites:
-            if game.settings["dark mode"] and not force_light:
-                return sprites.dark_mode_symbol(sprites.sprites[choice(possible_sprites)])
-            else:
-                return sprites.sprites[choice(possible_sprites)]
+            return sprites.dark_mode_symbol(sprites.sprites[choice(possible_sprites)], clan_color)
         else:
             # give random symbol if no matching symbol exists
             print(
                 f"WARNING: attempted to return symbol sprite, but there's no clan symbol for {clan_name.upper()}.  Random symbol sprite returned."
             )
-            return sprites.dark_mode_symbol(sprites.sprites[f"{choice(sprites.clan_symbols)}"])
+            return sprites.dark_mode_symbol(sprites.sprites[f"{choice(sprites.clan_symbols)}"], clan_color)
 
 
 def generate_sprite(

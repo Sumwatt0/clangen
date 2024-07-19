@@ -69,8 +69,13 @@ class Sprites:
         :param no_index: default False, set True if sprite name does not require cat pose index
         """
 
-        group_x_ofs = pos[0] * sprites_x * self.size
-        group_y_ofs = pos[1] * sprites_y * self.size
+        # KORI - replace spritesheet checks once this bug is fixed
+        if spritesheet == 'symbols':
+            group_x_ofs = pos[0] * sprites_x * 50
+            group_y_ofs = pos[1] * sprites_y * 50
+        else:
+            group_x_ofs = pos[0] * sprites_x * self.size
+            group_y_ofs = pos[1] * sprites_y * self.size
         i = 0
 
         # splitting group into singular sprites and storing into self.sprites section
@@ -82,12 +87,20 @@ class Sprites:
                     full_name = f"{name}{i}"
 
                 try:
-                    new_sprite = pygame.Surface.subsurface(
-                        self.spritesheets[spritesheet],
-                        group_x_ofs + x * self.size,
-                        group_y_ofs + y * self.size,
-                        self.size, self.size
-                    )
+                    if spritesheet == 'symbols':
+                        new_sprite = pygame.Surface.subsurface(
+                            self.spritesheets[spritesheet],
+                            group_x_ofs + x * 50,
+                            group_y_ofs + y * 50,
+                            50, 50
+                        )
+                    else:   
+                        new_sprite = pygame.Surface.subsurface(
+                            self.spritesheets[spritesheet],
+                            group_x_ofs + x * self.size,
+                            group_y_ofs + y * self.size,
+                            self.size, self.size
+                        )
 
                 except ValueError:
                     # Fallback for non-existent sprites
@@ -114,7 +127,7 @@ class Sprites:
         elif width / 3 == height / 7:
             self.size = width / 3
         else:
-            self.size = 80 # default, what base clangen uses
+            self.size = 50 # default, what base clangen uses
             print(f"lineart.png is not 3x7, falling back to {self.size}")
             print(f"if you are a modder, please update scripts/cat/sprites.py and "
                   f"do a search for 'if width / 3 == height / 7:'")
@@ -313,12 +326,12 @@ class Sprites:
 
             y_pos += 1
 
-    def dark_mode_symbol(self, symbol):
+    def dark_mode_symbol(self, symbol, color):
         """Change the color of the symbol to dark mode, then return it
         :param Surface symbol: The clan symbol to convert"""
         dark_mode_symbol = copy(symbol)
         var = pygame.PixelArray(dark_mode_symbol)
-        var.replace((87, 76, 45), (239, 229, 206))
+        var.replace((255, 255, 255), color)
         del var
         # dark mode color (239, 229, 206)
         # debug hot pink (255, 105, 180)

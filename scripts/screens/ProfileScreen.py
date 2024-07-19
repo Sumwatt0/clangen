@@ -633,7 +633,7 @@ class ProfileScreen(Screens):
         # Set the cat backgrounds.
         if game.clan.clan_settings["backgrounds"]:
             self.profile_elements["background"] = pygame_gui.elements.UIImage(
-                scale(pygame.Rect((110, 400), (480, 420))),
+                scale(pygame.Rect((140, 450), (480, 420))),
                 pygame.transform.scale(
                     self.get_platform(), scale_dimentions((480, 420))
                 ),
@@ -643,8 +643,8 @@ class ProfileScreen(Screens):
 		# Kori - size change (300 -> 400) and adjustment from 200, 400 to 150, 350
         # Create cat image object
         self.profile_elements["cat_image"] = pygame_gui.elements.UIImage(
-            scale(pygame.Rect((200, 400), (300, 300))),
-            pygame.transform.scale(self.the_cat.sprite, (300, 300)),
+            scale(pygame.Rect((200, 400), (350, 350))),
+            pygame.transform.scale(self.the_cat.sprite, (350, 350)),
             manager=MANAGER,
         )
         self.profile_elements["cat_image"].disable()
