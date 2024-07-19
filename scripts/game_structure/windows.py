@@ -665,10 +665,10 @@ class ChangeCatName(UIWindow):
                 self.kill()
 
 
-class PronounCreation(UIWindow, resourcepath):
+class PronounCreation(UIWindow):
     # This window allows the user to create a pronoun set
 
-    def __init__(self, cat):
+    def __init__(self, cat, resourcepath):
         super().__init__(
             scale(pygame.Rect((160, 300), (1300, 800))),
             window_display_title="Create Wolf Pronouns",
