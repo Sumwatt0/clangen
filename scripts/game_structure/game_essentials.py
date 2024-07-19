@@ -138,6 +138,7 @@ class Game:
         "fps": 30,
         "war_rel_change_type": "neutral",
         "disallowed_symbol_tags": [],
+        "saved_scroll_positions": {},
     }
     all_screens = {}
     cur_events = {}
@@ -653,14 +654,14 @@ def load_manager(res: tuple):
     )
 
     if res[0] > 800:
-        manager.get_theme().load_theme(resourcepath + 'theme/defaults.json')
-        manager.get_theme().load_theme(resourcepath + 'theme/buttons.json')
-        manager.get_theme().load_theme(resourcepath + 'theme/text_boxes.json')
-        manager.get_theme().load_theme(resourcepath + 'theme/text_boxes_dark.json')
-        manager.get_theme().load_theme(resourcepath + 'theme/vertical_scroll_bar.json')
-        manager.get_theme().load_theme(resourcepath + 'theme/window_base.json')
-        manager.get_theme().load_theme(resourcepath + 'theme/tool_tips.json')
-                
+        manager.get_theme().load_theme(resourcepath + "theme/defaults.json")
+        manager.get_theme().load_theme(resourcepath + "theme/buttons.json")
+        manager.get_theme().load_theme(resourcepath + "theme/text_boxes.json")
+        manager.get_theme().load_theme(resourcepath + "theme/text_boxes_dark.json")
+        manager.get_theme().load_theme(resourcepath + "theme/vertical_scroll_bar.json")
+        manager.get_theme().load_theme(resourcepath + "theme/horizontal_scroll_bar.json")
+        manager.get_theme().load_theme(resourcepath + "theme/window_base.json")
+        manager.get_theme().load_theme(resourcepath + "theme/tool_tips.json")
 
         manager.preload_fonts(
             [
@@ -673,13 +674,14 @@ def load_manager(res: tuple):
         )
 
     else:
-        manager.get_theme().load_theme(resourcepath + 'theme/defaults_small.json')
-        manager.get_theme().load_theme(resourcepath + 'theme/buttons_small.json')
-        manager.get_theme().load_theme(resourcepath + 'theme/text_boxes_small.json')
-        manager.get_theme().load_theme(resourcepath + 'theme/text_boxes_dark_small.json')
-        manager.get_theme().load_theme(resourcepath + 'theme/vertical_scroll_bar.json')
-        manager.get_theme().load_theme(resourcepath + 'theme/window_base_small.json')
-        manager.get_theme().load_theme(resourcepath + 'theme/tool_tips_small.json')
+        manager.get_theme().load_theme(resourcepath + "theme/defaults_small.json")
+        manager.get_theme().load_theme(resourcepath + "theme/buttons_small.json")
+        manager.get_theme().load_theme(resourcepath + "theme/text_boxes_small.json")
+        manager.get_theme().load_theme(resourcepath + "theme/text_boxes_dark_small.json")
+        manager.get_theme().load_theme(resourcepath + "theme/vertical_scroll_bar_small.json")
+        manager.get_theme().load_theme(resourcepath + "theme/horizontal_scroll_bar_small.json")
+        manager.get_theme().load_theme(resourcepath + "theme/window_base_small.json")
+        manager.get_theme().load_theme(resourcepath + "theme/tool_tips_small.json")
 
         manager.preload_fonts([
             {'name': 'notosans', 'point_size': 11, 'style': 'bold'},
