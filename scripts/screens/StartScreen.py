@@ -146,6 +146,7 @@ class StartScreen(Screens):
         self.switch_clan_button.kill()
         self.new_clan_button.kill()
         self.settings_button.kill()
+        self.stats_button.kill()
         self.error_label.kill()
         self.warning_label.kill()
         self.update_button.kill()
@@ -180,14 +181,20 @@ class StartScreen(Screens):
             object_id="#new_clan_button",
             manager=MANAGER,
         )
-        self.settings_button = UIImageButton(
+        self.stats_button = UIImageButton(
             scale(pygame.Rect((140, 890), (384, 70))),
+            "",
+            object_id="#stats_button",
+            manager=MANAGER,
+        )
+        self.settings_button = UIImageButton(
+            scale(pygame.Rect((140, 980), (384, 70))),
             "",
             object_id="#settings_button",
             manager=MANAGER,
         )
         self.quit = UIImageButton(
-            scale(pygame.Rect((140, 980), (384, 70))),
+            scale(pygame.Rect((140, 1070), (384, 70))),
             "",
             object_id="#quit_button",
             manager=MANAGER,
