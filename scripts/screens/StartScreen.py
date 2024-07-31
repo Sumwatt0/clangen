@@ -71,6 +71,7 @@ class StartScreen(Screens):
                 self.continue_button: "camp screen",
                 self.switch_clan_button: "switch clan screen",
                 self.new_clan_button: "make clan screen",
+                self.stats_button: "stats screen",
                 self.settings_button: "settings screen",
             }
             if event.ui_element in screens:

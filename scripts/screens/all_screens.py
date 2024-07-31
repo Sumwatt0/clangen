@@ -24,6 +24,7 @@ from .SpriteInspectScreen import SpriteInspectScreen
 from .StartScreen import StartScreen
 from .SwitchClanScreen import SwitchClanScreen
 from .WarriorDenScreen import WarriorDenScreen
+from .StatsScreen import StatsScreen
 
 # ---------------------------------------------------------------------------- #
 #                                  UI RULES                                    #
@@ -73,6 +74,7 @@ events_screen = EventsScreen('events screen')
 
 
 settings_screen = SettingsScreen('settings screen')
+stats_screen = StatsScreen("stats screen")
 clan_settings_screen = ClanSettingsScreen('clan settings screen')
 start_screen = StartScreen('start screen')
 switch_clan_screen = SwitchClanScreen('switch clan screen')
@@ -88,4 +90,3 @@ relationship_screen = RelationshipScreen('relationship screen')
 view_children_screen = FamilyTreeScreen('see kits screen')
 mediation_screen = MediationScreen("mediation screen")
 change_gender_screen = ChangeGenderScreen("change gender screen")
-
