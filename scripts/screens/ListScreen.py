@@ -22,6 +22,7 @@ class ListScreen(Screens):
 
     def __init__(self, name=None):
         super().__init__(name)
+        resourcepath = Screens.resourcepath
         self.ur_bg_image = pygame.image.load("resources/images/urbg.png").convert()
         self.sc_bg_image = pygame.image.load(
             "resources/images/starclanbg.png"
@@ -30,7 +31,7 @@ class ListScreen(Screens):
             "resources/images/darkforestbg.png"
         ).convert_alpha()
         self.search_bar_image = pygame.image.load(
-            "resources/images/search_bar.png"
+            resourcepath + "images/search_bar.png"
         ).convert_alpha()
         self.all_pages = None
         self.filter_options_visible = True
@@ -258,7 +259,6 @@ class ListScreen(Screens):
                 self.change_screen("patrol screen")
 
     def screen_switches(self):
-        resourcepath = Screens.resourcepath
         self.clan_name = game.clan.name + "Pack"
 
         self.set_disabled_menu_buttons(["catlist_screen"])
