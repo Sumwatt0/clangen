@@ -591,7 +591,7 @@ class ProfileScreen(Screens):
                 cat_name,
                 scale(
                     pygame.Rect(
-                        (800 - name_text_size.width, 280),
+                        (800 - name_text_size.width, 240),
                         (name_text_size.width * 2, 80),
                     )
                 ),
@@ -601,7 +601,7 @@ class ProfileScreen(Screens):
         else:
             self.profile_elements["cat_name"] = pygame_gui.elements.UITextBox(
                 cat_name,
-                scale(pygame.Rect((800 - name_text_size.width, 280), (-1, 80))),
+                scale(pygame.Rect((800 - name_text_size.width, 240), (-1, 80))),
                 object_id=get_text_box_theme("#text_box_40_horizcenter"),
                 manager=MANAGER,
             )
@@ -609,7 +609,7 @@ class ProfileScreen(Screens):
         # Write cat thought
         self.profile_elements["cat_thought"] = pygame_gui.elements.UITextBox(
             self.the_cat.thought,
-            scale(pygame.Rect((200, 340), (1200, -1))),
+            scale(pygame.Rect((200, 300), (1200, -1))),
             wrap_to_height=True,
             object_id=get_text_box_theme("#text_box_30_horizcenter"),
             manager=MANAGER,
@@ -617,14 +617,14 @@ class ProfileScreen(Screens):
 
         self.profile_elements["cat_info_column1"] = UITextBoxTweaked(
             self.generate_column1(self.the_cat),
-            scale(pygame.Rect((600, 460), (360, 380))),
+            scale(pygame.Rect((600, 420), (400, 450))),
             object_id=get_text_box_theme("#text_box_22_horizleft"),
             line_spacing=1,
             manager=MANAGER,
         )
         self.profile_elements["cat_info_column2"] = UITextBoxTweaked(
             self.generate_column2(self.the_cat),
-            scale(pygame.Rect((980, 460), (500, 360))),
+            scale(pygame.Rect((980, 420), (500, 450))),
             object_id=get_text_box_theme("#text_box_22_horizleft"),
             line_spacing=1,
             manager=MANAGER,
@@ -633,7 +633,7 @@ class ProfileScreen(Screens):
         # Set the cat backgrounds.
         if game.clan.clan_settings["backgrounds"]:
             self.profile_elements["background"] = pygame_gui.elements.UIImage(
-                scale(pygame.Rect((140, 450), (480, 420))),
+                scale(pygame.Rect((100, 450), (480, 420))),
                 pygame.transform.scale(
                     self.get_platform(), scale_dimentions((480, 420))
                 ),
@@ -643,7 +643,7 @@ class ProfileScreen(Screens):
 		# Kori - size change (300 -> 400) and adjustment from 200, 400 to 150, 350
         # Create cat image object
         self.profile_elements["cat_image"] = pygame_gui.elements.UIImage(
-            scale(pygame.Rect((200, 400), (350, 350))),
+            scale(pygame.Rect((160, 400), (350, 350))),
             pygame.transform.scale(self.the_cat.sprite, (350, 350)),
             manager=MANAGER,
         )
@@ -673,7 +673,7 @@ class ProfileScreen(Screens):
             x_pos = 740 - name_text_size.width
 
         self.profile_elements["favourite_button"] = UIImageButton(
-            scale(pygame.Rect((x_pos, 287), (56, 56))),
+            scale(pygame.Rect((x_pos, 247), (56, 56))),
             "",
             object_id="#fav_star",
             manager=MANAGER,
@@ -682,7 +682,7 @@ class ProfileScreen(Screens):
         )
 
         self.profile_elements["not_favourite_button"] = UIImageButton(
-            scale(pygame.Rect((x_pos, 287), (56, 56))),
+            scale(pygame.Rect((x_pos, 247), (56, 56))),
             "",
             object_id="#not_fav_star",
             manager=MANAGER,
@@ -716,7 +716,7 @@ class ProfileScreen(Screens):
 
         if self.the_cat.status == "leader" and not self.the_cat.dead:
             self.profile_elements["leader_ceremony"] = UIImageButton(
-                scale(pygame.Rect((766, 220), (68, 68))),
+                scale(pygame.Rect((766, 180), (68, 68))),
                 "",
                 object_id="#leader_ceremony_button",
                 tool_tip_text="Leader Ceremony",
@@ -724,7 +724,7 @@ class ProfileScreen(Screens):
             )
         elif self.the_cat.status in ["mediator", "mediator apprentice"]:
             self.profile_elements["mediation"] = UIImageButton(
-                scale(pygame.Rect((766, 220), (68, 68))),
+                scale(pygame.Rect((766, 180), (68, 68))),
                 "",
                 object_id="#mediation_button",
                 manager=MANAGER,
@@ -888,28 +888,6 @@ class ProfileScreen(Screens):
                     output += "others"
             else:
                 output += "parents: " + ", ".join([str(i.name) for i in all_parents])
-
-        
-        # MOONS
-        output += "\n"
-        if the_cat.dead:
-            output += str(the_cat.moons)
-            if the_cat.moons == 1:
-                output += " moon (in life)\n"
-            elif the_cat.moons != 1:
-                output += " moons (in life)\n"
-
-            output += str(the_cat.dead_for)
-            if the_cat.dead_for == 1:
-                output += " moon (in death)"
-            elif the_cat.dead_for != 1:
-                output += " moons (in death)"
-        else:
-            output += str(the_cat.moons)
-            if the_cat.moons == 1:
-                output += " moon"
-            elif the_cat.moons != 1:
-                output += " moons"
 
         # MATE
         if len(the_cat.mate) > 0:
