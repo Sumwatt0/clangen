@@ -9,7 +9,7 @@ from scripts.game_structure.game_essentials import game, screen, screen_x, scree
 from scripts.game_structure.ui_elements import UIImageButton
 from scripts.game_structure.propagating_thread import PropagatingThread
 from scripts.game_structure.windows import SaveCheck, EventLoading
-from scripts.utility import update_sprite, scale
+from scripts.utility import update_sprite, scale, get_text_box_theme
 from .Screens import Screens
 
 
@@ -24,6 +24,15 @@ class StatsScreen(Screens):
             "",
             object_id="#main_menu_button",
             manager=MANAGER)
+        self.user_stats = pygame_gui.elements.UITextBox(
+            f'<b>{10}</b> <i>hours played.</i><br>'
+            f'<b>{5}</b> <i>clans made.</i><br>'
+            f'<b>{232}</b> <i>cats seen.</i><br>',  # pylint: disable=line-too-long
+            scale(pygame.Rect((100, 300), (1400, 800))),
+            object_id=get_text_box_theme("#text_box_80_horizcenter"),
+            starting_height=3,
+            manager=MANAGER,
+        )
 
     def handle_event(self, event):
         """This is where events that occur on this page are handled.
@@ -37,6 +46,8 @@ class StatsScreen(Screens):
         """Runs when screen exits"""
         self.main_menu_button.kill()
         del self.main_menu_button
+        self.user_stats.kill()
+        del self.user_stats
 
     def on_use(self):
         """Runs every frame this screen is used."""
