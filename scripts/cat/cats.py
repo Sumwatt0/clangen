@@ -32,7 +32,7 @@ from scripts.event_class import Single_Event
 from scripts.events_module.generate_events import GenerateEvents
 from scripts.game_structure import image_cache
 from scripts.game_structure.game_essentials import game, screen
-from scripts.housekeeping.datadir import get_save_dir
+from scripts.housekeeping.datadir import get_save_dir, get_cataas_dir
 from scripts.utility import (
     get_alive_status_cats,
     get_personality_compatibility,
@@ -275,8 +275,8 @@ class Cat:
                 del response_content
                 actual_image = requests.get(cat_api+"/"+self.cataas_id, timeout=15)
                 if actual_image.status_code == 200:
-                    os.makedirs("cataas", exist_ok=True)
-                    with open(f"cataas/{self.cataas_id}.jpg", "wb") as file:
+                    os.makedirs(get_cataas_dir(), exist_ok=True)
+                    with open(f"{get_cataas_dir()}/{self.cataas_id}.jpg", "wb") as file:
                         file.write(actual_image.content)
                 else:
                     print(f"Failed to retrieve image. Status code: {actual_image.status_code}")

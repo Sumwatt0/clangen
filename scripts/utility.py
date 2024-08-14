@@ -25,6 +25,7 @@ from scripts.cat.names import names
 from scripts.cat.pelts import Pelt
 from scripts.cat.sprites import sprites
 from scripts.game_structure.game_essentials import game, screen_x, screen_y
+from scripts.housekeeping.datadir import get_cataas_dir
 
 
 # ---------------------------------------------------------------------------- #
@@ -2696,7 +2697,7 @@ def generate_sprite(
 
     cataas_sprite(cat)
 
-    real_image = image_cache.load_image(f"cataas/{cat.cataas_id}.jpg").convert_alpha()
+    real_image = image_cache.load_image(f"{(get_cataas_dir())}/{cat.cataas_id}.jpg").convert_alpha()
     if cat.pelt.reverse:
         real_image = pygame.transform.flip(real_image, True, False)
     return real_image
@@ -2720,10 +2721,10 @@ def cataas_sprite(cat):
             cat.cataas_id = response_content["_id"]
             del response_content
 
-    if not path.isfile(f"cataas/{cat.cataas_id}.jpg"):
+    if not path.isfile(f"{get_cataas_dir()}/{cat.cataas_id}.jpg"):
         get_image = requests.get(cat_api+"/"+cat.cataas_id)
         if get_image.status_code == 200:
-            with open(f"cataas/{cat.cataas_id}.jpg", "wb") as file:
+            with open(f"{get_cataas_dir()}/{cat.cataas_id}.jpg", "wb") as file:
                 file.write(get_image.content)
         else:
             retry_id = requests.get(cat_api+"?json=true", timeout=15)

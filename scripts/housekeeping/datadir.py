@@ -15,6 +15,7 @@ def setup_data_dir():
     os.makedirs(get_log_dir(), exist_ok=True)
     os.makedirs(get_cache_dir(), exist_ok=True)
     os.makedirs(get_saved_images_dir(), exist_ok=True)
+    os.makedirs(get_cataas_dir(), exist_ok=True)
 
     # Windows requires elevated permissions to create symlinks.
     # The OpenDataDirectory.bat can be used instead as "shortcut".
@@ -32,8 +33,8 @@ def get_data_dir():
     from platformdirs import user_data_dir
 
     if get_version_info().is_dev():
-        return user_data_dir('ClanGenBeta', 'ClanGen')
-    return user_data_dir('ClanGen', 'ClanGen')
+        return user_data_dir('RealGenBeta', 'RealGen')
+    return user_data_dir('RealGen', 'RealGen')
 
 
 def get_log_dir():
@@ -54,3 +55,6 @@ def get_temp_dir():
 
 def get_saved_images_dir():
     return get_data_dir() + '/saved_images'
+
+def get_cataas_dir():
+    return get_data_dir() + "/cataas"

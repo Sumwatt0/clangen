@@ -7,7 +7,7 @@ import pygame_gui
 import ujson
 
 from scripts.event_class import Single_Event
-from scripts.housekeeping.datadir import get_save_dir, get_temp_dir
+from scripts.housekeeping.datadir import get_save_dir, get_temp_dir, get_cataas_dir
 
 pygame.init()
 
@@ -414,10 +414,10 @@ class Game:
             os.remove(os.path.join(directory + "/relationships", f))
         
         # Clear cataas images
-        if not os.path.exists("cataas"):
-            os.makedirs("cataas")
-        for f in os.listdir("cataas"):
-            os.remove(os.path.join("cataas", f))
+        if not os.path.exists(get_cataas_dir()):
+            os.makedirs(get_cataas_dir())
+        for f in os.listdir(get_cataas_dir()):
+            os.remove(os.path.join(get_cataas_dir(), f))
 
         self.save_faded_cats(clanname)  # Fades cat and saves them, if needed
 
