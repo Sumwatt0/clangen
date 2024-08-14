@@ -11,6 +11,7 @@ import sys
 from random import choice, randint, sample, random, choices, getrandbits, randrange
 from typing import Dict, List, Any
 
+import requests
 import ujson  # type: ignore
 
 from scripts.cat.history import History
@@ -143,6 +144,7 @@ class Cat:
         suffix=None,
         specsuffix_hidden=False,
         ID=None,
+        cataas_id=None,
         moons=None,
         example=False,
         faded=False,
@@ -261,6 +263,20 @@ class Cat:
             self.ID = potential_id
         else:
             self.ID = ID
+
+        if cataas_id is None:
+            cat_api = "https://cataas.com/cat"
+            # Make the GET request, GET JSON data.
+            response = requests.get(cat_api+"?json=true", timeout=15)
+            # Check if the request was successful
+            if response.status_code == 200:
+                response_content = ujson.loads(response.content)
+                self.cataas_id = response_content["_id"]
+                del response_content
+            else:
+                print(f"Failed to retrieve ID. Status code: {response.status_code}")
+        else:
+            self.cataas_id = cataas_id
 
         # age and status
         if status is None and moons is None:

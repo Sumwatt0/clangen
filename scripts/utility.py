@@ -15,6 +15,8 @@ from typing import List
 
 import pygame
 import ujson
+import requests
+from io import BytesIO
 
 logger = logging.getLogger(__name__)
 from scripts.game_structure import image_cache
@@ -2692,8 +2694,15 @@ def generate_sprite(
             f"sprites/error_placeholder.png"
         ).convert_alpha()
 
+    cat_api = "https://cataas.com/cat/"
+    response = requests.get(cat_api+cat.cataas_id, timeout=15)
+    if response.status_code == 200:
+        image_data = BytesIO(response.content)
+        image_surface = image_cache.load_image(image_data).convert_alpha()
+        #image_surface = pygame.transform.scale(image_surface, (100, 100))
+        return image_surface
+    
     return new_sprite
-
 
 def apply_opacity(surface, opacity):
     for x in range(surface.get_width()):

@@ -55,6 +55,7 @@ def json_load():
 
             new_cat = Cat(
                 ID=cat["ID"],
+                cataas_id=cat["cataas_id"],
                 prefix=cat["name_prefix"],
                 suffix=cat["name_suffix"],
                 specsuffix_hidden=(
