@@ -275,6 +275,7 @@ class Cat:
                 del response_content
                 actual_image = requests.get(cat_api+"/"+self.cataas_id, timeout=15)
                 if actual_image.status_code == 200:
+                    os.makedirs("cataas", exist_ok=True)
                     with open(f"cataas/{self.cataas_id}.jpg", "wb") as file:
                         file.write(actual_image.content)
                 else:
