@@ -1,6 +1,6 @@
 name: PyInstaller build
 
-on: [workflow_dispatch]
+on: [push]
 
 permissions:
   contents: write
