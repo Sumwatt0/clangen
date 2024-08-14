@@ -69,7 +69,7 @@ if directory:
 
 
 if os.path.exists("auto-updated"):
-    print("Clangen starting, deleting auto-updated file")
+    print("Realgen starting, deleting auto-updated file")
     os.remove("auto-updated")
     shutil.rmtree("Downloads", ignore_errors=True)
     print("Update Complete!")
