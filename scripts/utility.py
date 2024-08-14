@@ -12,11 +12,11 @@ from itertools import combinations
 from random import choice, choices, randint, random, sample, randrange
 from sys import exit as sys_exit
 from typing import List
+from os import path
 
 import pygame
 import ujson
 import requests
-from io import BytesIO
 
 logger = logging.getLogger(__name__)
 from scripts.game_structure import image_cache
@@ -2694,15 +2694,12 @@ def generate_sprite(
             f"sprites/error_placeholder.png"
         ).convert_alpha()
 
-    cat_api = "https://cataas.com/cat/"
-    response = requests.get(cat_api+cat.cataas_id, timeout=15)
-    if response.status_code == 200:
-        image_data = BytesIO(response.content)
-        image_surface = image_cache.load_image(image_data).convert_alpha()
-        #image_surface = pygame.transform.scale(image_surface, (100, 100))
-        return image_surface
-    
-    return new_sprite
+    cataas_sprite(cat)
+
+    real_image = image_cache.load_image(f"cataas/{cat.cataas_id}.jpg").convert_alpha()
+    if cat.pelt.reverse:
+        real_image = pygame.transform.flip(real_image, True, False)
+    return real_image
 
 def apply_opacity(surface, opacity):
     for x in range(surface.get_width()):
@@ -2711,6 +2708,31 @@ def apply_opacity(surface, opacity):
             pixel[3] = int(pixel[3] * opacity / 100)
             surface.set_at((x, y), tuple(pixel))
     return surface
+
+def cataas_sprite(cat):
+    cat_api = "https://cataas.com/cat"
+    if cat.cataas_id is None:
+        # Make the GET request, GET JSON data.
+        response = requests.get(cat_api+"?json=true", timeout=15)
+        # Check if the request was successful
+        if response.status_code == 200:
+            response_content = ujson.loads(response.content)
+            cat.cataas_id = response_content["_id"]
+            del response_content
+
+    if not path.isfile(f"cataas/{cat.cataas_id}.jpg"):
+        get_image = requests.get(cat_api+"/"+cat.cataas_id)
+        if get_image.status_code == 200:
+            with open(f"cataas/{cat.cataas_id}.jpg", "wb") as file:
+                file.write(get_image.content)
+        else:
+            retry_id = requests.get(cat_api+"?json=true", timeout=15)
+            # Check if the request was successful
+            if retry_id.status_code == 200:
+                retry_id_content = ujson.loads(retry_id.content)
+                cat.cataas_id = retry_id_content["_id"]
+                del retry_id_content
+            cataas_sprite(cat)
 
 
 # ---------------------------------------------------------------------------- #

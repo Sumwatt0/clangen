@@ -101,6 +101,10 @@ logs/
 ~temp/**
 # ~temp\
 
+# Cataas Images
+cataas/**
+# cataaas\
+
 # Saved Images
 saved_images/**
 # saved_images\

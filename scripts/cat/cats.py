@@ -273,6 +273,12 @@ class Cat:
                 response_content = ujson.loads(response.content)
                 self.cataas_id = response_content["_id"]
                 del response_content
+                actual_image = requests.get(cat_api+"/"+self.cataas_id, timeout=15)
+                if actual_image.status_code == 200:
+                    with open(f"cataas/{self.cataas_id}.jpg", "wb") as file:
+                        file.write(actual_image.content)
+                else:
+                    print(f"Failed to retrieve image. Status code: {actual_image.status_code}")
             else:
                 print(f"Failed to retrieve ID. Status code: {response.status_code}")
         else:
@@ -3347,6 +3353,7 @@ class Cat:
         else:
             return {
                 "ID": self.ID,
+                "cataas_id": self.cataas_id,
                 "name_prefix": self.name.prefix,
                 "name_suffix": self.name.suffix,
                 "specsuffix_hidden": self.name.specsuffix_hidden,

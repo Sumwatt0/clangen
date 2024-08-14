@@ -412,6 +412,12 @@ class Game:
             os.makedirs(directory + "/relationships")
         for f in os.listdir(directory + "/relationships"):
             os.remove(os.path.join(directory + "/relationships", f))
+        
+        # Clear cataas images
+        if not os.path.exists("cataas"):
+            os.makedirs("cataas")
+        for f in os.listdir("cataas"):
+            os.remove(os.path.join("cataas", f))
 
         self.save_faded_cats(clanname)  # Fades cat and saves them, if needed
 
