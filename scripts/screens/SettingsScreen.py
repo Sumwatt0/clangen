@@ -335,6 +335,15 @@ class SettingsScreen(Screens):
             manager=MANAGER
         )
 
+        self.checkboxes_text['realgen_box'] = pygame_gui.elements.UITextBox(
+            "<b>REALGEN WAS MADE BY SUMWATT</b>",
+            scale(pygame.Rect((0, 0), (1150, -1))),
+            object_id=get_text_box_theme("#text_box_40_horizcenter"),
+            container=self.checkboxes_text["info_container"],
+            manager=MANAGER)
+
+        self.checkboxes_text['realgen_box'].disable()
+
         self.checkboxes_text['info_text_box'] = pygame_gui.elements.UITextBox(
             self.info_text,
             scale(pygame.Rect((0, 0), (1150, -1))),
