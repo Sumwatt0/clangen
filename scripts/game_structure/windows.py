@@ -1503,7 +1503,7 @@ class ChangelogPopup(UIWindow):
         if get_version_info().is_dev() and not get_version_info().is_source_build:
             dynamic_changelog = True
 
-        if dynamic_changelog:
+        """if dynamic_changelog:
             commits = file_cont.splitlines()
             file_cont = ""
             for line in commits:
@@ -1519,7 +1519,7 @@ class ChangelogPopup(UIWindow):
                     ] += f" <a href='https://github.com/ClanGenOfficial/clangen/pull/{pr_number.group(1)}'>(link)</a>"
 
                 # Format: DATE- \n PR Title (link)
-                file_cont += f"<b>{info[1]}</b>\n- {info[2]}\n"
+                file_cont += f"<b>{info[1]}</b>\n- {info[2]}\n"""
 
         self.changelog_text = UITextBoxTweaked(
             file_cont,
