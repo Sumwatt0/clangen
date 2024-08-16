@@ -2717,6 +2717,7 @@ def cataas_sprite(cat):
         try:
             response = requests.get(cat_api+"?json=true", timeout=15)
         except requests.exceptions.RequestException as e:
+            game.clan.save_clan()
             logging.error("An error occurred during the request", exc_info=True)
             raise ConnectionError(f'\n\n\nThere was a problem connecting to the servers.\nPlease try again in a few minutes.\nThis could be because of: \n-You disconnected from the Internet.\n-The Cataas API servers are down.\nTo check if the Cataas API servers are down, go to https://geekflare.com/tools/is-this-site-down-test and enter "cataas.com/cat" into the checker.\n\n\n\n')
         # Check if the request was successful
@@ -2734,6 +2735,7 @@ def cataas_sprite(cat):
             try:
                 retry_id = requests.get(cat_api+"?json=true", timeout=15)
             except requests.exceptions.RequestException as e:
+                game.clan.save_clan()
                 logging.error("An error occurred during the request", exc_info=True)
                 raise ConnectionError(f'\n\n\nThere was a problem connecting to the servers.\nPlease try again in a few minutes.\nThis could be because of: \n-You disconnected from the Internet.\n-The Cataas API servers are down.\nTo check if the Cataas API servers are down, go to https://geekflare.com/tools/is-this-site-down-test and enter "cataas.com/cat" into the checker.\n\n\n\n')
             # Check if the request was successful
