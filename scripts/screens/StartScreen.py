@@ -329,8 +329,8 @@ class StartScreen(Screens):
                     write_file.write(get_version_info().version_number)
 
         self.warning_label = pygame_gui.elements.UITextBox(
-            "Warning: this game includes some mild descriptions of gore, violence, and animal abuse",
-            scale(pygame.Rect((100, 1244), (1400, 60))),
+            'Realgen is an online game that relies on the Cataas API and may go offline unexpectedly.\n<a href="https://geekflare.com/tools/result/17ab8827-0841-4ecf-a017-60655b49c0ed">Click here to check the status of the Cataas API.</a>.\nWarning: this game includes some mild descriptions of gore, violence, and animal abuse.',
+            scale(pygame.Rect((100, 1100), (1400, 200))),
             object_id="#default_dark",
             manager=MANAGER,
         )
