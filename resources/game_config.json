@@ -237,6 +237,19 @@
 			"If you DON'T DO THIS, your game WILL break."
 		]
 	},
+	"cat_sizes": {
+        "newborn": 0.5,
+        "kitten": 0.6,
+        "adolescent": 0.8,
+        "young adult": 0.9,
+        "adult": 0.95,
+        "senior adult": 0.95,
+        "senior": 0.9,
+		"comment": [
+			"These HAVE to be in the correct order: where one ends, the next one begins on the next number.",
+			"If you DON'T DO THIS, your game WILL break."
+		]
+	},
     "cat_sprites": {
         "sick_sprites": true,
         "comment": "Set this to false to disable sick sprites."
