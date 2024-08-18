@@ -36,6 +36,11 @@
             "This will add a shading layer onto the cat sprites.",
             false
         ],
+        "cat_age_scaling": [
+            "Enable Cat Age Scaling (Realgen)",
+            "This will scale the cat sprites based on their age.",
+            true
+        ],
         "gore": [
             "Allow mild gore and blood in patrol artwork",
             "Mild gore and blood will be allowed in the artwork displayed alongside patrols.",

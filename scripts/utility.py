@@ -2701,18 +2701,20 @@ def generate_sprite(
     real_image = pygame.transform.scale(real_image, (300, 300))
     if cat.pelt.reverse:
         real_image = pygame.transform.flip(real_image, True, False)
+    if game.settings["cat_age_scaling"]:
+        real_image = pygame.transform.scale(real_image, (real_image.get_width()*game.config["cat_sizes"][age], real_image.get_height()*game.config["cat_sizes"][age]))
+        new_surface = pygame.Surface((300, 300), pygame.SRCALPHA)
+        # The new surface is transparent by default, no need to fill it with any color
 
-    real_image = pygame.transform.scale(real_image, (real_image.get_width()*game.config["cat_sizes"][age], real_image.get_height()*game.config["cat_sizes"][age]))
-    new_surface = pygame.Surface((300, 300), pygame.SRCALPHA)
-    # The new surface is transparent by default, no need to fill it with any color
+        # Calculate position to center the resized image on the new surface
+        x = (new_surface.get_width() - real_image.get_width()) // 2
+        y = (new_surface.get_height() - real_image.get_height())
 
-    # Calculate position to center the resized image on the new surface
-    x = (new_surface.get_width() - real_image.get_width()) // 2
-    y = (new_surface.get_height() - real_image.get_height())
-
-    # Blit the resized image onto the new surface at the calculated position
-    new_surface.blit(real_image, (x, y))
-    return new_surface
+        # Blit the resized image onto the new surface at the calculated position
+        new_surface.blit(real_image, (x, y))
+        return new_surface
+    else:
+        return real_image
 
 def apply_opacity(surface, opacity):
     for x in range(surface.get_width()):
