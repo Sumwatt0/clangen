@@ -16,6 +16,11 @@
         }
     ],
     "general": {
+        "cat_age_scaling": [
+            "<b>Cat Age Scaling (Realgen)</b>",
+            "This will scale the cat sprites based on their age.",
+            true
+        ],
         "dark mode": [
             "Dark mode",
             "Camp backgrounds will match with the mode: nighttime for dark mode and daytime for light mode.",
@@ -35,11 +40,6 @@
             "Enable Shaders",
             "This will add a shading layer onto the cat sprites.",
             false
-        ],
-        "cat_age_scaling": [
-            "Enable Cat Age Scaling (Realgen)",
-            "This will scale the cat sprites based on their age.",
-            true
         ],
         "gore": [
             "Allow mild gore and blood in patrol artwork",
