@@ -103,7 +103,7 @@ class _DiscordRPC(threading.Thread):
                 print("Failed to get image string, game may not be fully loaded yet. "
                       "Don't worry, it will fix itself. Hopefully.")
                 img_str = "discord"  # fallback incase the game isn't loaded yet
-                img_text = "Clangen!!"
+                img_text = "Realgen!!"
 
             # Example: beach_greenleaf_camp1_dark
 
@@ -119,9 +119,9 @@ class _DiscordRPC(threading.Thread):
                 self._rpc.update(
                     state=state_text,
                     details=f"Managing {clan_name} for {clan_age} moons",
-                    large_image=img_str.lower(),
-                    large_text=img_text,
-                    small_image="discord",
+                    large_image="image",
+                    large_text="Sumwatt's Realgen",
+                    small_image="cool",
                     small_text=f"Managing {cats_amount} cats",
                     start=self._start_time,
                     buttons=[

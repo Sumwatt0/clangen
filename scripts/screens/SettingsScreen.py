@@ -146,7 +146,7 @@ class SettingsScreen(Screens):
                     if self.sub_menu == 'general' and event.ui_element is self.checkboxes['discord']:
                         if game.settings['discord']:
                             print("Starting Discord RPC")
-                            game.rpc = _DiscordRPC("1076277970060185701",
+                            game.rpc = _DiscordRPC("1274590173300264983",
                                                    daemon=True)
                             game.rpc.start()
                             game.rpc.start_rpc.set()
