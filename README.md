@@ -23,7 +23,12 @@ Realgen has bugs from clangen development as well as it's own bugs. If you encou
 
 ## Clangen
 ### [Discord Server](https://discord.gg/clangen) || [Official website](https://clangen.io) || [Itch.io Page](https://sablesteel.itch.io/clan-gen-fan-edit) 
-Fan-edit of the warrior cat clangen game
+
+## Description
+Fan-edit of the warrior cat clangen game built using Python and Pygame.
+
+## Credits
+Mod creator: Sumwatt
 
 Original creator: just-some-cat.tumblr.com
 
