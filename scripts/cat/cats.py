@@ -141,6 +141,7 @@ class Cat:
         self,
         prefix=None,
         gender=None,
+        shiny=None,
         status="newborn",
         backstory="clanborn",
         parent1=None,
@@ -194,6 +195,7 @@ class Cat:
 
         # Public attributes
         self.gender = gender
+        self.shiny = shiny
         self.status = status
         self.backstory = backstory
         self.age = None
@@ -293,6 +295,15 @@ class Cat:
                 print(f"Failed to retrieve ID. Status code: {response.status_code}")
         else:
             self.cataas_id = cataas_id
+
+        if shiny is None:
+            shine = choices([0, 1, 2], weights=[0.95, 0.049, 0.001])[0]
+            shine_val = 0
+            if shine == 1:
+                shine_val = (randint(35, 95)/100)
+            elif shine == 2:
+                shine_val = (randint(5, 25)/100)
+            self.shiny = [shine, shine_val]
 
         # age and status
         if status is None and moons is None:
@@ -3414,6 +3425,7 @@ class Cat:
                 "gender_align": self.genderalign,
                 "pronouns": self.pronouns,
                 "birth_cooldown": self.birth_cooldown,
+                "shiny": self.shiny,
                 "status": self.status,
                 "backstory": self.backstory if self.backstory else None,
                 "moons": self.moons,

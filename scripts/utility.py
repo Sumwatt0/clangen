@@ -18,6 +18,7 @@ from os import path
 import pygame
 import ujson
 import requests
+import colorsys
 from pygame_gui.core import ObjectID
 
 logger = logging.getLogger(__name__)
@@ -2618,7 +2619,7 @@ def generate_sprite(
             # Add patches onto cat.
             new_sprite.blit(patches, (0, 0))
 
-        # TINTS
+        """# TINTS
         if (
             cat.pelt.tint != "none"
             and cat.pelt.tint in sprites.cat_tints["tint_colours"]
@@ -2635,7 +2636,7 @@ def generate_sprite(
         ):
             tint = pygame.Surface((sprites.size, sprites.size)).convert_alpha()
             tint.fill(tuple(sprites.cat_tints["dilute_tint_colours"][cat.pelt.tint]))
-            new_sprite.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_ADD)
+            new_sprite.blit(tint, (0, 0), special_flags=pygame.BLEND_RGB_ADD)"""
 
         # draw white patches
         if cat.pelt.white_patches is not None:
@@ -2798,6 +2799,10 @@ def generate_sprite(
     real_image = pygame.transform.scale(real_image, (300, 300))
     if cat.pelt.reverse:
         real_image = pygame.transform.flip(real_image, True, False)
+
+    if cat.shiny[0] in [1, 2]:
+        apply_hue_shift(real_image, cat.shiny[1])
+
     if game.settings["cat_age_scaling"]:
         real_image = pygame.transform.scale(real_image, (real_image.get_width()*game.config["cat_sizes"][age], real_image.get_height()*game.config["cat_sizes"][age]))
         new_surface = pygame.Surface((300, 300), pygame.SRCALPHA)
@@ -2812,6 +2817,18 @@ def generate_sprite(
         return new_surface
     else:
         return real_image
+    
+def apply_hue_shift(surface, shift_amount):
+    for x in range(surface.get_width()):
+        for y in range(surface.get_height()):
+            r, g, b, a = surface.get_at((x, y))
+            h, s, v = colorsys.rgb_to_hsv(r / 255.0, g / 255.0, b / 255.0)
+            h = (h + shift_amount) % 1.0  # Add the shift and wrap around using modulus
+            s = min(1, s+0.15)
+            r, g, b = colorsys.hsv_to_rgb(h, s, v)
+            surface.set_at((x, y), (int(r * 255), int(g * 255), int(b * 255), a))
+    return surface
+
 
 def apply_opacity(surface, opacity):
     for x in range(surface.get_width()):

@@ -873,6 +873,11 @@ class ProfileScreen(Screens):
         """Generate the right column information"""
         output = ""
 
+        if the_cat.shiny[0] == 1:
+            output += "<font color='#2222ff'>shiny</font>\n"
+        elif the_cat.shiny[0] == 2:
+            output += "<font color='#E6E600'>luminous</font>\n"
+
         # STATUS
         if (
             the_cat.outside
