@@ -50,6 +50,13 @@ def json_load():
 
     old_tortie_patches = convert["old_tortie_patches"]
 
+    # Conversion for old realgen saves, adds shiny attribute
+    for i, cat in enumerate(cat_data):
+        try:
+            cat["shiny"]
+        except:
+            cat["shiny"] = [0, 0]
+
     # create new cat objects
     for i, cat in enumerate(cat_data):
         try:
